@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="scripts/vendor/modernizr.js"></script>
+
+  
 </head>
 
 <body>
@@ -37,6 +39,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+                <a href="#waitlist" class="btn btn-waitlist ml-3" onclick="showWaitlistForm()">JOIN WAITLIST</a>
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -66,12 +69,12 @@
                 <div class="row my-3">
                     <h2 class="pl-4">Sites</h2>
                 </div>  
-                   <p class="pl-2">The tipping point has reached whereby the advancement of technology can no longer be ignored, as it opens up many exciting possibilities. There arises the curiosity to educate patients outside of the doctors’ office to increase awareness of clinical trials. <b>PatienTrials</b> built on touch points, empowers patients with treatment information at their finger tips on a familiar instant messaging platform with a community setting at a site level, thus improving patient retention and reducing overall study costs. 
+    <p class="pl-2">The tipping point has reached whereby the advancement of technology can no longer be ignored, as it opens up many exciting possibilities. There arises the curiosity to educate patients outside of the doctors’ office to increase awareness of clinical trials. <b>PatienTrials</b> built on touch points, empowers patients with treatment information at their finger tips on a familiar instant messaging platform with a community setting at a site level, thus improving patient retention and reducing overall study costs. 
 
-
+    <div style="text-align: center; margin-top:30px"><a href="#waitlist" class="btn ml-3 btn-waitlist" onclick="showWaitlistForm()">JOIN WAITLIST</a></div>
 		<section id="patients" class="section-patients py-3 ">			   
 			<div class="row">
-                      <div class="col-md-6 pt-5">
+                      <div class="col-md-6">
 			<ul class="ml-5">
                         <li>Self service site solution for free</li>
 			<li>Single platform for all your studies</li>
@@ -80,7 +83,7 @@
                     	<li>Site searchable by sponsors</li>
 			</ul>
                       </div>
-                      <div class="col-md-6 pt-5">
+                      <div class="col-md-6">
 			<ul class="ml-5">
                        	<li>Patient recruitment deep link</li>
 			<li>Shortlist patients based on rules</li>
@@ -155,6 +158,58 @@
               </div>
             </div>
           </section>
+
+
+  <!-- Secondray waitlist Section -->
+
+  <section id="waitlist" class="sec-contact" style="display: none;">
+      <div class="container py-3">
+        <h3 style="color: white; text-align: center; margin-top: 10px;">Join Waitlist</h3>
+        <div class="row my-3">
+            <p class="text-white pt-3">To get early access to FREE PatienTrials self service sites, please submit below form to join waitlist. Please bear with us on the inconvenience and expected delays in response as we are allowing only certain number of sites per day to avoid sudden volume peaks. We are processing requests in the order we received. Thank you for your patience!</p>
+        </div>
+        <div id="waitlist_container" >
+          <div class="row">
+            <div class="col-md-6 to-animate">
+                <h3></h3>
+                <form method="post" action="//formspree.io/hello@patientrials.com">
+                  <div class="form-group ">
+                      <label for="site" class="sr-only">Site Name</label>
+                      <input id="site" class="form-control" name="site_name" placeholder="Site Name" type="text"> 
+                  </div>
+                  <div class="form-group ">
+                      <label for="location" class="sr-only">Location</label>
+                      <input id="location" class="form-control" name="location" placeholder="Location" type="text"> 
+                  </div>
+                  <div class="form-group ">
+                      <label for="country" class="sr-only">Country</label>
+                      <input id="country" class="form-control" name="country" placeholder="Country" type="text"> 
+                  </div>
+                  <div class="form-group ">
+                    <label for="name" class="sr-only">Name</label>
+                    <input id="name" class="form-control" name="name" placeholder="Name" type="text"> 
+                  </div>
+                  <div class="form-group ">          
+                    <label for="email" class="sr-only">Email</label>
+                    <input id="email" class="form-control" name="_replyto" placeholder="Email" type="email"> 
+                  </div>
+                  <div class="form-group ">          
+                    <label for="phone" class="sr-only">Phone</label>
+                    <input id="phone" class="form-control" name="phone" placeholder="Phone" type="text"> 
+                  </div>
+                  <div class="form-group ">          
+                    <label for="message" class="sr-only">Message specific needs</label>
+                    <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Message specific needs"></textarea> 
+                  </div>
+                  <div class="form-group ">
+                    <input class="btn btn-primary btn-lg" value="send message" type="submit">
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> 
 
         <!--Pre-Footer Section -->
   <section class="section-footer">
@@ -272,6 +327,16 @@
       <script src="scripts/plugins.js"></script>
     
       <script src="scripts/main.js"></script>
+      <script>
+          var url = window.location.href;
+          if(url.indexOf('#waitlist') > -1) {
+            showWaitlistForm();
+          }
+      
+          function showWaitlistForm() {
+            $('#waitlist').fadeIn();
+          }
+        </script>
     </body>
     
     </html>

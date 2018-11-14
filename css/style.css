@@ -28,6 +28,8 @@ body::-o-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 /***** End of Body Scroll Bar *******/
 
+/*.sticky-top {position: fixed;top: 0;width: 100%;background: #FFF;}*/
+
 .top_section{background: #e57d24;float: left;padding-top: 5px;padding-bottom: 5px;}
 .top_section span{display: inline-block;}
 .top_section span.mail_id{float: left;color: #FFF;letter-spacing: 0.7px;font-size: 18px;}
@@ -36,15 +38,28 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .top_section span.social_icons img{margin-right:20px;cursor: pointer;}
 .header_menu{background: #FFF;float:left;}
 .header_menu .navbar-nav{margin-left: 50px;}
-.header_menu .navbar-nav .nav-item{margin: 0px 8px;}
+.header_menu .navbar-nav .nav-item{margin: 0px 10px;}
 .header_menu .navbar-nav .nav-item:hover{font-weight: bold;background:#F2F2F2;}
 .header_menu .navbar-nav .active{border-bottom: 5px solid #e57d24;box-sizing: border-box;font-weight: bold;}
-.header_menu .navbar-nav .nav-item a{padding:20px 15px;color: #333;letter-spacing: 0.5px;font-size: 17px;}
+.header_menu .navbar-nav .nav-item a{padding:20px 25px;color: #808080;letter-spacing: 0.5px;font-size: 17px;}
 .header_menu .navbar-nav .last{margin-left:50px;background:#e57d24;}
 .header_menu .navbar-nav .last a{color: #FFF !important;}
 .header_menu .last:hover{background:#e57d24 !important;font-weight: normal !important;}
 .header_menu .last:hover a{color: #FFF !important;}
 .header_menu .navbar-expand-lg{padding-top: 0px !important;padding-bottom: 0px !important;}
+.header_menu .navbar-expand-lg .navbar-nav .dropdown-menu{padding:0px;border-radius: 0px;margin:-3px 0px 0px 0px;}
+.header_menu .navbar-expand-lg .navbar-nav .dropdown-menu:after {bottom: 100%;left: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-color: rgba(51, 51, 51, 0);border-bottom-color: #333;border-width: 15px;margin-left: -15px;}
+.header_menu .navbar-expand-lg .navbar-nav .dropdown-menu a{padding:7px 15px;}
+.header_menu .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{font-weight: bold !important;}
+
+button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:none;font-weight:550;padding:22px 20px;outline:none;}
+.fotter{background: #e57d24;color: #FFF;font-size: 16px;letter-spacing: 2px;padding-top: 7px;padding-bottom: 7px;float: left;}
+.header_menu .dropdown-item.active{background: #333;color: #FFF !important;}
+
+.partner_ship{float: left;padding: 0px;margin: 0px;}
+.partner_ship img{width: 100%;}
+
+/**** Start of Slide Section Styles ***/
 
 .slide_show{float: left;padding: 0px;}
 .slide_show .carousel-control-prev{display: none;}
@@ -54,45 +69,64 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .slide_text span.text1{font-size: 60px;letter-spacing: 0.5px;font-weight: normal;}
 .slide_text span.text2{font-size: 70px;letter-spacing: 0.5px;font-weight: bold;}
 .slide_text span.text3{font-size: 28px;letter-spacing: 0.5px;padding-bottom:10px;padding-top: 10px; background-color: RGBA(0,0,0,0.6);width: 50%;margin: 2px 25%;}
-.carousel-caption{top:300px !important;left: 0px;right: 0px;}
+.carousel-caption{top:160px !important;left: 0px;right: 0px;}
+
+.slide_show .carousel-inner{height: 560px;}
+
+/**** End of Slide Section Styles ****/
+
+/**** Start of COMPLIANT Section Styles ****/
+
 .complaint_div{padding: 0px;float: left;background-image: url(../images/section2_bg.png);background-repeat: no-repeat;background-size: cover;height: 400px;}
 .complaint_div span{display: block;}
 .complaint_div span.hip_text{color: #11c2ee;font-size: 50px;margin-top: 120px;letter-spacing: 1px;font-weight: bold;}
 .complaint_div span.comp_text{color: #FFF;font-size: 40px;letter-spacing:10px;}
 .complaint_div a{display: inline-block;letter-spacing: 0.8px;font-size: 20px; padding: 8px 35px;margin-top:20px; background:#e57d24;color: #FFF;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;-ms-border-radius: 50px;-o-border-radius: 50px;text-decoration: none;}
-.patient_div{float: left;padding: 100px 0px;background-image: url(../images/patients_bg.png);background-repeat: no-repeat;background-size: cover;}
+
+/**** End of COMPLIANT Section Styles ****/
+
+/**** Start of Patients Section Styles ****/
+
+.patient_div{float: left;padding: 50px 0px;background-image: url(../images/patients_bg.png);background-repeat: no-repeat;background-size: cover;}
 .patient_left{float: left;}
-.patient_left img{float: left;box-shadow: 0 0 5px #888;}
+.patient_left img{float: none;box-shadow: 0 0 5px #888;}
 .patient_right{float: left;}
 .patient_right span{display: block;}
 .patient_right span.right_title{font-size: 45px;color: #000;font-weight: bold;margin-top:0px;letter-spacing: 0.5px;}
-.patient_right p{float: left;color: #595959;font-size: 20px;padding-right:20px;padding-right: 80px;text-align: justify;}
+.patient_right p{float: left;color: #595959;font-size: 20px;padding-right:20px;margin: 10px 0px; text-align: justify;}
+.patient_right p a{color: #e57d24;font-weight: 550;}
+.patient_right p a:hover{text-decoration: none;}
+.patient_right button{background: #e57d24;color: #FFF;border: none;padding: 8px 15px;font-size: 16px;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;-ms-border-radius: 50px;-o-border-radius: 50px;-webkit-box-shadow: 0 8px 6px -6px black;-moz-box-shadow: 0 8px 6px -6px black;box-shadow: 0 8px 6px -6px black;outline: none;cursor: pointer;}
 .patient_depart{margin: 80px 0px 0px 0px;}
-.depart_icon{float: left;}
-.depart_icon img{border-radius: 50%;background: #FFF;box-shadow: 0 0 5px #888;padding:5px;}
-.depart_name{float: left;padding: 0px;}
-.name_title{color: #333;font-size: 22px;font-weight: bold;letter-spacing: 0.5px;margin-top:5px;}
-.name_code{color: #e57d24;font-size: 18px;font-weight: 550;letter-spacing: 0.4px;}
-.depart_desc{float: left;}
-.depart_desc p{color: #595959;font-size: 17px;text-align: justify;padding: 0px 25px;}
-.more_btn{float: left;margin: 10px 0px;}
-.more_btn a{background: #e57d24;color: #FFf;padding:10px 25px;font-size: 16px;border-radius: 50px;text-decoration: none;margin-right:20px;}
+
+/**** End of Patients Section Styles ****/
+
+
+/**** Start of RESEARCHERS & CLINICIANS Section Styles ****/
 
 .research_clinic{float: left;background: #052f44;padding: 50px 0px;}
 .research_clinic .main-title{color: #FFF;font-size: 45px;font-weight: 600;letter-spacing: 6px;float:left;}
 .research_clinic .sub-title{color: #FFF;font-size: 18px;font-weight: normal;padding: 0px 80px;float:left;margin: 20px 0px;letter-spacing: 0.5px;}
 .rearch_types{float: left;position: relative;margin: 25px 0px;}
-.rearch_types img{margin: 70px 0px 0px 0px;padding: 30px 0px;}
-.rearch_types .type1{position: absolute;top: 0px;left: 45%;right: 45%;}
-.rearch_types .type2{position: absolute;top: 20%;right: 31%;}
-.rearch_types .type3{position: absolute;top: 50%;right: 30%;}
-.rearch_types .type4{position: absolute;top: 80%;right: 35%;}
-.rearch_types .type5{position: absolute;top: 80%;left: 35%;}
-.rearch_types .type6{position: absolute;top: 50%;left: 30%;}
-.rearch_types .type7{position: absolute;top: 20%;left: 31%;}
+.rearch_types img{margin: 70px 0px 0px 0px;padding: 30px 0px;width: 500px;}
+.rearch_types .type1{position: absolute;top: -20px;left: 45%;right: 45%;}
+.rearch_types .type2{position: absolute;top: 10%;right: 30%;}
+.rearch_types .type3{position: absolute;top: 35%;right: 25%;}
+.rearch_types .type4{position: absolute;top: 60%;right: 28%;}
+.rearch_types .type5{position: absolute;top: 60%;left: 28%;}
+.rearch_types .type6{position: absolute;top: 35%;left: 25%;}
+.rearch_types .type7{position: absolute;top: 10%;left: 30%;}
 .rearch_types span{display: block;text-align: center;}
 .rearch_types span.count{font-size: 22px;color: #e57d24;font-weight: bold;letter-spacing: 4px;}
 .rearch_types span.type-text{color: #FFF;font-size: 22px;line-height: 25px;letter-spacing: 4px;}
+.rea_btn{float: left;}
+.rea_btn button{background: #e57d24;color: #FFF;border-radius: 50px;padding: 8px 18px;border: none;letter-spacing: 0.5px;cursor: pointer;font-size: 16px;-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;outline: none;}
+
+/**** Start of RESEARCHERS & CLINICIANS Section Styles ****/
+
+/**** Start of SITES Section Styles ****/
 
 .sites_div{float: left;background-image: url(../images/sites_bg.png);background-repeat: no-repeat;background-size: cover;}
 .sites_list{float: left;padding: 30px 80px;margin: 130px 0px 50px 0px;}
@@ -119,8 +153,11 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .sites_list .site5 span.num_text{text-align: left;font-size: 19px}
 .sites_list span{display: block;text-align: center;color: #FFF;}
 
+/**** Start of SITES Section Styles ****/
 
-.schedule_div{float: left;padding: 30px;background-image: url(../images/seduled_bg.png);background-repeat: no-repeat;background-size: cover;}
+/**** Start of Schedule  Section Styles ****/
+
+.schedule_div{float: left;padding: 30px;background-image: url(../images/schedule.jpg);background-repeat: no-repeat;background-size: cover;}
 .sch_title{float: left;margin: 20px 0px 5px 0px;color: #FFF;text-transform: uppercase;font-size: 30px;text-align: center;letter-spacing: 3px;font-weight:600;}
 .entry_div{float: left;margin-top: 20px;}
 .entry_div input{width: 100%;padding: 8px 10px;color:#FFF;background-color: RGBA(0,0,0,0.4);border: none;outline: none;letter-spacing: 0.8px;}
@@ -138,41 +175,179 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
   color: #FFF;letter-spacing: 0.9px;
 }
 .send_btn{float: left;margin-top: 30px;}
-.send_btn button{padding: 7px 25px;cursor: pointer;color: #FFF;background: #12bbe5;border: none;border-radius: 50px;outline: none;letter-spacing: 2px;}
+.send_btn button{padding: 7px 25px;cursor: pointer;color: #FFF;background: #12bbe5;border: none;border-radius: 50px;outline: none;letter-spacing: 2px;-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;}
 .send_btn button img{margin-right: 5px;}
-.quick_info{float: left;background: #3d3d3d;padding-top: 30px;padding-bottom: 30px;}
-.info_title{font-size: 20px;color: #12bbe5;text-transform: uppercase;letter-spacing: 0.5px;margin: 5px 0px;}
-.info_list{float: left;color: #FFF;font-size: 18px;letter-spacing: 1px;margin: 8px 0px;padding-left: 20px;}
+
+/**** Start of Schedule  Section Styles ****/
+
+/**** Start of Footer Quick Info  Section Styles ****/
+
+.quick_info{float: left;/*background: #3d3d3d;*/background-image: url(../images/footer.jpg);background-repeat: no-repeat;background-size: cover;padding-top: 30px;padding-bottom: 30px;}
+.info_title{font-size: 20px;color: #12bbe5;text-transform: uppercase;letter-spacing: 0.5px;margin: 5px 0px;text-align: left;}
+.info_list{float: left;color: #FFF;font-size: 18px;letter-spacing: 1px;margin: 8px 0px;padding-left: 20px;text-align: left;}
 .info_list span{display: block;margin: 10px 0px;}
 .info_list span img{margin-right: 25px;cursor: pointer;}
 .info_list ul{width: 100%;padding: 0px;margin: 0px;float: left;}
 .info_list ul li{width: 100%;float: left;padding: 2px 0px;list-style-type: none;}
 .info_list ul li a{color: #FFF;text-decoration: none;cursor: pointer;}
 
-.innerPage_banner{float: left;height: 480px;}
-.innerPage_banner span{display: block;text-align: center;color: #ccc;font-size: 80px;text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);margin-top: 140px;}
-.patinet_info{float: left;background: #F2F2F2;}
+/**** Start of Footer Quick Info  Section Styles ****/
+
+/**** Start of Patinet Screen Styles *****/
+
+.innerPage_banner{padding: 0px;float: left;background-image: url(../images/slide1.png);background-repeat: no-repeat;background-size: cover;height: 400px;}
+.innerPage_banner span{display: block;text-align: center;color: #ccc;font-size: 80px;text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
+.patinet_info{float: left;background: #F2F2F2;padding-top: 30px;padding-bottom: 40px;background-image: url(../images/hiw.jpg);background-repeat: no-repeat;background-size: cover;}
 .paitnet_title{float: left;font-size: 40px;color: #000000;letter-spacing: 0.5px;font-weight: bold;padding-top: 50px;padding-bottom: 20px;}
 .patinet_info span{padding-bottom: 80px; display: block;color: #454545;font-size: 20px;text-align: center;letter-spacing: 0.5px;}
-.pateint_testi{float: left;padding-bottom: 60px;}
-.pateint_testi .carousel-indicators li{background-color: RGBA(229, 125, 36,0.6);height: 5px;width: 50px;}
-.pateint_testi .carousel-indicators .active{background-color:#cd6d18;}
-.pateint_testi .carousel-indicators{bottom: -50px;}
-.pateint_testi .carousel-control-prev, .pateint_testi .carousel-control-next{display: none;}
+.patient_quote{float:left;color:white;padding-top:70px;font-size: 40px;}
+.take_part {float:left;color:#FFF;z-index:10;}
+.take_part{background:#d97b28;display:block;font-weight:normal;font-size: 18px;color: #FFF;text-shadow: none;width: 285px;height: 400px;margin-top: 0px;letter-spacing:0.6px;text-align: center;padding-top: 10px;margin-left: 24px;}
+.take_part img{width: 180px;margin: 25px 0px;}
+.take_part span.part1{margin-top:0px;}
+.take_part span.enroll_now{font-size: 16px;}
+.take_part span.part2{color: #FFF;text-shadow: none;font-size: 16px;margin-top:0px;}
+span.take_text{display:inline-block;color:#000;font-size:25px;text-shadow: none;margin-top:0px;}
+span.part_text{display:inline-block;text-shadow: none;margin-top:0px;color:#FFF;font-size:25px;}
+button.take_enroll{background:#0b748e;color:#FFF;font-size: 14px;font-weight:550;letter-spacing: 0.5px;border:none;padding:8px 10px;margin:0px 0px;cursor:pointer;}
+.small_quote{float:left;position:absolute;bottom:0px;z-index:6;}
+.small_quote span{display:block;background-color:RGBA(0,0,0, 0.5);padding:30px 0px 30px 150px;text-align:left;margin-top:0px;font-size:40px;text-shadow:none;color:#FFF;}
+.steps_div_img{text-align: center;}
+.steps_div_text{font-size:20px;color:#666666;letter-spacing: 0.5px;}
 
-.fotter{background: #12bbe5;color: #FFF;font-size: 16px;letter-spacing: 2px;padding-top: 7px;padding-bottom: 7px;float: left;}
-.center {display: block;margin-left: auto;margin-right: auto;width: 50%;padding-top: 7px}
+.section-solution{padding:25px 0px 60px 0px;float: left;background-image: url(../images/patinent_bg_list.jpg);background-repeat: no-repeat;background-size: cover;}
+.section_title{color: #FFF;padding: 20px 0px;margin-bottom: 16px;}
+.section_title h4{font-weight: 500;color:#FFF;}
+.section-solution_left{float: left;}
+.section-solution_left img{width: 480px;}
+ul.solution_list{width: 100%;padding: 0px;margin: 0px;float: left;}
+ul.solution_list li{width: 100%;padding: 7px 0px;margin: 0px;float: left;color: #FFF;font-size: 16px;list-style-type: none;}
+ul.solution_list li::before{content: "\2022";color: #00b9ef;font-weight: bold;display: inline-block;width: 1em;margin-left: -1em;}
+.pt_quote{float: left;padding:20px 0px;background: #F2F2F2; color:#e57d24;}
 
+/**** End of Patinet Screen Styles *****/
 
+/**** Start of RESEARCHERS & CLINICIANS ****/
+.research_content{
+    padding:30px 0px;margin:0px;float: left;background-image: url(../images/clinician.jpg);background-size: cover;background-repeat: no-repeat;height: 400px;}
+.research_video{float: left;padding: 60px 0px;}
+.research_title{padding:10px 0px;float: left;font-size: 35px;color: #262626;font-weight: 600;letter-spacing: 0.5px;}
+.research_text{float: left;margin: 10px 0px;padding: 0px 100px;}
+.research_text span{display: block;text-align: justify;font-size: 20px;}
 
-@media(max-width:991px) {
-[data-state="closed"],
-[data-state="opened"],
-.rocketchat-container,
-#rocketchat-iframe {
-display:none !important;
-}
-}
+/**** End of RESEARCHERS & CLINICIANS ****/
+
+/**** Start of Sites Screen Styles ****/
+.sites_info{float: left;background-image: url(../images/site_top_img.jpg);background-size: cover;background-repeat: no-repeat;padding: 0px;}
+.sites_info_top{float: left;padding: 60px 100px;}
+.sites_info_top span{display: block;text-align: justify;font-size: 18px;letter-spacing: 0.5px;}
+.sites_info_bottom{float: left;padding: 30px 50px;background:RGBA(28, 122, 147,0.8);}
+.sites_info_bottom ul{width: 70%;margin: 10px 15%;padding: 0px;float: left;}
+.sites_info_bottom ul li{width: 100%;padding: 4px 0px;margin: 2px 0px;float: left;list-style-type: none;font-size: 18px;color: #FFF;letter-spacing: 0.5px;}
+.sites_info_bottom ul li::before{content: "\2022";color: #e4791b;font-weight: bold;display: inline-block;width: 1em;margin-left: -1em;}
+.sites_info_left{float: left;}
+.sites_info_right{float: left;}
+.optimize{float: left;padding: 50px 100px;}
+.optimize span{display: block;font-size: 43px;text-transform: uppercase;font-weight: 600;color: #333;letter-spacing: 0.9px;}
+.optimize button{background: #e57d24;color: #FFF;border-radius: 50px;padding: 8px 40px;border: none;letter-spacing: 0.5px;cursor: pointer;font-size: 25px;-webkit-box-shadow: 0 8px 6px -6px black;-moz-box-shadow: 0 8px 6px -6px black;box-shadow: 0 8px 6px -6px black;outline: none;margin-top: 30px;}
+.types_info{float: left;background-image: url(../images/site_types.jpg);background-size: cover;background-repeat: no-repeat;padding: 50px 40px;}
+.type_part{margin: 10px 0px;background: #FFF;float: left;height: 520px;}
+.part_icon{text-align: left;float: left;}
+.part_icon img{width: 170px;margin-left: -35px;margin-top: -20px;}
+.part_text_site{float: left;padding: 20px;}
+.part_text_site span{display: block;font-size: 17px;color: #333;letter-spacing: 0.5px;}
+.part_text_site ul{width: 90%;margin: 10px 5%;padding: 0px;float: left;}
+.part_text_site ul li{width: 100%;padding: 4px 0px;margin: 2px 0px;float: left;list-style-type: none;font-size: 15px;color: #333;letter-spacing: 0.5px;}
+.part_text_site ul li::before{content: "\2022";color: #e4791b;font-weight: bold;display: inline-block;width: 1em;margin-left: -1em;}
+/**** End of Sites Screen Styles ****/
+
+/**** Start of Team Screen Styles ****/
+.exe_advisory{float: left;padding: 30px 0px;margin: 0px;background-image: url(../images/company_top_cont.jpg);background-size: cover;background-repeat: no-repeat;height: 400px;}
+.exe_advisory_text{float: left;padding: 10px 60px;font-size: 22px;text-align: justify;}
+.exe_advisory_title{padding: 10px 0px;float: left;font-size: 35px;color: #262626;font-weight: 600;letter-spacing: 0.6px;}
+.exe_team{float: left;padding: 30px 0px;margin: 0px;background-image: url(../images/executive.jpg);background-size: cover;background-repeat: no-repeat;}
+.exe_team_title{padding: 10px 60px;margin: 0px;text-transform: uppercase;font-size: 40px;color: #FFF;letter-spacing: 0.5px;font-weight: 550;text-shadow: 1px 1px 2px RGBA(0,0,0,0.6);}
+.exe_team_info{padding: 15px 30px;margin: 10px 0px;float: left;}
+.info_div{float: left;margin: 5px 0px;}
+.info_div_img{float: left;}
+.info_div_img img{width: 170px;border: 8px solid #FFF;box-sizing: border-box;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;-moz-box-shadow: 0 0 5px #333;-webkit-box-shadow: 0 0 5px#333;box-shadow: 0 0 5px #333;}
+.info_link_in{float: left;}
+.info_name{font-size: 30px;color: #FFF;margin-top:20px;font-weight: 550;letter-spacing: 0.5px;text-shadow: 1px 1px 2px RGBA(0,0,0,0.6);}
+.info_sub_name{font-size: 16px;letter-spacing: 0.6px;color: #FFF;}
+
+.adivisory_team{float: left;padding: 30px 0px 0px 0px;margin: 0px;background-image: url(../images/advisory.jpg);background-size: cover;background-repeat: no-repeat;}
+.adv_team{float: left;padding: 30px 0px;}
+.adv_team_div{float: left;margin-bottom: 35px;}
+.adv_team_img{float: left;}
+.adv_team_img img{width: 170px;border: 8px solid #FFF;box-sizing: border-box;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;-moz-box-shadow: 0 0 5px #333;-webkit-box-shadow: 0 0 5px#333;box-shadow: 0 0 5px #333;}
+.team_name{font-size: 30px;color: #FFF;margin-top:20px;font-weight: 550;letter-spacing: 0.5px;text-shadow: 1px 1px 2px RGBA(0,0,0,0.6);}
+.team_sub_name{font-size: 16px;letter-spacing: 0.6px;color: #FFF;}
+
+.team_link_in{float: left;padding: 10px 0px;text-align: center;}
+.team_link_in img{width:50px;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;-moz-box-shadow: 0 0 5px #333;-webkit-box-shadow: 0 0 5px#333;box-shadow: 0 0 5px #333;cursor: pointer;}
+
+/**** End of Team Screen Styles ****/
+
+/**** Start of ContactUs Screen Styles ****/
+
+.location_div{float: left;padding: 40px 70px; margin: 0px;background-image: url(../images/location.jpg);background-size: cover;background-repeat: no-repeat;}
+.location_title{padding:10px 0px;font-size: 35px;text-transform: uppercase;color: #FFF;text-shadow: 1px 1px 2px RGBA(0,0,0,0.6);letter-spacing: 3px;font-weight: 600;}
+.location_info{float: left;margin: 30px 25px;}
+.location_text{float: left;font-size: 20px;color: #FFF;font-weight: normal;letter-spacing: 0.7px;}
+
+/**** End of ContactUs Screen Styles ****/
+
+/**** Start of Mobile Link Styles ****/
+
+.mobile_links{float: left;padding:60px 0px 70px 0px;margin: 0px;background-image: url(../images/app.jpg);background-size: cover;background-repeat: no-repeat;}
+.app_div{float: left;padding: 30px 0px;margin: 0px;}
+.app_text{float: left;padding: 10px 0px;text-align: center;}
+.app_text span{display: inline-block;}
+.app_text span.first{font-size: 50px;letter-spacing: 0.8px;}
+.app_text span.last{font-size: 50px;letter-spacing: 0.8px;}
+.app_text span.middle{font-size: 30px;margin-left: 5px;margin-right: 5px;letter-spacing: 0.8px;}
+.app_sub_text{font-size: 20px;text-align: center;float: left;}
+.app_img_links{float: left;padding: 15px 0px;}
+.app_img_links img{width: 190px;margin-right: 20px;cursor: pointer;}
+.app_img_links img.qr{height: 90px;width: 90px}
+
+/**** End of Mobile Links Styles ****/
+
+/**** Start of Sponsores Screen Styles ****/
+
+.sponsor_banner{float: left;padding:80px 0px 30px 0px;margin: 0px;background-image: url(../images/sponsor_bg.jpg);background-size: cover;background-repeat: no-repeat;height: 400px;}
+.sponsor_banner span{display: block;text-align: center;text-transform: uppercase;font-size: 45px;color: #FFF;letter-spacing: 2px;}
+.spn_types{float: left;padding: 0px;margin: 0px;background-image: url(../images/sponsor_bg2.jpg);background-size: cover;background-repeat: no-repeat;}
+.spn_types_left{float: left;padding: 48px 20px;background: RGBA(217,217,217, 0.9);}
+.spn_types_left ul{width: 80%;margin: 20px 10%;padding: 0px;float: left;}
+.spn_types_left ul li{width: 100%;padding: 5px 0px;margin: 0px 0px 10px 0px;color: #333333;font-size: 17px;float: left;list-style-type: none;}
+.spn_types_left ul li::before {content: "\2022";color: #e4791b;font-weight: bold;display: inline-block; width: 1em;margin-left: -1em;}
+.spn_types_right{float: left;padding: 18px 10px;text-align: center;background: RGBA(255,255,255, 0.9);}
+.spn_types_right .type_img{float: left;}
+.spn_types_right .type_img img{width: 600px;}
+.spn_main_logo{float: left;padding: 10px 0px;}
+.spn_main_logo img{width: 150px;margin-left: 30px;}
+.type_quote{float: left;padding: 18px 0px;font-size: 17px;color: #595959;}
+
+.sps_info{float: left;padding: 50px 0px;}
+.sps_info_head{color: #262626;font-size: 32px;padding: 20px 30px;text-align: center;text-transform: uppercase;letter-spacing: 0.5px;font-weight: 600;}
+.sps_info_text{float: left;font-size: 18px;color: #999;padding: 10px 100px;text-align: justify;}
+.empower_div{float: left;padding:30px 0px 80px 0px;margin: 0px;background-image: url(../images/empower.jpg);background-size: cover;background-repeat: no-repeat;}
+.empower_title{float: left;padding: 20px 75px;font-size: 35px;color: #FFF;text-shadow: 1px 1px 2px RGBA(0,0,0,0.6);text-transform: uppercase;letter-spacing: 0.8px;font-weight: 600;}
+.empower_icons{float: left;padding: 30px 50px;}
+.emp_icon{width: 18%;float: left;padding: 0px;margin: 3px 1%;text-align: center;}
+.emp_icon img{width: 100px;}
+.emp_icon span{display: block;font-size: 18px;font-weight: 550;color: #FFF;padding: 10px 15px;letter-spacing: 0.8px;}
+.diff_style{padding:0px 50px 0px 190px;}
+.one{width: 18%;margin-top: -60px;}
+.four{width:21%;margin-top: -60px;}
+.three{width: 20%;margin-top: -60px;}
+.two{width:22%;margin-top: -60px;}
+/**** End of Sponsores Screen Styles ****/
+
+/**** Start of Chat Styles ****/
 [data-state="closed"] .rocketchat-container,
 [data-state="closed"] #rocketchat-iframe{
 display:none;
@@ -196,13 +371,535 @@ bottom: 25px !important;
 right: 25px !important;
 background:white !important;
 }
+/**** End of Chat Styles ****/
 
-
-.section-solution ul{list-style: none;font-size: 16px;background-image: url(../images/sites_bg);}
-.section-solution ul li:before {content: "✓";color: #13bce5;display: inline-block;width: 1.5em;}
-.innerPage_banner{padding: 0px;float: left;background-image: url(../images/slide1.png);background-repeat: no-repeat;background-size: cover;height: 400px;}
-.pt-5{display: inline-block;color:white;padding-left:60px}
-
-.section-trials ul{list-style: none;}
-.section-trials ul li:before {content: "✓";color: white;display: inline-block;width: 1.5em;}
-.schedule_sponsor{float: left;padding: 30px;background-image: url(../images/slide1.png);background-repeat: no-repeat;background-size: cover;}
+@media only screen and (max-width: 1920px)
+{
+    .take_part{margin-left: 165px;}
+    .spn_types_left{padding: 49px 20px;}
+}
+@media only screen and (max-width: 1440px)
+{
+    .take_part{margin-left: 45px;}
+}
+@media only screen and (max-width: 1366px)
+{
+    .take_part{margin-left: 25px;}
+}
+@media only screen and (max-width: 1280px)
+{
+    .header_menu .navbar-nav .nav-item:hover a{font-weight: 550;}
+    .header_menu .navbar-nav .active{font-weight: 550;}
+.header_menu .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover
+    {color: #333; font-weight: 550 !important;}
+    .sites_text_rg img{width: 600px;}
+    .sites_list .site1{width: 220px;height: 220px;}
+    .sites_list .site1 span.num{font-size: 40px;}
+    .sites_list .site1 span.num_text{font-size: 16px;}
+    .sites_list .site2{width: 240px;height: 240px;}
+    .sites_list .site2 span.num{font-size: 40px;}
+    .sites_list .site2 span.num_text{font-size: 16px;}
+    .sites_list .site3{width: 280px;height: 280px;}
+    .sites_list .site3 span.num{font-size: 40px;}
+    .sites_list .site3 span.num_text{font-size: 16px;}
+    .sites_list .site4{width: 300px;height: 300px;}
+    .sites_list .site4 span.num{font-size: 40px;}
+    .sites_list .site4 span.num_text{font-size: 17px;}
+    .sites_list .site5{width: 290px;height: 290px;}
+    .sites_list .site5 span.num{font-size: 35px;}
+    .sites_list .site5 span.num_text{font-size: 17px;}
+    
+    .take_part{margin-left: 4px;}
+    .spn_types_right{padding: 31px 10px;}
+}
+@media only screen and (max-width: 1152px)
+{
+    .header_menu .navbar-nav .nav-item a{padding:20px 15px;}
+    .header_menu .navbar-nav .nav-item{margin: 0px 6px;}
+    
+    .sites_text_rg img{width: 550px;}
+    .sites_list .site1{width: 210px;height: 210px;}
+    .sites_list .site1 span.num{font-size: 35px;}
+    .sites_list .site1 span.num_text{font-size: 15px;}
+    .sites_list .site2{width: 230px;height: 230px;}
+    .sites_list .site2 span.num{font-size: 35px;}
+    .sites_list .site2 span.num_text{font-size: 15px;}
+    .sites_list .site3{width: 270px;height: 270px;}
+    .sites_list .site3 span.num{font-size: 35px;}
+    .sites_list .site3 span.num_text{font-size: 15px;}
+    .sites_list .site4{width: 260px;height: 260px;padding: 68px;}
+    .sites_list .site4 span.num{font-size: 35px;}
+    .sites_list .site4 span.num_text{font-size: 16px;}
+    .sites_list .site5{width: 260px;height: 260px;padding: 40px 70px;}
+    .sites_list .site5 span.num{font-size: 30px;}
+    .sites_list .site5 span.num_text{font-size: 16px;}
+    
+    .take_part{width: 254px;}
+    
+    .research_content{padding: 10px 0px;}
+    .research_text{padding: 0px 56px;}
+    .spn_types_right{padding: 44px 10px;}
+    .part_text_site ul{width: 100%;margin: 10px 0px;}
+    .type_part{height: 550px;}
+    .optimize span{font-size: 30px;}
+}
+@media only screen and (max-width: 1024px)
+{
+    .header_menu .navbar-nav{margin-left: 25px;}
+    .header_menu .navbar-nav .nav-item a{padding: 20px 10px;}
+    .patient_left img{width: 460px;}
+    
+    .sites_text_rg img{width: 480px;}
+    .sites_list .site1{width: 200px;height: 200px;}
+    .sites_list .site1 span.num{font-size: 35px;}
+    .sites_list .site1 span.num_text{font-size: 15px;}
+    .sites_list .site2{width: 220px;height: 220px;}
+    .sites_list .site2 span.num{font-size: 35px;}
+    .sites_list .site2 span.num_text{font-size: 15px;}
+    .sites_list .site3{width: 250px;height: 250px;}
+    .sites_list .site3 span.num{font-size: 35px;}
+    .sites_list .site3 span.num_text{font-size: 15px;}
+    .sites_list .site4{width: 230px;height: 230px;padding: 50px;}
+    .sites_list .site4 span.num{font-size: 35px;}
+    .sites_list .site4 span.num_text{font-size: 16px;}
+    .sites_list .site5{width: 230px;height: 230px;padding: 20px 40px;margin-left: -130px;}
+    .sites_list .site5 span.num{font-size: 30px;}
+    .sites_list .site5 span.num_text{font-size: 16px;}
+    
+    .rearch_types .type1{top: -10px;}
+    .rearch_types .type2{right: 25%;}
+    .rearch_types .type3{right: 18%;}
+    .rearch_types .type4{right: 22%;}
+    .rearch_types .type5{left: 22%;}
+    .rearch_types .type6{left: 18%;}
+    .rearch_types .type7{left: 25%;}
+    
+    .take_part{width: 222px;}
+    .patient_quote{font-size: 30px;}
+    .small_quote span{font-size: 30px;}
+    .section-solution_left img{width: 400px;}
+    
+    .research_title{font-size: 30px;}
+    .info_div_img img{width: 150px;border: 5px solid #FFF;box-sizing: border-box;}
+    .info_name{font-size: 22px;}
+    .info_sub_name{font-size: 14px;}
+    .adv_team_img img{width: 150px;border: 5px solid #FFF;box-sizing: border-box;}
+    .team_name{font-size: 22px;}
+    .team_sub_name{font-size: 14px;}
+    
+    .location_title{font-size: 30px;}
+    .location_text{font-size: 15px;}
+    .app_img_links img.qr{margin-top: 20px;}
+    .mobile_links{background-position: right;}
+    .spn_types_left ul{width: 90%;margin: 20px 5%;}
+    
+    .emp_icon span{font-size: 16px;padding: 10px 0px;}
+    .diff_style{padding-left: 145px;}
+    
+    .part_text_site{padding: 20px 10px;}
+    .part_text_site span{font-size: 15px;}
+}
+@media only screen and (max-width: 991px)
+{
+    .header_menu{padding: 0px;}
+    .header_menu .navbar-nav{margin: 0px;}
+    .header_menu .navbar-nav .nav-item a{padding: 10px;}
+    button.login{width:100%;padding: 8px 20px;margin-bottom: 10px;}
+    .header_menu .navbar-nav .active{background: #333;}
+    .header_menu .navbar-nav .active:hover{background:#333;}
+     .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active{color: #FFF;}
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.show, {color: #333;}
+    .header_menu .navbar-expand-lg .navbar-nav .dropdown-menu:after{display: none;}
+    .header_menu .navbar-expand-lg .navbar-nav .dropdown-menu{margin-bottom: 10px;}
+    
+    .slide_text span.text1{font-size: 45px;}
+    .slide_text span.text2{font-size: 55px;}
+    .slide_text span.text3{width: 60%;margin: 2px 20%;}
+    
+    .sites_text_rg img{width: 460px;}
+    .sites_list .site1{width: 190px;height: 190px;}
+    .sites_list .site1 span.num{font-size: 35px;}
+    .sites_list .site1 span.num_text{font-size: 15px;}
+    .sites_list .site2{width: 210px;height: 210px;}
+    .sites_list .site2 span.num{font-size: 35px;}
+    .sites_list .site2 span.num_text{font-size: 15px;}
+    .sites_list .site3{width: 240px;height: 240px;}
+    .sites_list .site3 span.num{font-size: 35px;}
+    .sites_list .site3 span.num_text{font-size: 15px;}
+    .sites_list .site4{width: 220px;height: 220px;padding: 50px;}
+    .sites_list .site4 span.num{font-size: 35px;}
+    .sites_list .site4 span.num_text{font-size: 16px;}
+    .sites_list .site5{width: 220px;height: 220px;padding: 20px 30px;margin-left: -120px;}
+    .sites_list .site5 span.num{font-size: 30px;}
+    .sites_list .site5 span.num_text{font-size: 16px;}
+    
+    .patinet_info{padding-top: 55px;}
+    .paitnet_title{font-size: 30px;}
+    .exe_advisory{height: auto;padding-top: 10px;}
+    .info_name{font-size: 20px;}
+    .exe_advisory_text{font-size: 18px;}
+    .mobile_links{padding-top: 0px;padding-bottom: 0px;}
+    .app_div{background: RGBA(170, 172, 160, 0.8);}
+        
+    .spn_types_left ul li{margin: 0px 0px 12px 0px;font-size: 16px;}
+    
+    [data-state="closed"],[data-state="opened"],.rocketchat-container,#rocketchat-iframe {display:none !important;}
+    
+    .sites_info_top{padding: 39px 100px 60px 100px;}
+    .part_text_site{padding: 10px 9px;}
+}
+@media only screen and (max-width: 980px)
+{
+    .slide_show .carousel-inner{height: auto;}
+    .patient_right p{font-size: 18px;}
+    
+}
+@media only screen and (max-width: 900px)
+{
+    .complaint_div span.hip_text{margin-top: 100px;}
+    .patient_left img{width: 400px;}
+    .patient_right p{font-size: 15px;}
+    .sites_text_rg img{width: 400px;}
+    .sites_list .site1{width: 180px;height: 180px;}
+    .sites_list .site1 span.num{font-size: 30px;}
+    .sites_list .site1 span.num_text{font-size: 14px;}
+    .sites_list .site2{width: 200px;height: 200px;}
+    .sites_list .site2 span.num{font-size: 30px;}
+    .sites_list .site2 span.num_text{font-size: 14px;}
+    .sites_list .site3{width: 220px;height: 220px;}
+    .sites_list .site3 span.num{font-size: 30px;}
+    .sites_list .site3 span.num_text{font-size: 14px;}
+    .sites_list .site4{width: 200px;height: 200px;padding: 40px;}
+    .sites_list .site4 span.num{font-size: 30px;}
+    .sites_list .site4 span.num_text{font-size: 14px;}
+    .sites_list .site5{width: 200px;height: 200px;padding: 20px 30px;margin-left: -125px;}
+    .sites_list .site5 span.num{font-size: 28px;}
+    .sites_list .site5 span.num_text{font-size: 14px;}
+    .research_clinic .main-title{font-size: 30px;}
+    .research_clinic .sub-title{font-size: 16px;}
+    .patient_quote{font-size: 28px;}
+    .take_part{width: 218px;}
+    
+    .steps_div_img img{width: 180px;}
+    .steps_div_text{font-size: 16px;}
+    .take_part span.part2{font-size: 16px !important;}
+    .section-solution_left img{width: 350px;}
+    .small_quote span{padding-left: 80px;}
+    .research_content{height: auto;}
+    
+    .info_div_img img{width: 130px;}
+    .info_name{font-size: 18px;}
+    .info_sub_name{font-size: 12px;}
+    
+    .spn_types_left{padding: 37px 20px;}
+    .sites_info_top{padding: 39px 60px 60px 60px;}
+    .part_text_site span{font-size: 14px;}
+    .part_text_site ul li{font-size: 13px;}
+    .part_icon img{width: 130px;margin-left: -40px;margin-top: -15px;}
+}
+@media only screen and (max-width: 800px)
+{
+    .slide_text span.text1{font-size: 35px;}
+    .slide_text span.text2{font-size: 45px;}
+    .slide_text span.text3{width: 80%;margin: 2px 10%;}
+    .complaint_div{background-position: right;height: auto;padding: 65px 0px;}
+    .complaint_div span.hip_text{margin-top: 30px;font-size: 30px;}
+    .complaint_div span.comp_text{font-size: 30px;}
+    .patient_left img{width: 350px;}
+    .patient_right span.right_title{font-size: 40px;}
+    .patient_right p{margin: 5px 0px;}
+    
+    .sites_text_lf span.text{font-size: 17px;}
+    .sites_text_lf span.title{font-size: 30px;}
+    .sites_text_rg img{width: 370px;}
+    .sites_list .site5{margin-left: -50px;margin-top:-62px;}
+    .rearch_types img{width: 400px;}
+    
+    .rearch_types .type1{top: -10px;}
+    .rearch_types .type2{right: 20%;}
+    .rearch_types .type3{right: 12%;}
+    .rearch_types .type4{right: 18%;}
+    .rearch_types .type5{left: 18%;}
+    .rearch_types .type6{left: 12%;}
+    .rearch_types .type7{left: 20%;}
+    
+    .section-solution_left img{width: 320px;padding-top: 30px;}
+    .patient_quote{font-size: 25px;}
+    .small_quote span{font-size: 23px;padding-top: 18px;padding-bottom: 18px;}
+    .take_part{width: 195px;}
+    .take_part img{width: 150px;}
+    span.take_text{font-size: 20px;}
+    span.part_text{font-size: 20px;}
+    .take_part{font-size: 15px;}
+    .team_name{font-size: 18px;}
+    .sps_info_head{font-size: 28px;}
+    .spn_types_left ul li{margin-bottom: 11px;font-size: 15px;}
+    .empower_title{font-size: 25px;}
+    .empower_icons{padding: 30px 0px;}
+    .emp_icon span{font-size: 14px;}
+    .diff_style{padding-left: 90px !important;}
+    .empower_div{padding-bottom: 0px;}
+    .spn_types_right .type_img img{width: 440px;}
+    .spn_types_right .type_img{padding: 42px 0px;}
+    
+    .part_icon img{width: 115px;margin-top: -13px;}
+    .type_part{padding: 0px 9px;}
+    .part_text_site{padding: 10px 8px;}
+}
+@media only screen and (max-width: 768px)
+{
+    .sites_list .site1{margin-left: -45px;}
+    .sites_list .site5{margin-left: -37px;}
+    .take_part{width: 170px !important;}
+    .diff_sch{font-size: 25px;}
+    .type_part{height: 595px;}
+}
+@media only screen and (max-width: 767px)
+{
+     .patient_left img{width: 450px;}
+    .patient_right{padding-top: 25px;}
+    .patient_right span.right_title{display: block;text-align: center;}
+    .sites_text{margin-top:10px;}
+    .sites_text_rg{text-align: center;}
+    .sites_text_rg img{float: none;margin-top:10px;width:450px;}
+    .schedule_div .container{max-width: 100%;}
+    .quick_info .container{max-width: 100%;}
+    .innerPage_banner{height: auto;}
+    .patient_quote{padding: 30px 0px;}
+    .take_part{width: 100% !important;height: auto;z-index: 0;}
+    .take_part span{display: inline-block;font-size: 20px;text-shadow: none;}
+    .take_part span.part1{display: inline-block;margin-top: 0px;float:left;font-size: 20px;text-shadow: none;}
+    .take_part span.part1 img{margin: 10px 0px 0px 45px;width: 145px;}
+    .take_part span.part2{display: inline-block;font-size: 20px;margin-top: 0px;text-align: left;text-shadow: none;color: #FFF;width: 300px;}
+    
+    .take_part span.enroll_now{display: inline-block;float: right;text-align: center;margin-top: 50px;margin-right: 30px;}
+    .small_quote{position: static;}
+    .section-solution_right h4{text-align: center;}
+    .section-solution_right{padding-top: 20px;}
+    ul.solution_list{width: 90%;margin: 20px 10%;}
+    .section-solution{padding: 13px 0px;}
+    .pt_quote{padding: 10px 0px;}
+    .pt_quote h3{font-size: 20px;}
+    .entry_div{margin-left: 0px;}
+    .inner-div{margin-left: 0px;}
+    .inner-div_1{padding-right: 0px;}
+    .inner-div_2{padding-left: 0px;}
+    
+    .type_part{height:400px;margin-bottom: 35px;}
+    .part_text_site{padding: 10px 24px;}
+    .optimize span{font-size: 20px;}
+    .sites_info_top span{font-size: 15px;}
+}
+@media only screen and (max-width: 640px)
+{
+    .slide_text{margin-top: -80px;}
+    .slide_text span.text1{font-size: 20px;}
+    .slide_text span.text2{font-size: 30px;}
+    .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
+    
+    .rearch_types .type1{top: -10px;}
+    .rearch_types .type2{right: 15%;}
+    .rearch_types .type3{right: 8%;}
+    .rearch_types .type4{right: 10%;}
+    .rearch_types .type5{left: 10%;}
+    .rearch_types .type6{left: 8%;}
+    .rearch_types .type7{left: 15%;}
+    .sites_list .site4{margin-left: 92px;margin-top:-30px;}
+    .sites_list .site5{margin-top: -103px;margin-left: -28px;}
+    
+    .research_title{font-size: 25px;}
+    .research_text span{font-size: 17px;}
+    .adv_team_img img{width: 130px;}
+    .diff_sch{font-size: 20px;}
+    .sponsor_banner{height: auto;padding-top: 25px;}
+    .sponsor_banner span{font-size: 25px;}
+    .spn_types_right .type_img{padding: 5px 0px;}
+    .spn_types_right{padding: 0px 10px;}
+    .sps_info_head{font-size: 22px;}
+    .sps_info{padding: 15px 0px;}
+    .emp_icon{width: 40%;margin: 3px 5%;}
+    .one{margin-top: 0px;}
+    .two{margin-top:0px;}
+    .three{margin-top:0px;}
+    .four{margin-top: 0px;}
+    .diff_style{padding-left: 0px !important;}
+    
+    .type_part{height: 455px;}
+}
+@media only screen and (max-width: 540px)
+{
+    .fotter{font-size: 13px;}
+    .rearch_types span.type-text{font-size: 18px;}
+    .rearch_types .type1{top: -10px;}
+    .rearch_types .type2{right: 10%;}
+    .rearch_types .type3{right: 3%;}
+    .rearch_types .type4{right: 5%;}
+    .rearch_types .type5{left: 5%;}
+    .rearch_types .type6{left: 5%;}
+    .rearch_types .type7{left: 10%;}
+    
+    .sites_list{margin-top: 15px;}
+    .sites_list .site1{margin-left: 51px;width: 200px;height: 200px;}
+    .sites_list .site2{margin-top: -83px;margin-left: 185px;}
+    .sites_list .site3{margin-top:-90px;margin-left:30px;}
+    .sites_list .site4{margin-left: 170px;margin-top: -70px;}
+    .sites_list .site5{margin-top: -95px;margin-left: 30px;}
+    
+    .entry_div{margin-left: 0px !important;}
+    .inner-div{margin-left: 0px !important;}
+    .inner-div_1{padding-right: 0px !important;}
+    .inner-div_2{padding-left: 0px !important;}
+    
+    .take_part span.enroll_now{display: block;margin-top: 5px;margin-bottom: 10px;margin-right:0px;float: none;}
+    .small_quote span{padding-left: 40px;}
+    
+    .team_name{font-size: 25px;}
+    .team_sub_name{font-size: 18px;}
+    .adv_team_img{margin-bottom: 45px;}
+    .exe_team_title{text-align: center !important;font-size: 30px;}
+    .info_div{margin-bottom: 30px;}
+    .info_div_img img{width: 170px;}
+    .info_name{font-size: 30px;}
+    .info_sub_name{font-size: 18px;}
+    .adv_team_img img{width: 170px;}
+    .location_text{margin-bottom: 20px;border-bottom: 5px double #FFF;box-sizing: border-box;padding-bottom: 20px;}
+    .location_text:last-child{border-bottom: none;}
+    .location_info{margin: 20px 0px;}
+    .location_div{padding: 10px 30px 10px 20px;}
+    .app_img_links img{width: 150px;}
+    
+    .sps_info_head{font-size: 18px;}
+    .sps_info_text{padding: 18px 40px;}
+    .empower_title{font-size: 20px;padding: 20px 30px;}
+    
+    .type_part{height: auto;}
+    .part_text_site span{font-size: 17px;}
+    .part_text_site ul li{font-size: 16px;}
+    .optimize span{font-size: 15px;}
+    .optimize button{font-size: 18px;}
+}
+@media only screen and (max-width: 480px)
+{
+    .slide_text{margin-top: -120px;}
+    .patient_left img{width: 400px;}
+    
+    .take_part span.part1{display: block;text-align: center;float: none;}
+    .take_part span.part2{display: block;text-align: center;float: none;width:100%;}
+    .patient_quote{font-size: 19px;}
+    .pt_quote h3{font-size: 18px;}
+    
+    .research_text{padding: 0px 20px;}
+    .research_video{padding: 0px;}
+    
+    .exe_advisory_title{font-size: 25px;}
+    .exe_advisory_text{font-size: 16px;}
+    
+    .app_text span.first{font-size: 35px;}
+    .app_text span.last{font-size: 35px;}
+}
+@media only screen and (max-width: 412px)
+{
+    .slide_text{margin-top: -120px;}
+    .slide_text span.text1{font-size: 15px;}
+    .slide_text span.text2{font-size: 20px;}
+    .slide_text span.text3{width: 80%;margin: 2px 10%;font-size: 15px;}
+    .top_section span.mail_id{display: block;text-align: center;float: none;margin-bottom: 8px;}
+    .top_section span.social_icons{display: block;text-align: center;float: none;margin-right:0px;margin-bottom: 8px;}
+    .patient_left img{width: 350px;}
+    .sites_text{float: none;}
+    .sites_text_lf span{margin-left: 0px;}
+    .sites_text_rg img{width: 360px;}
+    .sites_text_lf span.title{display: block;text-align: center;margin-left: 0px;}
+    
+    .sites_list .site1{margin-left: -30px;}
+    .sites_list .site2{margin-top: -83px;margin-left: 95px;}
+    .sites_list .site3{margin-top: -73px;margin-left: -40px;}
+    .sites_list .site4{margin-left: 105px;margin-top: -100px;}
+    .sites_list .site5{margin-top: -80px;margin-left: -10px;}
+    
+    .research_clinic .main-title{font-size: 20px;}
+    .research_clinic .sub-title{font-size: 15px;}
+    .research_clinic .sub-title{padding: 0px 9px;}
+    
+    .rearch_types span.type-text{font-size: 15px;}
+    .rearch_types img{width: 300px;}
+    .small_quote span{padding-left: 20px;font-size: 20px;}
+    .exe_advisory_text{padding: 10px 15px;}
+    
+    .sponsor_banner span{font-size: 19px;}
+    .spn_types_right .type_img img{width: 360px;}
+    
+    .sites_info_bottom ul{width: 90%;margin: 10px 5%;}
+    .sites_info_bottom{padding: 30px 22px;}
+    .optimize{padding: 35px 40px;}
+}
+@media only screen and (max-width: 360px)
+{
+    .slide_text{margin-top: -130px;}
+    .slide_text span.text1{font-size: 18px;}
+    .slide_text span.text2{font-size: 18px;}
+    .slide_text span.text3{width: 80%;margin: 2px 10%;font-size: 12px;}
+    .complaint_div span.hip_text{color: #FFF;background:RGBA(0,0,0,0.6);margin-top: -10px;font-size: 20px;padding: 5px 0px;}
+    .complaint_div span.comp_text{background: RGBA(0,0,0,0.6);padding: 5px 0px;font-size: 20px;}
+    .patient_left img{width: 300px;}
+    .patient_right span.right_title{font-size: 30px;}
+    .paitnet_title{font-size: 25px;}
+    .patient_quote{font-size: 17px;}
+    
+    .rearch_types img{margin: 0px;padding: 0px;}
+    .rearch_types .type1{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type2{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type3{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type4{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type5{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type6{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type7{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
+    .rearch_types .type1 span, .rearch_types .type2 span, .rearch_types .type3 span, .rearch_types .type4 span, .rearch_types .type5 span, .rearch_types .type6 span, .rearch_types .type7 span{display: inline-block;}
+    .rearch_types span.count{font-size: 18px;}
+    .rearch_types span.type-text{font-size: 22px;text-align: justify;}
+    
+    .sites_text_rg img{width: 300px;}
+    .sites_list .site1{width: 180px;height: 180px;}
+    .sites_list .site2{width: 180px;height: 180px;margin-top: -37px;margin-left: 51px;padding: 15px 33px;}
+    .sites_list .site3{width: 200px;height: 200px;margin-top: -33px;}
+    .sites_list .site4{width: 180px;height: 180px;padding: 30px;margin-left: 55px;margin-top: -43px;}
+    .sites_list .site5{width: 180px;height: 180px;margin-top: -30px;padding: 20px 18px;}
+    
+    .sch_title{font-size: 20px;}
+    .info_list{font-size: 15px;}
+    .small_quote span{padding-left: 30px;font-size: 18px;}
+    .research_title{font-size: 22px;padding: 0px 10px;}
+    .sch_title{font-size: 16px;}
+    
+    .spn_types_right .type_img img{width: 320px;}
+    .sps_info_head{font-size: 16px;}
+    .empower_title{font-size: 16px;}
+    .emp_icon{width: 90%;margin: 5px 5% 10px 5%;}
+    .emp_icon span{font-size: 18px;}
+    
+    .sites_info_top{padding: 39px 40px 60px 40px;}
+}
+@media only screen and (max-width: 320px)
+{
+    .complaint_div span.hip_text{font-size: 15px;}
+    .complaint_div span.comp_text{font-size: 15px;}
+    .exe_team_title{font-size: 22px;}
+    .info_div_img img{width: 140px;}
+    .info_name{font-size: 25px;}
+    .info_sub_name{font-size: 15px;}
+    .adv_team_img img{width: 140px;}
+    .team_name{font-size: 22px;}
+    .sch_title{font-size: 12px;}
+    
+    .sponsor_banner span{font-size: 14px;}
+    .spn_types_right .type_img img{width: 280px;}
+    .sps_info_head{padding: 20px;font-size: 13px;}
+    .sps_info_text{padding: 10px 25px;font-size: 16px;}
+    .empower_title{font-size: 15px;padding: 20px 16px;}
+    .empower_div{padding-top: 5px;}
+    
+    .optimize span{font-size: 12px;}
+    .optimize button{font-size: 14px;}
+    .part_text_site span{font-size: 15px;}
+    .part_text_site ul li{font-size: 14px;}
+}

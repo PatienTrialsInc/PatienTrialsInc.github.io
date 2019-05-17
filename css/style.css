@@ -240,10 +240,10 @@ ul.solution_list li::before{content: "\2022";color: #00b9ef;font-weight: bold;di
 /**** End of RESEARCHERS & CLINICIANS ****/
 
 /**** Start of Sites Screen Styles ****/
-.sites_info{float: left;background-image: url(../images/site_top_img.jpg);background-size: cover;background-repeat: no-repeat;padding: 0px;}
+.sites_info{float: left;background-image: url(../images/clinician_topimg.jpg);background-size: cover;background-repeat: no-repeat;padding: 0px;}
 .sites_info_top{float: left;padding: 60px 100px;}
 .sites_info_top span{display: block;text-align: justify;font-size: 18px;letter-spacing: 0.5px;}
-.sites_info_bottom{float: left;padding: 30px 50px;background:RGBA(28, 122, 147,0.8);}
+.sites_info_bottom{float: left;padding: 30px 50px;background-image: url(../images/bulletbackground.jpg);}
 .sites_info_bottom ul{width: 70%;margin: 10px 15%;padding: 0px;float: left;}
 .sites_info_bottom ul li{width: 100%;padding: 4px 0px;margin: 2px 0px;float: left;list-style-type: none;font-size: 18px;color: #FFF;letter-spacing: 0.5px;}
 .sites_info_bottom ul li::before{content: "\2022";color: #e4791b;font-weight: bold;display: inline-block;width: 1em;margin-left: -1em;}

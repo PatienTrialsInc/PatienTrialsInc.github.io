@@ -41,7 +41,7 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .header_menu .navbar-nav .nav-item{margin: 0px 10px;}
 .header_menu .navbar-nav .nav-item:hover{font-weight: bold;background:#F2F2F2;}
 .header_menu .navbar-nav .active{border-bottom: 5px solid #e57d24;box-sizing: border-box;font-weight: bold;}
-.header_menu .navbar-nav .nav-item a{padding:20px 25px;color: #808080;letter-spacing: 0.5px;font-size: 17px;}
+.header_menu .navbar-nav .nav-item a{padding:20px 24px;color: #808080;letter-spacing: 0.5px;font-size: 17px;}
 .header_menu .navbar-nav .last{margin-left:50px;background:#e57d24;}
 .header_menu .navbar-nav .last a{color: #FFF !important;}
 .header_menu .last:hover{background:#e57d24 !important;font-weight: normal !important;}
@@ -57,26 +57,24 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .header_menu .dropdown-item.active{background: #333;color: #FFF !important;}
 
 .partner_ship{float: left;padding: 0px;margin: 0px;}
-.partner_ship img{width: 100%;}
+.partner_ship img{width: 100%;height:150px}
 
 /**** Start of Slide Section Styles ***/
 
 .slide_show{float: left;padding: 0px;}
 .slide_show .carousel-control-prev{display: none;}
 .slide_show .carousel-control-next{display: none;}
-.slide_text{margin-top:-50px;}
+.slide_text{margin-top:35px;}
 .slide_text span{display: block;}
 .slide_text span.text1{font-size: 60px;letter-spacing: 0.5px;font-weight: normal;}
 .slide_text span.text2{font-size: 70px;letter-spacing: 0.5px;font-weight: bold;}
 .slide_text span.text3{font-size: 28px;letter-spacing: 0.5px;padding-bottom:10px;padding-top: 10px; background-color: RGBA(0,0,0,0.6);width: 50%;margin: 2px 25%;}
 .carousel-caption{top:160px !important;left: 0px;right: 0px;}
-
-.slide_show .carousel-inner{height: 560px;}
+.slide_show .carousel-inner{height: 760px;}
 
 /**** End of Slide Section Styles ****/
 
 /**** Start of COMPLIANT Section Styles ****/
-
 .complaint_div{padding: 0px;float: left;background-image: url(../images/section2_bg.png);background-repeat: no-repeat;background-size: cover;height: 400px;}
 .complaint_div span{display: block;}
 .complaint_div span.hip_text{color: #11c2ee;font-size: 50px;margin-top: 120px;letter-spacing: 1px;font-weight: bold;}
@@ -373,8 +371,119 @@ background:white !important;
 }
 /**** End of Chat Styles ****/
 
+/**** Start of Solutions Styles ****/
+.solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: cover;height: 620px;}
+.solution_banner_left{float: left;margin-top: 50px;padding-left: 70px;}
+.solution_banner_title{color: #FFF;text-transform: uppercase;}
+.solution_banner_subtitle{color: #FFF;padding: 10px 0px 10px 20px;font-size: 16px;letter-spacing: 0.5px;}
+.solution_banner_list{padding: 10px 0px 10px 20px;}
+.solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+.solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 16px;letter-spacing: 0.5px;}
+.solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+.solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 30px;letter-spacing: 0.5px;}
+.solution_banner_right{float: right;overflow: hidden;}
+.solution_banner_right img{height: 500px;margin-top: 35px;margin-left: 30px;}
+
+.ctms_integration{padding:60px 0px 0px 0px;float: left;background-image: url(../images/ctms_b_bg.png);background-repeat: no-repeat;background-size: cover;}
+.ctms_content{background-color: RGBA(228, 121, 27,0.9);width: 70%;margin: 67px 15%;padding:35px 20px;}
+.ctms_content span.ctms_label{display: block;padding: 10px 0px;color: #FFF;font-size: 22px;letter-spacing: 0.5px;text-align: center;}
+.ctms_content span.ctms_sub_label{padding:15px 20px;color: #FFF;font-size: 16px;letter-spacing: 0.5px;display: block;text-align: center;font-weight: normal;}
+.ctms_content span.ctms_sub_label_text{padding:15px 20px;color: #FFF;font-size:16px;letter-spacing: 0.5px;display: block;text-align: center;font-weight: normal;}
+.ctms_content span.demo_btn{text-align: center;display: block;margin:25px 0px;}
+.ctms_content span.demo_btn button{color: #FFF;background: #006b86; border-radius: 50px;padding: 8px 18px;border: none;letter-spacing: 0.5px;cursor: pointer;font-size: 16px;box-shadow: 0 8px 6px -6px black;outline: none;}
+.ctms_content span.demo_btn a{text-decoration: none;color:white}
+.patient_monitoring{margin: 35px 0px;padding: 10px 0px;}
+.patient_monitoring .monitoring_title{color: #333;font-size: 30px;letter-spacing: 0.5px;padding: 10px 0px;text-align: center;margin:10px 0px;font-weight: 500;}
+.patient_monitoring .monitoring_sub_title{color: #333;font-size:18px;letter-spacing: 0.5px;padding: 10px 0px;text-align: center;width: 70%;margin: 5px 15%;font-weight: 500;}
+.monitoring_pic{float: left;padding: 0px;margin: 0px;text-align: center;}
+.monitoring_pic img{height: 350px;padding: 0px;margin: 5px 0px 50px 0px;}
+.site_solutions{padding:10px 0px;margin: 10px 5% 40px 5%;width: 90%;float: left;}
+.site_solutions .site_solutions_left{margin: 0px;}
+.solutions_main_card{float: left;background-image: url(../images/site_solution.png);background-repeat: no-repeat;background-size: cover;padding: 30px 25px;height: 480px;margin: 20px 0px;width: 100%;background-position: center;}
+.solutions_main_card span.main_title{display: block;font-size: 25px;color: #FFF;font-weight: 500;letter-spacing: 0.5px;padding: 10px 0px;text-transform: uppercase;}
+.solutions_main_card span.sub_title{color: #FFF;display: block;font-size: 16px;letter-spacing: 0.5px;padding: 10px 0px;font-weight: normal;}
+.site_solutions_right{float: left;padding: 0px;margin:20px 0px;}
+.solutions_main_card1{margin: 0px;padding: 0px;float: left;}
+.solutions_main_card1 img{padding: 0px;margin: 0px;height: 190px;float: left;width: 100%;}
+.site_solutions_right .card_title{font-size: 17px;font-weight: 600;color: #000;letter-spacing: 0.5px;text-align: center;padding: 10px 0px;float: left;}
+.patient_recruitment{padding:0px;float: left;background-image: url(../images/patient_recruit.png);background-repeat: no-repeat;background-size: cover;height: 400px;background-position: center;}
+.recruitment_title{font-size: 25px;letter-spacing: 0.5px;color: #FFF;font-weight: 500;padding:30px 0px 20px 0px;display: block;float: left;}
+.recruitment_caption{font-size: 16px;letter-spacing: 0.5px;color: #FFF;padding: 10px 0px;display: block;float: left;}
+.recruitment_quote{font-size: 25px;font-style: italic;font-weight: 590;letter-spacing: 0.7px;display: block;float: left;margin-top:80px;color: #FFF;}
+.patient_adherence{padding:0px;float: left;text-align: left;margin-bottom: 80px;}
+.patient_adherence img{height: 550px;}
+.robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+.auto_agents{padding:10px 0px;margin: 0px;float: left;}
+.auto_agent_left{margin: 0px;padding: 0px;float: left;}
+.auto_agent_left img{height: 550px;}
+.auto_agent_right{margin: 0px;padding: 0px;float: left;}
+.auto_agent_right span.auto_title{display: block;color: #333;font-size: 28px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+.auto_agent_right span.auto_caption{display: block;color: #333;font-size: 18px;letter-spacing: 0.5px;}
+.survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 60%;}
+.survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;}
+.survery_bot_left span.bot_title{display: block;color: #333;font-size: 28px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+.survery_bot_left span.bot_caption{display: block;color: #333;font-size: 18px;letter-spacing: 0.5px;}
+.survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 400px;}
+.survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;}
+.survery_bot_right img{padding: 0px;margin:150px 0px 0px 30px;height: 500px;}
+.sponsor_dashboard{float: left;margin: 0px;padding: 0px;}
+.sponsor_left{float: left;padding: 100px 30px 100px 60px;margin: 0px;background: #016b86;}
+.sponsor_left span.sponsor_title{font-size: 25px;color: #FFF;padding:20px 10px;text-transform: uppercase;letter-spacing: 0.5px;display: block;}
+.sponsor_left span.sponsor_caption{font-size: 16px;color: #FFF;letter-spacing: 0.5px;font-weight: normal;padding:10px;display: block;}
+.sponsor_right{float: left;padding: 0px;margin: 0px;}
+.cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+.cro_content{float: left;padding: 0px;margin:20px 5%;width: 90%;}
+.cro_left{padding:20px 0px;margin: 0px;float: left;}
+.cro_left img{padding: 30px 20px;margin: 0px;height: 550px;}
+.cro_right{padding: 0px;margin: 0px;float: left;}
+.cro_right span.cro_right_title{padding:0px 0px;margin:150px 0px 0px 0px;color: #333;font-size: 28px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+.cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 16px;letter-spacing: 0.5px;display: block;}
+.cro_right span.cro_right_check{display: block;padding:20px;margin: 10px 0px;}
+.cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 20px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+.cro_right span.cro_right_check a{text-decoration: none;color:white}
+.patient_stories{float: left;padding: 0px;margin:60px 10%;width: 80%;}
+.patient_stories_left{float: left;padding: 0px;margin: 0px;}
+.patient_stories_left span.patient_stories_title{padding:10px 0px;margin:50px 0px 0px 0px;font-size: 28px;color: #333;font-weight: 550;display: block;}
+.patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 18px;color: #333;display: block;}
+.patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+.patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+.patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 16px;}
+.patient_stories_left span.patient_stories_suggestion{float: left;padding: 10px 0px;color: #333;font-size: 20px;font-weight: 600;margin: 20px 0px;display: block;}
+.patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+.patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 20px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+.patient_stories_right{float: left;padding: 0px;margin: 0px;}
+.patient_stories_right img{padding: 0px;margin: 0px;height: 500px;}
+.caregiver{float: left;padding: 0px;margin: 0px;}
+.caregiver_left{padding: 0px;margin: 0px;float: left;}
+.caregiver_left img{padding: 0px;margin: 0px;height: 478px;width: 100%;}
+.caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+.caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 20px;color: #FFF;font-weight: 500;float: left;}
+.caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 15px;color: #FFF;float: left;}
+.caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+.caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+.caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:14px;color: #FFF;}
+.caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+.caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+.caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 18px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+.caregiver_right span.caregiver_right_btn a{text-decoration: none;color:white}
+.artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+.artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+.artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+.arti_list{padding: 10px 10%;margin: 0px;float: left;width: 80%;}
+.arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+.cat_show{padding: 0px;margin: -330px 0px 0px 250px;float: left;}
+.catg{padding: 0px;margin: 0px 20px;float: left;width: 25%;}
+.arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 15px;font-weight: 600;float: left;}
+.arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 14px;float: left;font-weight: 500;}
+.arti_list img{height: 400px;padding: 0px;margin: 0px;}
+.personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: cover;height: 350px;background-position: center;}
+.personalized_com span.com_title{padding: 10px 60px 0px 0px;margin:100px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 28px;letter-spacing: 0.7px;text-transform: uppercase;}
+.personalized_com span.com_caption{padding: 5px 120px 5px 0px;margin: 0px;float: left;font-size: 18px;color: #FFF;width: 100%;text-align: right;letter-spacing: 0.5px;}
+/**** End of Solutions Styles *****/
+
 @media only screen and (max-width: 1920px)
 {
+    
     .take_part{margin-left: 165px;}
     .spn_types_left{padding: 49px 20px;}
 }
@@ -498,6 +607,86 @@ background:white !important;
     
     .part_text_site{padding: 20px 10px;}
     .part_text_site span{font-size: 15px;}
+
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 1024px 620px;height: 620px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:712px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 50px 0px 10px 20px;font-size: 16px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 16px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 30px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: auto;width:250px}
+    .solution_banner_right img{height: 400px;width:100%;margin: 145px 30px 30px 0px}
+
+     .monitoring_pic img{height: 270px;}
+
+    .solutions_main_card{height:400px}
+    .patient_recruitment{background-size: 1024px 411px;}
+    .recruitment_title{padding:96px 0px 0px 0px}
+    .recruitment_caption{width: 350px;margin: 25px 10px 0px 0px;}
+    .recruitment_quote{font-size:20px;margin: 25px 0px 0px 0px;}
+    .patient_adherence img{height: 350px;width:1024px}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agent_left{margin: 0px;padding-top: 12px;float: left;width:100%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:100%}
+    .auto_agent_right span.auto_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 12px;letter-spacing: 0.5px;}
+
+
+    
+    .cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .cro_content{float: left;padding: 0px;margin:20px 2%;width: 100%;}
+    .cro_left{padding:20px 0px;margin: 0px;float: left;width:50%}
+    .cro_left img{padding: 30px 0px;margin: 0px 20px 0px 0px;height: 450px;}
+    .cro_right{padding: 10px;margin:39px 0px 0px 50px;width:55%}
+    .cro_right span.cro_right_title{padding:0px 0px;margin:0px;color: #333;font-size: 18px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+    .cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 15px;letter-spacing: 0.5px;display: block;}
+    .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
+    .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+
+       .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:30%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 410px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -232px 0px 0px 269px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 25%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 10px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 9px;float: left;font-weight: 500;}
+    .arti_list img{height: 300px;width:950px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: cover;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 12px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
 }
 @media only screen and (max-width: 991px)
 {
@@ -556,6 +745,7 @@ background:white !important;
 }
 @media only screen and (max-width: 900px)
 {
+    
     .complaint_div span.hip_text{margin-top: 100px;}
     .patient_left img{width: 400px;}
     .patient_right p{font-size: 15px;}
@@ -645,6 +835,84 @@ background:white !important;
     .part_icon img{width: 115px;margin-top: -13px;}
     .type_part{padding: 0px 9px;}
     .part_text_site{padding: 10px 8px;}
+
+    .monitoring_pic img{height: 200px;}
+    .solutions_main_card span.main_title{font-size: 20px;}
+    .solutions_main_card span.sub_title{font-size: 15px;}
+
+    .solutions_main_card{height:400px}
+    .patient_recruitment{background-size: 768px 411px;}
+    .recruitment_title{padding:96px 0px 0px 0px}
+    .recruitment_caption{font-size:13px;width: 250px;margin: 25px 10px 0px 0px;}
+    .recruitment_quote{font-size:20px;margin: 25px 0px 0px 0px;}
+    .patient_adherence img{height: 350px;width:768px}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agent_left{margin: 0px;padding-top: 12px;float: left;width:100%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:100%}
+    .auto_agent_right span.auto_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 12px;letter-spacing: 0.5px;}
+
+    .survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 100%;}
+    .survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;width:30%}
+    .survery_bot_left span.bot_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+    .survery_bot_left span.bot_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 300px;}
+    .survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;width:50%}
+    .survery_bot_right img{padding: 0px;margin:100px 0px 0px 30px;height: 500px;}
+
+
+    .cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .cro_content{float: left;padding: 0px;margin:20px 2%;width: 100%;}
+    .cro_left{padding:20px 0px;margin: 0px;float: left;width:50%}
+    .cro_left img{padding: 30px 0px;margin: 0px 20px 0px 0px;height: 270px;}
+    .cro_right{padding: 10px;margin:39px 0px 0px 50px;width:55%}
+    .cro_right span.cro_right_title{padding:0px 0px;margin:0px;color: #333;font-size: 18px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+    .cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 15px;letter-spacing: 0.5px;display: block;}
+    .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
+    .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+
+    
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:40%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 450px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -225px 0px 0px 150px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 27%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 10px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 9px;float: left;font-weight: 500;}
+    .arti_list img{height: 300px;width:650px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: cover;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 12px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
+
 }
 @media only screen and (max-width: 768px)
 {
@@ -653,6 +921,21 @@ background:white !important;
     .take_part{width: 170px !important;}
     .diff_sch{font-size: 25px;}
     .type_part{height: 595px;}
+
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 768px 620px;height: 620px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:400px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 50px 0px 10px 20px;font-size: 13px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 13px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 12px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: hidden;width:360px}
+    .solution_banner_right img{height: 400px;width:100%;margin: 145px 30px 30px 20px}
+
+
 }
 @media only screen and (max-width: 767px)
 {
@@ -696,7 +979,7 @@ background:white !important;
     .slide_text span.text1{font-size: 20px;}
     .slide_text span.text2{font-size: 30px;}
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
-    
+     
     .rearch_types .type1{top: -10px;}
     .rearch_types .type2{right: 15%;}
     .rearch_types .type3{right: 8%;}
@@ -725,6 +1008,82 @@ background:white !important;
     .diff_style{padding-left: 0px !important;}
     
     .type_part{height: 455px;}
+
+    .patient_monitoring .monitoring_title{font-size: 25px;}
+    .patient_monitoring .monitoring_sub_title{font-size:15px;}
+    .monitoring_pic img{height: 194px;}
+
+   
+    .solutions_main_card span.main_title{font-size: 15px;}
+    .solutions_main_card span.sub_title{font-size: 10px;}
+   
+    .patient_recruitment{background-size: 600px 400px;}
+    .recruitment_title{font-size: 15px}
+    .recruitment_caption{font-size: 10px;width:175px}
+    .recruitment_quote{font-size: 20px;width:175px}
+    .patient_adherence img{height: 350px;width:600px}
+
+    
+    .auto_agent_left img{height: 550px;width:250px}
+
+    .survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 100%;}
+    .survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;}
+    .survery_bot_left span.bot_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+    .survery_bot_left span.bot_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 280px;}
+    .survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;}
+    .survery_bot_right img{padding: 0px;margin:150px 0px 0px 30px;height: 400px;}
+
+
+    .cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .cro_content{float: left;padding: 0px;margin:20px 5%;width: 100%;}
+    .cro_left{padding:20px 0px;margin: 0px;float: left;width:50%}
+    .cro_left img{padding: 30px 00px;margin: 0px;height: 300px;}
+    .cro_right{padding: 0px;margin: 44px 0px 0px 44px;float: left;width:50%}
+    .cro_right span.cro_right_title{padding:0px 0px;margin:10px 0px 0px 0px;color: #333;font-size: 18px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+    .cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 15px;letter-spacing: 0.5px;display: block;}
+    .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
+    .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+
+
+    .patient_stories{float: left;padding: 0px;margin:60px 10%;width: 80%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 18px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 12px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 16px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 10px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 20px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 12px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:30%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 400px;}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 515px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -310px 0px 0px 150px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 25%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 10px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 10px;float: left;font-weight: 500;}
+    .arti_list img{height: 400px;width:550px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: cover;height: 350px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:100px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 18px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
 }
 @media only screen and (max-width: 540px)
 {
@@ -777,6 +1136,11 @@ background:white !important;
     .part_text_site ul li{font-size: 16px;}
     .optimize span{font-size: 15px;}
     .optimize button{font-size: 18px;}
+
+    .patient_monitoring{margin: 0px 5px}
+    .patient_monitoring .monitoring_title{font-size: 15px;}
+    .patient_monitoring .monitoring_sub_title{font-size:10px;}
+    .monitoring_pic img{height: 128px;}
 }
 @media only screen and (max-width: 480px)
 {
@@ -796,6 +1160,85 @@ background:white !important;
     
     .app_text span.first{font-size: 35px;}
     .app_text span.last{font-size: 35px;}
+
+
+
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 414px 620px;height: 620px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:212px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 50px 0px 10px 20px;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 10px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: auto;width:202px}
+    .solution_banner_right img{height: 400px;width:100%;margin: 145px 30px 30px 10px}
+
+    .solutions_main_card{height:200px}
+
+    .solutions_main_card{height:200px}
+    .patient_recruitment{background-size: 414px 411px;}
+    .recruitment_title{font-size: 10px;padding:96px 0px 0px 180px}
+    .recruitment_caption{font-size: 10px;width: 110px;margin: 25px 0px 0px 180px;}
+    .recruitment_quote{font-size: 12px;margin: 25px 0px 0px 180px;}
+    .patient_adherence img{height: 350px;width:414px}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agent_left{margin: 0px;padding-top: 12px;float: left;width:50%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:50%}
+    .auto_agent_right span.auto_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 12px;letter-spacing: 0.5px;}
+
+    .survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 100%;}
+    .survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;width:30%}
+    .survery_bot_left span.bot_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+    .survery_bot_left span.bot_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 150px;}
+    .survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;width:50%}
+    .survery_bot_right img{padding: 0px;margin:150px 0px 0px 30px;height: 300px;}
+
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:40%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 400px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -291px 0px 0px 97px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 27%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 10px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 9px;float: left;font-weight: 500;}
+    .arti_list img{height: 300px;width:380px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: 412px 200px;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 12px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
+    
 }
 @media only screen and (max-width: 412px)
 {
@@ -832,6 +1275,78 @@ background:white !important;
     .sites_info_bottom ul{width: 90%;margin: 10px 5%;}
     .sites_info_bottom{padding: 30px 22px;}
     .optimize{padding: 35px 40px;}
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 400px 620px;height: 620px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:190px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 50px 0px 10px 20px;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 10px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: auto;width:180px}
+    .solution_banner_right img{height: 400px;width:100%;margin: 145px 30px 30px 20px}
+
+
+    .solutions_main_card{height:200px}
+    .patient_recruitment{background-size: 360px 411px;}
+    .recruitment_title{font-size: 10px;padding:96px 0px 0px 162px}
+    .recruitment_caption{font-size: 10px;width: 110px;margin: 25px 0px 0px 160px;}
+    .recruitment_quote{font-size: 12px;margin: 25px 0px 0px 160px;}
+    .patient_adherence img{height: 350px;width:411px}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agent_left{margin: 0px;padding-top: 102px;float: left;width:50%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:50%}
+
+    .survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 100%;}
+    .survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;width:30%}
+    .survery_bot_left span.bot_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+    .survery_bot_left span.bot_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 150px;}
+    .survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;width:50%}
+    .survery_bot_right img{padding: 0px;margin:150px 0px 0px 30px;height: 300px;}
+
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:40%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 400px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -248px 0px 0px 97px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 30%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 10px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 9px;float: left;font-weight: 500;}
+    .arti_list img{height: 250px;width:365px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: 412px 200px;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 12px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
 }
 @media only screen and (max-width: 360px)
 {
@@ -878,6 +1393,100 @@ background:white !important;
     .emp_icon span{font-size: 18px;}
     
     .sites_info_top{padding: 39px 40px 60px 40px;}
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 360px 550px;height: 550px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:180px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 10px 0px 10px 20px;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 10px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: auto;width:180px}
+    .solution_banner_right img{height: 350px;width:100%;margin: 145px 30px 30px 0px}
+
+    .patient_monitoring .monitoring_title{color: #333;font-size: 20px;letter-spacing: 0.5px;padding: 10px 0px;text-align: center;margin:10px 0px;font-weight: 500;}
+    .patient_monitoring .monitoring_sub_title{color: #333;font-size:11px;letter-spacing: 0.5px;padding: 10px 0px;text-align: center;width: 70%;margin: 5px 15%;font-weight: 500;}
+    .monitoring_pic img{height: 110px;padding: 0px;margin: 5px 0px 50px 0px;}
+
+    .solutions_main_card{height:200px}
+
+    .patient_recruitment{background-size: 360px 300px;}
+    .recruitment_title{font-size: 10px;padding:96px 0px 0px 142px}
+    .recruitment_caption{font-size: 10px;width: 110px;margin: 25px 0px 0px 140px;}
+    .recruitment_quote{font-size: 12px;margin: 25px 0px 0px 140px;}
+    .patient_adherence img{height: 200px;width:360px}
+    .patient_adherence {margin-bottom: 0px;}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agents{padding:10px 0px;margin: 0px;float: left;}
+    .auto_agent_left{margin: 0px;padding-top: 102px;float: left;width:50%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:50%}
+    .auto_agent_right span.auto_title{display: block;color: #333;font-size: 28px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 18px;letter-spacing: 0.5px;}
+
+
+    .survey_bot{padding: 0px;margin: 0px 20%;float: left;width: 100%;}
+    .survery_bot_left{float: left;padding: 0px;margin: 0px;z-index: 10;width:30%}
+    .survery_bot_left span.bot_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 180px;font-weight: 600;}
+    .survery_bot_left span.bot_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .survery_bot_left img{padding:10px 0px 0px 0px;margin: 0px;height: 150px;}
+    .survery_bot_right{float: left;padding: 0px;margin:0px;z-index: 9;width:50%}
+    .survery_bot_right img{padding: 0px;margin:150px 0px 0px 30px;height: 300px;}
+
+
+    .cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .cro_content{float: left;padding: 0px;margin:20px 5%;width: 100%;}
+    .cro_left{padding:20px 0px;margin: 0px;float: left;width:50%}
+    .cro_left img{padding: 30px 0px;margin: 0px;height: 300px;}
+    .cro_right{padding: 10px;margin:0px 0px 0px 50px;width:55%}
+    .cro_right span.cro_right_title{padding:0px 0px;margin:0px;color: #333;font-size: 18px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+    .cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 15px;letter-spacing: 0.5px;display: block;}
+    .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
+    .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:40%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 200px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -207px 0px 0px 70px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 27%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 8px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 7px;float: left;font-weight: 500;}
+    .arti_list img{height: 230px;width:300px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: 360px 200px;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 10px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 8px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
+
+
 }
 @media only screen and (max-width: 320px)
 {
@@ -902,4 +1511,86 @@ background:white !important;
     .optimize button{font-size: 14px;}
     .part_text_site span{font-size: 15px;}
     .part_text_site ul li{font-size: 14px;}
+
+
+    .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 320px 620px;height: 620px;}
+    .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:160px}
+    .solution_banner_title{color: #FFF;text-transform: uppercase;}
+    .solution_banner_subtitle{color: #FFF;padding: 50px 0px 10px 20px;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list{padding: 10px 0px 10px 20px;}
+    .solution_banner_list ul{width: 100%;padding:0px 0px 0px 20px;margin: 0px;}
+    .solution_banner_list ul li{padding:8px 0px;margin: 0px;color:#FFF;font-size: 8px;letter-spacing: 0.5px;}
+    .solution_banner_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -18px;}
+    .solution_banner_instruct{color: #FFF;font-weight: 500;font-style: italic;font-size: 10px;letter-spacing: 0.5px;}
+    .solution_banner_right{float: left;overflow: hidden;width:160px}
+    .solution_banner_right img{height: 400px;width:100%;margin: 145px 30px 30px 0px}
+
+
+    .patient_monitoring .monitoring_title{font-size: 10px;}
+    .patient_monitoring .monitoring_sub_title{font-size:8px;}
+    .monitoring_pic img{height: 105px;}
+
+    .solutions_main_card{height:200px}
+    .patient_recruitment{background-size: 320px 411px;}
+    .recruitment_title{font-size: 10px;padding:96px 0px 0px 120px}
+    .recruitment_caption{font-size: 10px;width: 110px;margin: 25px 0px 0px 120px;}
+    .recruitment_quote{font-size: 12px;margin: 25px 0px 0px 120px;}
+    .patient_adherence img{height: 350px;width:320px}
+
+    .robot{padding:60px 0px 0px 0px;float: left;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .auto_agent_left{margin: 0px;padding-top: 12px;float: left;width:50%}
+    .auto_agent_left img{height: 350px;width:150px}
+    .auto_agent_right{margin: 0px;padding: 0px;float: left;width:50%}
+    .auto_agent_right span.auto_title{display: block;color: #333;font-size: 18px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 200px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 12px;letter-spacing: 0.5px;}
+
+    .cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .cro_content{float: left;padding: 0px;margin:20px 2%;width: 100%;}
+    .cro_left{padding:20px 0px;margin: 0px;float: left;width:50%}
+    .cro_left img{padding: 30px 0px;margin: 0px 20px 0px 0px;height: 270px;}
+    .cro_right{padding: 10px;margin:0px 0px 0px 50px;width:55%}
+    .cro_right span.cro_right_title{padding:0px 0px;margin:0px;color: #333;font-size: 18px;letter-spacing: 0.5px;font-weight: 500;display: block;}
+    .cro_right span.cro_right_caption{padding:20px 0px;margin: 0px;color: #333;font-size: 15px;letter-spacing: 0.5px;display: block;}
+    .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
+    .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
+    .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
+    .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
+    .patient_stories_left span.patient_stories_list{float: left;padding:10px 0px;margin: 0px;display: block;}
+    .patient_stories_left span.patient_stories_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .patient_stories_left span.patient_stories_list ul li{padding:5px 0px;margin: 0px;font-size: 10px;}
+    .patient_stories_left span.patient_stories_suggestion{float: left;padding: 0px 0px;color: #333;font-size: 12px;font-weight: 600;margin: 10px 0px;display: block;}
+    .patient_stories_left span.patient_stories_btn{display: block;padding:10px 0px;margin: 5px 0px;float: left;}
+    .patient_stories_left span.patient_stories_btn button{letter-spacing: 0.8px;font-size: 10px;padding: 8px 15px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .patient_stories_right{float: left;padding: 0px;margin: 0px;width:40%}
+    .patient_stories_right img{padding: 0px;margin: 0px;height: 350px;width:100%}
+    .caregiver{float: left;padding: 0px;margin: 0px;}
+    .caregiver_left{padding: 0px;margin: 0px;float: left;}
+    .caregiver_left img{padding: 0px;margin: 0px;height: 400px;width: 100%;}
+    .caregiver_right{padding: 20px 40px;margin: 0px;float: left;background: #016b86;color: #FFF;}
+    .caregiver_right span.caregiver_title{width: 100%; padding:10px 0px;margin: 0px;font-size: 14px;color: #FFF;font-weight: 500;float: left;}
+    .caregiver_right span.caregiver_caption{width: 100%;padding:10px 0px;margin: 0px;font-size: 11px;color: #FFF;float: left;}
+    .caregiver_right span.caregiver_list{float: left;padding:10px 0px 0px 10px;margin: 0px;width: 100%;}
+    .caregiver_right span.caregiver_list ul{width: 100%;padding:0px;margin: 0px;float: left;}
+    .caregiver_right span.caregiver_list ul li{padding:10px 0px;margin: 0px;font-size:10px;color: #FFF;}
+    .caregiver_right span.caregiver_list ul li::before{content: "\2022";color: #e57d24;font-weight: bold;display: inline-block;width: 15px;margin-left: -16px;}
+    .caregiver_right span.caregiver_right_btn{width: 100%;padding:5px 0px;margin: 5px 0px;float: left;}
+    .caregiver_right span.caregiver_right_btn button{letter-spacing: 0.8px;font-size: 11px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
+    .artificial_interlligence{padding:60px 0px 20px 0px;float: left;background-image: url(../images/a1_bg.png);background-repeat: no-repeat;background-size: cover;}
+    .artificial_title{padding: 10px 0px;margin: 0px;float: left;font-size: 25px;color: #333;font-weight: 500;text-align: center;letter-spacing: 0.5px;}
+    .artificial_content{padding:5px 0px;margin: 5px 10%;float: left;font-size: 16px;color: #333;text-align: center;letter-spacing: 0.5px;width: 80%;}
+    .arti_list{padding: 10px 0%;margin: 0px;float: left;width: 80%;}
+    .arti_list span.arti_img{display: block;text-align: center;padding: 0px;margin: 0px;}
+    .cat_show{padding: 0px;margin: -223px 0px 0px 82px;float: left;}
+    .catg{padding: 0px;margin: 0px 0px;float: left;width: 25%;}
+    .arti_title{padding: 10px 0px;margin: 0px;color: #000;font-size: 9px;font-weight: 600;float: left;}
+    .arti_content{padding: 5px 0px;margin: 0px;color: #333;font-size: 7px;float: left;font-weight: 500;}
+    .arti_list img{height: 200px;width:300px;padding: 0px;margin: 0px;}
+    .personalized_com{padding:10px 0px;float: left;background-image: url(../images/community.png);background-repeat: no-repeat;background-size: 360px 200px;height: 200px;background-position: center;}
+    .personalized_com span.com_title{padding: 10px 10px 0px 0px;margin:40px 0px 0px 0px;float: left;width: 100%; text-align: right;color: #FFF;font-weight: 600;font-size: 10px;letter-spacing: 0.7px;text-transform: uppercase;}
+    .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 9px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
+
+
 }

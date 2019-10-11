@@ -431,7 +431,7 @@ background:white !important;
 .sponsor_left span.sponsor_title{font-size: 25px;color: #FFF;padding:20px 10px;text-transform: uppercase;letter-spacing: 0.5px;display: block;}
 .sponsor_left span.sponsor_caption{font-size: 16px;color: #FFF;letter-spacing: 0.5px;font-weight: normal;padding:10px;display: block;}
 .sponsor_right{float: left;padding: 0px;margin: 0px;}
-.cro_dashboard{padding:60px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
+.cro_dashboard{padding:0px 0px 20px 0px;float: left;background-image: url(../images/cro_bg.png);background-repeat: no-repeat;background-size: cover;}
 .cro_content{float: left;padding: 0px;margin:20px 5%;width: 90%;}
 .cro_left{padding:20px 0px;margin: 0px;float: left;}
 .cro_left img{padding: 30px 20px;margin: 0px;height: 550px;}

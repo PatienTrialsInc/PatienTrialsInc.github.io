@@ -60,7 +60,7 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .partner_ship img{width: 100%;}
 
 .tohover p{margin-top: 5px;color: white;text-align: center;}
-.tohover{display:none;background-color: darkorange;height: 5%;width: 15%;position: absolute;margin: 195px 200px 0px 662px;} 
+.tohover{display:none;background-color: transparent;height: 5%;width: 15%;position: absolute;margin: 60px 20px 0px 1062px;} 
 .partner_ship:hover + .tohover{display: block;}
 
 

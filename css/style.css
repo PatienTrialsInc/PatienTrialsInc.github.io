@@ -56,12 +56,23 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .fotter{background: #e57d24;color: #FFF;font-size: 16px;letter-spacing: 2px;padding-top: 7px;padding-bottom: 7px;float: left;}
 .header_menu .dropdown-item.active{background: #333;color: #FFF !important;}
 
-.partner_ship{float: left;padding: 0px;margin: 0px;}
+.partner_ship{float:left;margin:0px;padding:0px;background-image: url(../images/banner1.jpg);height:205px;width:100%;background-repeat: no-repeat;background-size: cover;}
+.inline_block{display:inline-block;width:100%}
+.partner_ship_left{text-align:center;margin:30px 0% 10px 0%;float:left;width: 45%;}
+.partner_ship_left h2{color:white;font-family:Arial;font-weight:400;font-size: 30px;}
+.partner_ship_left .covid{color:white;font-family:Arial;font-weight:200;font-size: 20px;}
+.partner_ship_left .content{margin:10px 0% 10px 25%;color:white;width:50%;font-size: 10px;}
+.partner_ship .outbreak{margin-top:15px;float: left;width:20%;color: white;font-size: 15px;}
+.partner_ship_right{margin:30px 0% 10px 0%;float:right;width: 28%;}
+.partner_ship_right .heading{margin:0px;color:white;font-family:Arial;font-weight:400;font-size: 15px;}
+.partner_ship_right .content{margin:0px;color:white;font-family:Arial;font-weight:200;font-size: 20px;}
+
+/* .partner_ship{float: left;padding: 0px;margin: 0px;}
 .partner_ship img{width: 100%;}
 
 .tohover p{margin-top: 5px;color: white;text-align: center;}
 .tohover{display:none;background-color: transparent;height: 5%;width: 15%;position: absolute;margin: 60px 20px 0px 1062px;} 
-.partner_ship:hover + .tohover{display: block;}
+.partner_ship:hover + .tohover{display: block;} */
 
 
 /**** Start of Slide Section Styles ***/
@@ -547,6 +558,14 @@ background:white !important;
     .sites_list .site5{width: 260px;height: 260px;padding: 40px 70px;}
     .sites_list .site5 span.num{font-size: 30px;}
     .sites_list .site5 span.num_text{font-size: 16px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .take_part{width: 254px;}
     
@@ -562,6 +581,14 @@ background:white !important;
     .header_menu .navbar-nav{margin-left: 25px;}
     .header_menu .navbar-nav .nav-item a{padding: 20px 10px;}
     .patient_left img{width: 460px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .sites_text_rg img{width: 480px;}
     .sites_list .site1{width: 200px;height: 200px;}
@@ -705,6 +732,14 @@ background:white !important;
     .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.show, {color: #333;}
     .header_menu .navbar-expand-lg .navbar-nav .dropdown-menu:after{display: none;}
     .header_menu .navbar-expand-lg .navbar-nav .dropdown-menu{margin-bottom: 10px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .slide_text span.text1{font-size: 45px;}
     .slide_text span.text2{font-size: 55px;}
@@ -744,13 +779,29 @@ background:white !important;
 }
 @media only screen and (max-width: 980px)
 {
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
+
     .slide_show .carousel-inner{height: auto;}
     .patient_right p{font-size: 18px;}
     
 }
 @media only screen and (max-width: 900px)
 {
-    
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
+
+
     .complaint_div span.hip_text{margin-top: 100px;}
     .patient_left img{width: 400px;}
     .patient_right p{font-size: 15px;}
@@ -803,6 +854,14 @@ background:white !important;
     .patient_left img{width: 350px;}
     .patient_right span.right_title{font-size: 40px;}
     .patient_right p{margin: 5px 0px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .sites_text_lf span.text{font-size: 17px;}
     .sites_text_lf span.title{font-size: 30px;}
@@ -927,6 +986,14 @@ background:white !important;
     .diff_sch{font-size: 25px;}
     .type_part{height: 595px;}
 
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
+
 
     .solution_banner{padding: 0px;float: left;background-image: url(../images/solutions_banner.png);background-repeat: no-repeat;background-size: 768px 620px;height: 620px;}
     .solution_banner_left{float: left;margin-top: 50px;padding-left: 10px;width:400px}
@@ -944,7 +1011,16 @@ background:white !important;
 }
 @media only screen and (max-width: 767px)
 {
-     .patient_left img{width: 450px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
+
+    .patient_left img{width: 450px;}
     .patient_right{padding-top: 25px;}
     .patient_right span.right_title{display: block;text-align: center;}
     .sites_text{margin-top:10px;}
@@ -984,6 +1060,14 @@ background:white !important;
     .slide_text span.text1{font-size: 20px;}
     .slide_text span.text2{font-size: 30px;}
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
      
     .rearch_types .type1{top: -10px;}
     .rearch_types .type2{right: 15%;}
@@ -1101,6 +1185,14 @@ background:white !important;
     .rearch_types .type5{left: 5%;}
     .rearch_types .type6{left: 5%;}
     .rearch_types .type7{left: 10%;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .sites_list{margin-top: 15px;}
     .sites_list .site1{margin-left: 51px;width: 200px;height: 200px;}
@@ -1151,6 +1243,14 @@ background:white !important;
 {
     .slide_text{margin-top: -120px;}
     .patient_left img{width: 400px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .take_part span.part1{display: block;text-align: center;float: none;}
     .take_part span.part2{display: block;text-align: center;float: none;width:100%;}
@@ -1258,6 +1358,14 @@ background:white !important;
     .sites_text_lf span{margin-left: 0px;}
     .sites_text_rg img{width: 360px;}
     .sites_text_lf span.title{display: block;text-align: center;margin-left: 0px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .sites_list .site1{margin-left: -30px;}
     .sites_list .site2{margin-top: -83px;margin-left: 95px;}
@@ -1365,6 +1473,14 @@ background:white !important;
     .patient_right span.right_title{font-size: 30px;}
     .paitnet_title{font-size: 25px;}
     .patient_quote{font-size: 17px;}
+    
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .rearch_types img{margin: 0px;padding: 0px;}
     .rearch_types .type1{width: 90%;position: static;float: left;text-align: left;margin: 10px 5%;}
@@ -1504,6 +1620,14 @@ background:white !important;
     .adv_team_img img{width: 140px;}
     .team_name{font-size: 22px;}
     .sch_title{font-size: 12px;}
+
+    /*partnership_div */
+    .partner_ship_left h2{font-size: 15px;}
+    .partner_ship_left .covid{font-size: 10px;}
+    .partner_ship_left .content{font-size: 7px;}
+    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship_right .heading{font-size: 8px;}
+    .partner_ship_right .content{font-size: 10px;}
     
     .sponsor_banner span{font-size: 14px;}
     .spn_types_right .type_img img{width: 280px;}

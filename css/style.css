@@ -95,7 +95,12 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .slide_text span.text3{font-size: 28px;letter-spacing: 0.5px;padding-bottom:10px;padding-top: 10px; background-color: RGBA(0,0,0,0.6);width: 50%;margin: 2px 25%;}
 .carousel-caption{top:160px !important;left: 0px;right: 0px;}
 .slide_show .carousel-inner{height: 760px;}
-
+.slide3{background-image: url(../images/bg_pcc.jpg);background-size: cover;background-repeat: no-repeat;height: 760px;width: 100%;}
+.row{display: inline-block;width:100%}
+.row-left{margin:150px 0px 20px 80px;text-align:center;float:left;width:45%}
+.row-right{margin:300px 20px 40px 10px;text-align:center;float:left;width:40%}
+.row-right h3{font-size:35px;font-family: Helvetica;font-weight: 300;color:darkgray}
+.row-right h2{font-size:40px;font-family: Helvetica;font-weight: 300;color:darkorange}
 /**** End of Slide Section Styles ****/
 
 /**** Start of COMPLIANT Section Styles ****/

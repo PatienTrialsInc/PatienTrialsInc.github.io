@@ -1656,6 +1656,15 @@ background:white !important;
     .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
     .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
     
+    /* third slide */
+    .slide3{background-image: url(../images/bg_pcc.jpg);background-size: cover;background-repeat: no-repeat;width: 100%;}
+    .row{display: inline-block;width:100%}
+    .row-left{margin:50px 0px 20px 80px;text-align:center;float:left;width:45%}
+    .row-left img{height:500px}
+    .row-right{margin:100px 20px 40px 10px;text-align:center;float:left;width:40%}
+    .row-right h3{font-size:35px;font-family: Helvetica;font-weight: 300;color:darkgray}
+    .row-right h2{font-size:40px;font-family: Helvetica;font-weight: 300;color:darkorange}
+
     .sponsor_banner span{font-size: 14px;}
     .spn_types_right .type_img img{width: 280px;}
     .sps_info_head{padding: 20px;font-size: 13px;}

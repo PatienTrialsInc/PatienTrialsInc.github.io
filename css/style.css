@@ -63,7 +63,7 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .fotter{background: #e57d24;color: #FFF;font-size: 16px;letter-spacing: 2px;padding-top: 7px;padding-bottom: 7px;float: left;}
 .header_menu .dropdown-item.active{background: #333;color: #FFF !important;}
 
-.partner_ship{float:left;margin:0px;padding:0px;background-image: url(../images/banner1.jpg);height:205px;width:100%;background-repeat: no-repeat;background-size: cover;}
+.partner_ship{float:left;margin:0px;padding:0px;background-image: url(../images/banner1.jpg);height:205px;width:100%;background-repeat: no-repeat;background-size: 100%;}
 .inline_block{display:inline-block;width:100%}
 .partner_ship_left{text-align:center;margin:30px 0% 10px 0%;float:left;width: 45%;}
 .partner_ship_left h2{color:white;font-family:"LatoRegular";font-weight:400;font-size: 35px;}
@@ -74,6 +74,7 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .partner_ship_right{margin:30px 0% 10px 0%;float:right;width: 28%;}
 .partner_ship_right .heading{margin:0px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 14px;}
 .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 22px;}
+.partner_ship_right .content span{font-size: 12px;}
 .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
 
 /* .partner_ship{float: left;padding: 0px;margin: 0px;}
@@ -613,14 +614,17 @@ background:white !important;
     .patient_left img{width: 460px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:158px;background-size: 100%;}
+    .partner_ship_left{margin: 30px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 12px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:13px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 9px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 9px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:30px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 11px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 9px;}
 
     /* first slide */
     .engaging{height:760px}
@@ -725,7 +729,7 @@ background:white !important;
     .cro_right span.cro_right_check{display: block;padding:20px;margin: 0px 0px;}
     .cro_right span.cro_right_check button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background: #e57d24;color: #FFF;text-decoration: none;border-radius: 50px;outline: none;cursor: pointer;border: none;}
 
-       .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
+    .patient_stories{float: left;padding: 0px;margin:10px 10%;width: 90%;}
     .patient_stories_left{float: left;padding: 0px;margin: 0px;width:50%}
     .patient_stories_left span.patient_stories_title{padding:10px 0px;margin:0px 0px 0px 0px;font-size: 13px;color: #333;font-weight: 550;display: block;}
     .patient_stories_left span.patient_stories_caption{padding: 10px 0px;margin: 0px;font-size: 10px;color: #333;display: block;}
@@ -778,14 +782,17 @@ background:white !important;
     .header_menu .navbar-expand-lg .navbar-nav .dropdown-menu{margin-bottom: 10px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:118px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
 
     /* first slide */
     .engaging{height:400px}
@@ -838,14 +845,17 @@ background:white !important;
 @media only screen and (max-width: 980px)
 {
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:118px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
 
     /* first slide */
     .engaging{height:400px}
@@ -866,14 +876,18 @@ background:white !important;
 @media only screen and (max-width: 900px)
 {
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:127px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 11px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:12px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 8px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 7px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
 
 
     .complaint_div span.hip_text{margin-top: 100px;}
@@ -930,14 +944,18 @@ background:white !important;
     .patient_right p{margin: 5px 0px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:118px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
 
     /* first slide */
     .engaging{height:200px}
@@ -1075,15 +1093,18 @@ background:white !important;
     .type_part{height: 595px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:118px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
-
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
     /* first slide */
     .engaging{height:400px}
     /* third slide */
@@ -1115,14 +1136,18 @@ background:white !important;
 {
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:118px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:15px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 8px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
 
     /* first slide */
     .engaging{height:200px}
@@ -1177,14 +1202,17 @@ background:white !important;
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:113px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:8px;font-size: 7px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 7px;}
 
     /* third slide */
     .slide3{background-image: url(../images/bg_pcc.jpg);background-size: cover;height:300px;background-repeat: no-repeat;width: 100%;}
@@ -1204,14 +1232,17 @@ background:white !important;
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:113px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:8px;font-size: 7px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 7px;}
 
     /* first slide */
     .engaging{height:300px}
@@ -1225,7 +1256,11 @@ background:white !important;
     .row-right h3{margin:5px;font-size:15px;font-family: Helvetica;font-weight: 300;color:darkgray}
     .row-right h2{margin:0px;font-size:18px;font-family: Helvetica;font-weight: 300;color:darkorange}  
 }
-
+@media only screen and (max-width:667px)
+{
+    /* partner_ship div */
+    .partner_ship{height: 103px;}
+}
 @media only screen and (max-width: 640px)
 {
     .slide_text{margin-top: -80px;}
@@ -1234,14 +1269,17 @@ background:white !important;
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:99px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:8px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 7px;}
 
     /* first slide */
     .engaging{height:300px}
@@ -1360,6 +1398,21 @@ background:white !important;
     .personalized_com span.com_caption{padding: 5px 12px 5px 0px;margin: 0px;float: right;font-size: 10px;color: #FFF;width: 50%;text-align: right;letter-spacing: 0.5px;}
 
 }
+@media only screen and (max-width:568px)
+{
+    /*partnership_div */
+    .partner_ship{height:87px;background-size: 100%;}
+    .partner_ship_left{margin: 10px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:10px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 6px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:8px;font-size: 6px;}
+    .outbreak span{margin-left: 0px;}
+    .partner_ship_right{margin:10px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 8px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 7px;}
+}
 @media only screen and (max-width: 540px)
 {
     .fotter{font-size: 13px;}
@@ -1373,14 +1426,17 @@ background:white !important;
     .rearch_types .type7{left: 10%;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular"}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:99px;background-size: 100%;}
+    .partner_ship_left{margin: 15px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 10px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:5px;font-size:11px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:8px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular"}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular"}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:15px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 7px;}
 
     /* first slide */
     .engaging{height:300px}
@@ -1445,13 +1501,18 @@ background:white !important;
     .patient_left img{width: 400px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular";}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial;}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;font-family:"LatoRegular";}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular";}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship{height:64px;background-size: 100%;}
+    .partner_ship_left{margin: 10px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 4px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:5px;font-size: 3px;}
+    .outbreak span{margin-left: 0px;}
+    .partner_ship_right{margin:10px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 4px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 4px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
 
     /* first slide */
     .engaging{height:200px}
@@ -1573,14 +1634,18 @@ background:white !important;
     .sites_text_lf span.title{display: block;text-align: center;margin-left: 0px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular";}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial;}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:55px;background-size: 100%;}
+    .partner_ship_left{margin: 10px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 4px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:5px;font-size: 3px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular";}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:10px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 4px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 4px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
 
     /* first slide */
     .engaging{height:200px}
@@ -1701,14 +1766,18 @@ background:white !important;
     .patient_quote{font-size: 17px;}
     
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular";}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial;}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;}
+    .partner_ship{height:55px;background-size: 100%;}
+    .partner_ship_left{margin: 10px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 4px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:5px;font-size: 3px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular";}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
+    .partner_ship_right{margin:10px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 4px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 4px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 4px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
     
     /* first slide */
     .engaging{height:200px}
@@ -1862,14 +1931,18 @@ background:white !important;
     .sch_title{font-size: 12px;}
 
     /*partnership_div */
-    .partner_ship_left h2{font-size: 15px;font-family:"LatoRegular";}
-    .partner_ship_left .covid{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_left .content{font-size: 7px;font-family:Arial;}
-    .partner_ship .outbreak{margin-top:30px;font-size: 9px;font-family:"LatoRegular";}
+    .partner_ship{height:55px;background-size: 100%;}
+    .partner_ship_left{margin: 5px 0px 10px 0px;}
+    .partner_ship_left h2{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .covid{margin:0px;font-size: 5px;font-family:"LatoRegular";}
+    .partner_ship_left .content{font-size: 4px;font-family:Arial;margin-top: 0px;}
+    .partner_ship .outbreak{margin-top:5px;font-size: 3px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right .heading{font-size: 8px;font-family:"LatoRegular";}
-    .partner_ship_right .content{font-size: 10px;font-family:"LatoRegular";}
-    .partner_ship_right .line{width:70%;opacity:0.5;border-bottom: 1px solid white;}
+    .partner_ship_right{margin:5px 0px 10px 0px;}
+    .partner_ship_right .heading{font-size: 3px;font-family:"LatoRegular";}
+    .partner_ship_right .content{font-size: 3.5px;font-family:"LatoRegular";}
+    .partner_ship_right .content span{font-size: 3px;}
+    .partner_ship_right .line{width:95%;opacity:0.5;border-bottom: 1px solid white;font-family:"LatoRegular";}
     
     /* first slide */
     .engaging{height:200px}

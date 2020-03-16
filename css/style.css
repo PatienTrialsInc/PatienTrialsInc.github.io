@@ -806,6 +806,7 @@ background:white !important;
     .row-right h3{margin:5px;font-size:20px;font-family: Helvetica;font-weight: 300;color:darkgray}
     .row-right h2{margin:0px;font-size:30px;font-family: Helvetica;font-weight: 300;color:darkorange}
     
+    .slide_text{margin-top: -85px;}
     .slide_text span.text1{font-size: 45px;}
     .slide_text span.text2{font-size: 55px;}
     .slide_text span.text3{width: 60%;margin: 2px 20%;}
@@ -1497,7 +1498,7 @@ background:white !important;
 }
 @media only screen and (max-width: 480px)
 {
-    .slide_text{margin-top: -120px;}
+    .slide_text{margin-top: -160px;}
     .patient_left img{width: 400px;}
 
     /*partnership_div */

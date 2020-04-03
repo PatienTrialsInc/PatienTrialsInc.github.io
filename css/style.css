@@ -518,7 +518,8 @@ background:white !important;
 @media only screen and (max-width: 1920px)
 {
     
-    .take_part{margin-left: 165px;}
+    /* .take_part{margin-left: 165px;} */
+    .take_part{margin-left: 62px;}
     .spn_types_left{padding: 49px 20px;}
 }
 @media only screen and (max-width: 1440px)

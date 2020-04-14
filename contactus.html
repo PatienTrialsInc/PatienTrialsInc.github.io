@@ -18,6 +18,23 @@
 
 { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://app.termly.io/embed.min.js'; s.id = '51c7c5e6-39bc-494a-b327-9032e567dc56'; s.setAttribute("data-name", "termly-embed-banner"); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }
 )();
+function onSearch(){
+    let a = document.getElementById('term').value;
+    //alert(a);
+    if(a==null || a==""){
+        alert("You need to enter search condition")
+        window.location.href="index.html"
+    }else {
+        window.location.href="http://34.221.168.128/Tresults?q="+decodeURIComponent(a)
+    }
+}
+function navlink(item){
+  if(item=="login"){
+    window.open("https://patientrials.service-now.com/patientrials_u18","_blank")
+  } else{
+    window.location.href=item+".html"
+  }
+}
 </script>
           <!--- End of Consent Banner -->
   </head>
@@ -27,87 +44,102 @@
           
           <!--- Start of Top Bar -->
           <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 top_section">
-             <span class="mail_id"><img src="images/mail_icon.png"/>&nbsp;hello@patientrials.com</span>
-             <span class="social_icons">
-                <a href="https://www.facebook.com/PatienTrials-250907422261484/" target="_blank"><img src="images/f_icon.png" title="Facebook"/></a>
-                <a href="https://twitter.com/patientrials" target="_blank"><img src="images/twitter_icon.png" title="Twitter"/></a>
-                <a href="https://www.linkedin.com/company/patientrials/" target="_blank"><img src="images/linkedin_icon.png" title="Linked In"/></a>
-               <!-- <a href=""><img src="images/insta_icon.png" title="Instagram"/></a> -->
-             </span>
-          </div>
-          <!--- End of Top Bar -->
+            <span class="mail_id"><img src="images/mail_icon.png"/>&nbsp;hello@patientrials.com</span>
+            <span class="social_icons">
+               <a href="https://www.facebook.com/PatienTrials-250907422261484/" target="_blank"><img src="images/f_icon.png" title="Facebook"/></a>
+               <a href="https://twitter.com/patientrials" target="_blank"><img src="images/twitter_icon.png" title="Twitter"/></a>
+               <a href="https://www.linkedin.com/company/patientrials/" target="_blank"><img src="images/linkedin_icon.png" title="Linked In"/></a>
+              <!-- <a href=""><img src="images/insta_icon.png" title="Instagram"/></a> -->
+            </span>
+         </div>
+         <!--- End of Top Bar -->
           
           <!--- Start of Menu Section -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header_menu">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                  <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" width="180"/>
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+          <!-- <div style="padding:0px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div style="display: block;width:100%;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <a href="index.html"><img style="float: left;margin:5px 0px 0px 35px" src="images/logo.png" /></a>
+                 <ul style="margin:15px 0px 0px 0px;" class="nav1">
+                     <li id="home" onclick="navlink('home')" style="cursor:pointer;width: 20%;font-size: 25px;letter-spacing: 3.5px;text-align: center;text-decoration: none;">Home</li>
+                     <li id="patients" onclick="navlink('patients')" style="cursor:pointer;width: 20%;font-size: 25px;letter-spacing: 3.5px;text-align: center;text-decoration: none;">Patients</li>
+                     <li id="solutions" onclick="navlink('solutions')" style="cursor:pointer;width: 20%;font-size: 25px;letter-spacing: 3.5px;text-align: center;text-decoration: none;">Solutions</li>
+                     <li id="team" onclick="navlink('team')" style="cursor:pointer;width: 20%;font-size: 25px;letter-spacing: 3.5px;text-align: center;text-decoration: none;">Company</li>
+                     <li id="login" onclick="navlink('login')" style="cursor:pointer;width: 20%;font-size: 25px;letter-spacing: 3.5px;text-align: center;text-decoration: none;">Login</li>
+                 </ul>
+            </div>
+            <div style="border-bottom: 0.5px solid;opacity: 0.5;"></div>
+            <div style="display: block;width:100%;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <div class="header_search"></div>
+                     <input style="float:left;padding-left:10px;margin: 20px 0px 0px 34px;height: 40px;width: 80%;color:black;font-size: 27px;" id="term" type="text" name="term" placeholder="Tell us about your condition" />
+                     <span onClick="onSearch()" style="cursor:pointer;float:left;height:40px;width:15%;color:white;letter-spacing: 0.5px;background-color: darkorange;padding: 10px;text-align: center;margin-top: 20px;">SEARCH</span>
+                 </div>
+            </div>
+       </div> -->
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" width="180"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="patients.html">Patients</a>
-                      </li>
-                       <li class="nav-item">
-                        <a class="nav-link" href="sites.html">Sites</a>
-                      </li>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="patients.html">Patients</a>
+                <!-- </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="sites.html">Sites</a>
+                </li> -->
 <!--
-                      <li class="nav-item">
-                        <a class="nav-link" href="sites.html">Sites</a>
-                      </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sites.html">Sites</a>
+                </li>
 -->
-                       <li class="nav-item">
-                        <a class="nav-link" href="sponsors.html">Sponsors</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Solutions
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="solutions.html#cro">CRO & Sponsors Dashboards</a>
-                          <a class="dropdown-item" href="solutions.html#sites">Site Solutions</a>
-                          <a class="dropdown-item" href="solutions.html#ai">AI Eligibility Screening</a>
-                          <a class="dropdown-item" href="solutions.html#monitoring">Patient Remote Monitoring</a>
-                          <!--<a class="dropdown-item" href="solutions.html#adherence">Patient Adherence</a>-->
-                          <a class="dropdown-item" href="solutions.html#community">Study Community at Site Level</a>
-                          <a class="dropdown-item" href="solutions.html#ehr">EHR Integration</a>
-                          <a class="dropdown-item" href="solutions.html#ctms">CTMS Integration</a>
-                          
-                          <a class="dropdown-item" href="solutions.html#survey">White-labeled Survey Bots</a>
-                          <a class="dropdown-item" href="solutions.html#stories">White-labeled Patient Stories</a>
-                          <a class="dropdown-item" href="solutions.html#caregiver">White-labeled Caregiver Portal</a>
-
-                         
-                          <!--<a class="dropdown-item" href="solutions.html#recruitment">Patient Recruitment</a>-->
-                        </div>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Company
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="team.html">Team</a>
-                          <a class="dropdown-item active" href="contactus.html">Contact Us</a>
-                        </div>
-                      </li>
-                    </ul>
-                      <a href="https://patientrials.service-now.com/patientrials_u18" target="_blank">
-                        <button class="login">LOGIN</button>
-                      </a>
+                 <!-- <li class="nav-item">
+                  <a class="nav-link" href="sponsors.html">Sponsors</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="solutions.html">Solutions</a>
+                  <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="solutions.html#cro">CRO & Sponsors Dashboards</a>
+                    <a class="dropdown-item" href="solutions.html#sites">Site Solutions</a>
+                    <a class="dropdown-item" href="solutions.html#ai">AI Eligibility Screening</a>
+                    <a class="dropdown-item" href="solutions.html#monitoring">Patient Remote Monitoring</a>
+                    <a class="dropdown-item" href="solutions.html#community">Study Community at Site Level</a>
+                    <a class="dropdown-item" href="solutions.html#ehr">EHR Integration</a>
+                    <a class="dropdown-item" href="solutions.html#ctms">CTMS Integration</a>
+                    <a class="dropdown-item" href="solutions.html#survey">White-labeled Survey Bots</a>
+                    <a class="dropdown-item" href="solutions.html#stories">White-labeled Patient Stories</a>
+                    <a class="dropdown-item" href="solutions.html#caregiver">White-labeled Caregiver Portal</a>
+                  </div> -->
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Company
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="team.html">Team</a>
+                    <a class="dropdown-item" href="contactus.html">Contact Us</a>
                   </div>
-              </nav>
-           </div>
+                </li>
+              </ul>
+                <a href="https://patientrials.service-now.com/patientrials_u18" target="_blank">
+                  <button class="login">LOGIN</button>
+                </a>
+            </div>
+        </nav>
+     </div>
           <!--- End of Menu Section -->
           
           <!--- Start of Schedule Div -->
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 schedule_div padding0" id="support" style="padding-bottom:60px;padding-top:30px;">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 schedule_div padding0" id="support" style="padding-bottom:60px;padding-top:30px;margin-top: 20px;">
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sch_title diff_sch">
 <!--               Request a platform demo of share<br/> your feedback with us-->
                   Schedule a Platform Demo

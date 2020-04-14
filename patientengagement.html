@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1," />
 
     <!-- CSS Links -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,27 +18,71 @@
 
 { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://app.termly.io/embed.min.js'; s.id = '51c7c5e6-39bc-494a-b327-9032e567dc56'; s.setAttribute("data-name", "termly-embed-banner"); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }
 )();
-function onSearch(){
-    let a = document.getElementById('term').value;
-    //alert(a);
-    if(a==null || a==""){
-        alert("You need to enter search condition")
-        window.location.href="index.html"
-    }else {
-        window.location.href="http://34.221.168.128/Tresults?q="+decodeURIComponent(a)
-    }
-}
-function navlink(item){
-  if(item=="login"){
-    window.open("https://patientrials.service-now.com/patientrials_u18","_blank")
-  } else{
-    window.location.href=item+".html"
+function changeDiv(title){
+  if(title=="patient_engagement"){
+    document.getElementById("sponsors-cro-left").style.height="540px"
+    document.getElementById("survey").style.display="none";
+    document.getElementById("auto_agent").style.display="none";
+    document.getElementById("caregiver").style.display="none";
+    document.getElementById("ehr").style.display="none";
+    document.getElementById("patient_stories").style.display="none";
+    document.getElementById("patient_engagement").style.display="block";
+  } else if(title=="survey"){
+    document.getElementById("sponsors-cro-left").style.height="700px"
+    document.getElementById("survey").style.display="block";
+    document.getElementById("auto_agent").style.display="none";
+    document.getElementById("caregiver").style.display="none";
+    document.getElementById("ehr").style.display="none";
+    document.getElementById("patient_stories").style.display="none";
+    document.getElementById("patient_engagement").style.display="none";
+  } else if(title=="auto_agent"){
+    document.getElementById("sponsors-cro-left").style.height="700px"
+    document.getElementById("auto_agent").style.display="block";
+    document.getElementById("survey").style.display="none";
+    document.getElementById("caregiver").style.display="none";
+    document.getElementById("patient_stories").style.display="none";
+    document.getElementById("ehr").style.display="none";
+    document.getElementById("patient_engagement").style.display="none";
+  } else if(title=="caregiver"){
+    document.getElementById("sponsors-cro-left").style.height="750px"
+    document.getElementById("auto_agent").style.display="none";
+    document.getElementById("survey").style.display="none";
+    document.getElementById("caregiver").style.display="block";
+    document.getElementById("patient_stories").style.display="none";
+    document.getElementById("ehr").style.display="none";
+    document.getElementById("patient_engagement").style.display="none";
+  } else if(title=="patient_stories"){
+    document.getElementById("sponsors-cro-left").style.height="775px"
+    document.getElementById("auto_agent").style.display="none";
+    document.getElementById("survey").style.display="none";
+    document.getElementById("caregiver").style.display="none";
+    document.getElementById("ehr").style.display="none";
+    document.getElementById("patient_stories").style.display="block";
+    document.getElementById("patient_engagement").style.display="none";
+  } else if(title=="ehr"){
+    document.getElementById("sponsors-cro-left").style.height="650px"
+    document.getElementById("auto_agent").style.display="none";
+    document.getElementById("survey").style.display="none";
+    document.getElementById("caregiver").style.display="none";
+    document.getElementById("ehr").style.display="block";
+    document.getElementById("patient_stories").style.display="none";
+    document.getElementById("patient_engagement").style.display="none";
   }
 }
+function layout(){
+  document.getElementById("sponsors-cro-left").style.height="540px"
+  document.getElementById("auto_agent").style.display="none";
+  document.getElementById("survey").style.display="none";
+  document.getElementById("caregiver").style.display="none";
+  document.getElementById("patient_stories").style.display="none";
+  document.getElementById("ehr").style.display="none";
+  document.getElementById("patient_engagement").style.display="block";
+}
+
 </script>
           <!--- End of Consent Banner -->
   </head>
-  <body>
+  <body onload="layout()">
       <!-- Start of Container Fuild -->
       <div class="container-fuild">
           
@@ -137,36 +181,158 @@ function navlink(item){
         </nav>
      </div>
           <!--- End of Menu Section -->
-          <div class="solutions">
-              <!-- <h2>SOLUTIONS</h2> -->
-              <p class="title">PATIENT CENTRIC PLATFORM FOR CLINICAL TRIALS</p>
-              <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 inline_block">
-                      <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 card"></div>
-                      <a href="sites_solutions.html">
-                        <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 sol_card">
-                            <h3>Sites Solutions</h3>
-                            <p>Read More ...</p>
-                        </div>
-                      </a>
-                      <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 mid_card"></div>
-                      <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 mid_rule">
-                          <div class="line"></div>
-                          <div class="dot"></div>
-                      </div>
-                      <a href="sponsors&cro.html">
-                        <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 sol_mid_card">
-                            <h3>Sponsors & CRO's</h3>
-                            <p>Read More ...</p>
-                        </div>
-                      </a>
-                      <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 card"></div>
-                      <a href="patientengagement.html">
-                        <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 sol_card1">
-                            <h3>Patient Engagement</h3>
-                            <p>Read More ...</p>
-                        </div>
-                      </a>
+          <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 inline_block pe-top">
+              <a href="solutions.html">
+                <div style="width:75px">
+                  <img style="float:left;margin:5px 0px 0px 0px;height: 10px;width: 20px;" src="images/solutions_new/back.png" alt="back" />
+                  <p style="color:darkorange;float:right">Back</p>
+                </div>
+              </a>
+              <div id="sponsors-cro-left" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 sponsors-cro-left">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtitle">
+                        <h2 onClick="changeDiv('patient_engagement')">Patient Engagement</h2>
+                    </div>
+                    <div onClick="changeDiv('auto_agent')" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtopic">
+                        <h3>Study specific Auto agent</h3>
+                        <img alt="arrow" src="images/solutions_new/arrow.png" />
+                    </div>
+                    <div onClick="changeDiv('survey')" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtopic">
+                        <h3>Survey Bots</h3>
+                        <img alt="arrow" src="images/solutions_new/arrow.png" />
+                    </div>
+                    <div onClick="changeDiv('patient_stories')" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtopic">
+                        <h3>Patient Stories</h3>
+                        <img alt="arrow" src="images/solutions_new/arrow.png" />
+                    </div>
+                    <div onClick="changeDiv('caregiver')" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtopic">
+                        <h3>Caregiver</h3>
+                        <img alt="arrow" src="images/solutions_new/arrow.png" />
+                    </div>
+                    <div onClick="changeDiv('ehr')" style="border:none" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 subtopic">
+                        <h3>EHR Integration</h3>
+                        <img alt="arrow" src="images/solutions_new/arrow.png" />
+                    </div>
               </div>
+              <div id="patient_engagement" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+                  <!-- <h2>Patient Engagement</h2> -->
+                  <p>At PatienTrials, we offer continous patient engagement with our unique methods of patient retention</p>
+                  <img src="images/patient_adherence.png" alt="img" class="col-lg-12 col-md-12 col-xs-12 col-xs-12 animated fadeIn go">
+              </div>
+              <div id="auto_agent" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 robot">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 auto_agents">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 auto_agent_left text-center">
+                        <img src="images/auto_agent.png" alt="img" /> 
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 auto_agent_right">
+                          <span class="auto_title">Study Specific Auto Agent</span>
+                          <span class="auto_caption">Patients can converse with AI enabled chatbots for study specific help and set reminders for their appoinments and medications</span>
+                          <!--<span class="auto_caption">Keeps track of all patient appointments and medications</span>-->
+                      </div>
+                  </div>
+              </div>
+              <div id="survey" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 robot survey_bot">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 survery_bot_left">
+                      <span class="bot_title">Survey Bots</span>
+                      <span class="bot_caption">Study Specific survey bots to collect timely data for various stages of a clinical trial</span>
+                      <img src="images/bot_img.png" alt="img">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 survery_bot_right text-left">
+                      <img src="images/bot.png" alt="img"/>
+                  </div>
+              </div>
+              <div id="caregiver" class="col-lg-12 col-md-12 col-xs-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-center">
+                        <h2>White-labelled Caregiver Solution For Sites</h2>
+                        <p>Recruit and empower your caregivers to facilitate patients by offering help in their treatment, communicating with care team, family members etc.</p>
+                        <img class="logo" src="images/solutions_new/caregiver.png" alt="caregiver_logo"/>
+                        <h2>RESPONSIBILITIES</h2>
+                        <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 inline_block list">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 list-left">
+                                <div class="list-item-border">
+                                    <span class="list-item-num">01</span>
+                                    <span class="list-item-title">Study Specific Community Access</span>
+                                </div>
+                                <div class="list-item-border">
+                                    <span class="list-item-num">02</span>
+                                    <span class="list-item-title">Mobility Assistance to the patient care team</span>
+                                </div>
+                                <div class="list-item-border">
+                                    <span class="list-item-num">03</span>
+                                    <span class="list-item-title">Record timely data</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 list-right">
+                                <div class="list-item-border">
+                                    <span class="list-item-num">04</span>
+                                    <span class="list-item-title">Access to patient surveys</span>
+                                </div>
+                                <div class="list-item-border">
+                                    <span class="list-item-num">05</span>
+                                    <span class="list-item-title">Access to consent as a conversation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button><a style="color:white;text-decoration: none;" href="contactus.html" target="_blank">Enroll Now <span><img src="images/solutions_new/arrow_w.png" /><img src="images/solutions_new/arrow_w.png" /></span></a></button>
+                    </div>
+              </div>
+              <div id="patient_stories" class="col-lg-12 col-md-12 col-xs-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-center title-section">
+                        <h2>White-labelled Patient Stories</h2>
+                        <p>White-labelled site solution for your site to enable patient stories. Let your patients share their stories regarding their journey and participation in a study</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inline_block text-center">
+                         <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 left">
+                            <img src="images/solutions_new/story.png" />
+                            <p>Let patients share their experience and inspire others to participate in a study</p> 
+                         </div>
+                         <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 right">
+                            <img src="images/story2.png" />
+                        </div>
+                    </div>
+              </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-left" id="ehr">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inline_block left">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-left title">
+                              <h2>EHR Integration</h2>
+                              <p>Access to 250 Million patients health records across 1000's of Health Systems</p>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-left">
+                              <img src="images/solution_banner_mobile.png"/>
+                          </div>
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inline_block right">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-left">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-left top-cards">
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-1">
+                                      <p>Medical History</p>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-2">
+                                      <p>Immunizations</p>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inline_block">
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-3">
+                                      <p>Medications</p>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-4">
+                                      <p>Problems</p>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-5">
+                                      <p>Appointments</p>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inline_block;">
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-6">
+                                      <p>Lab Results</p>
+                                  </div>
+                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-7">
+                                      <p>Allergies</p>
+                                  </div>
+                              </div>
+                              <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 caption">Check out data from multiple Health Systems in one place.</p>
+                          </div>
+                      </div>
+                </div>
           </div>
           <!--- Start of Mobile Links Div -->
           <div class="col-lg-12 col-md-12 col-sm1-2 col-xs-12 mobile_links">

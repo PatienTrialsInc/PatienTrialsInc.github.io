@@ -66,7 +66,7 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .top_section span{display: inline-block;}
 .top_section span.mail_id{float: left;color: #FFF;letter-spacing: 0.7px;font-size: 13px;}
 .top_section span.mail_id img{width: 15px;vertical-align: text-bottom;}
-.top_section span.social_icons{float: right;color: #FFF;margin-right:35px;}
+.top_section span.social_icons{float: right;color: #FFF;margin-right:0px;}
 .top_section span.social_icons img{margin-right:20px;cursor: pointer;height: 15px;padding-bottom:3px}
 .header_menu{background: #FFF;float:left;}
 .header_menu .navbar-nav{margin-left: 200px;}
@@ -147,7 +147,7 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .complaint_div span{display: block;}
 .complaint_div span.hip_text{color: #11c2ee;font-size: 50px;margin-top: 120px;letter-spacing: 1px;font-weight: bold;}
 .complaint_div span.comp_text{color: #FFF;font-size: 40px;letter-spacing:10px;}
-.complaint_div a{display: inline-block;letter-spacing: 0.8px;font-size: 20px; padding: 8px 35px;margin-top:20px; background:#e57d24;color: #FFF;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;-ms-border-radius: 50px;-o-border-radius: 50px;text-decoration: none;}
+.complaint_div a{display: inline-block;letter-spacing: 0.8px;font-size: 20px; padding: 8px 35px;margin-top:20px; background:#e57d24;color: #FFF;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;-ms-border-radius: 50px;-o-border-radius: 50px;text-decoration: none;box-shadow: 0 8px 6px -6px black;}
 
 /**** End of COMPLIANT Section Styles ****/
 
@@ -486,11 +486,11 @@ background:white !important;
 #AI .overlay .card img{padding:0px;margin:15px 0px 15px 30px;height:100px;width:100px}
 #AI .overlay .card p{margin-left:30px}
 .sites-top{margin:0px 0px 0px 16px}
-#sites{float:left;width: 75%;height: 670px;}
-#sites .top-left{float: left;width: 100%;}
-#sites .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;margin-top:0px}
-#sites .top-left p{text-align:center;font-size: 20px;margin-right:0px;}
-#sites .top-right{float: left;width: 100%;margin:10px;height:480px}
+#sites_solutions{float:left;width: 75%;height: 670px;}
+#sites_solutions .top-left{float: left;width: 100%;}
+#sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;margin-top:0px}
+#sites_solutions .top-left p{text-align:center;font-size: 20px;margin-right:0px;}
+#sites_solutions .top-right{float: left;width: 100%;margin:10px;height:480px}
 #manage_all_studies{float:left;width:75%;margin-top: 0px;}
 #manage_all_studies h2{font-weight: bolder;font-size: 30px;}
 #manage_all_studies p{font-size: 20px;}
@@ -1084,24 +1084,24 @@ background:white !important;
     #AI .overlay .card img{padding:0px;margin:15px 0px 15px 30px;height:100px;width:100px}
     #AI .overlay .card p{margin-left:30px}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
-    #sites .top-left p{text-align:center;font-size: 20px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height:400px}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 55%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 45%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
-    #sites .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 20px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height:400px}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 55%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 45%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
     #manage_all_studies{float:left;width:75%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 30px;}
     #manage_all_studies p{font-size: 20px;}
@@ -1331,24 +1331,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
-    #sites .top-left p{text-align:center;font-size: 20px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 55%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 45%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
-    #sites .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 20px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 55%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 45%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 30px;}
@@ -1529,24 +1529,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
-    #sites .top-left p{text-align:center;font-size: 20px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 55%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 45%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
-    #sites .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 40px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 20px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 30px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 55%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 45%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:100%;margin:0px 0px 10px -21px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:100%;margin:0px 0px 10px -21px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 30px;}
@@ -1764,24 +1764,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -2084,24 +2084,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -2299,24 +2299,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}sites_solutions
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -2532,24 +2532,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:109px 0px 0px 41px;height: 180px;width:284px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -2691,24 +2691,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:63px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:116px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}sites_solutions
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:63px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:116px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -2892,24 +2892,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:85px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 130px;width:106px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:85px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 130px;width:106px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px -13px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px -13px}
     #patient_recruitment{float:left;height:850px;width:75%;}
     #patient_recruitment .title{margin:0px 60px 0px 60px;padding:100px 60px 100px 60px;width:85%;height:700px;background-color: #f0f0f0;}
     #patient_recruitment h2{font-weight: bolder;font-size: 20px;}
@@ -3059,24 +3059,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{margin:0px;padding:0px;font-size: 10px;}
     .sites-top{margin:0px 0px 0px 16px}
-    #sites{float:left;width: 75%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;}
-    #sites .bottom-left{float: left;width: 30%;}
-    #sites .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
-    #sites .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
-    #sites .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
-    #sites .bottom-left ul li span{color:black;font-size: 12px;}
-    #sites .bottom-right{float: left;width: 70%;}
-    #sites .bottom-right-left{float:left;width: 50%;}
-    #sites .img-1{margin:63px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
-    #sites .img-2{margin:20px 10px 10px 32px;height: 135px;width:116px}
-    #sites .bottom-right-right{float:left;width: 50%;}
-    #sites .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px 7px}
-    #sites .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px 7px}
+    #sites_solutions{float:left;width: 75%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;}
+    #sites_solutions .bottom-left{float: left;width: 30%;}
+    #sites_solutions .bottom-left h2{text-align:left;font-weight: bolder;font-size: 20px;margin:2px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:left;font-size: 12px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: left;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;font-size: 12px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 12px;}
+    #sites_solutions .bottom-right{float: left;width: 70%;}
+    #sites_solutions .bottom-right-left{float:left;width: 50%;}
+    #sites_solutions .img-1{margin:63px 0px 0px 41px;height: 130px;width:106px;padding-left:10px}
+    #sites_solutions .img-2{margin:20px 10px 10px 32px;height: 135px;width:116px}
+    #sites_solutions .bottom-right-right{float:left;width: 50%;}
+    #sites_solutions .bottom-right-right .img-3{height: 175px;width:100%;margin:0px 0px 10px 7px}
+    #sites_solutions .bottom-right-right .img-4{height: 175px;width:100%;margin:0px 0px 10px 7px}
     #manage_all_studies{float:left;width:75%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -3367,24 +3367,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height:350px}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height:350px}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -3551,24 +3551,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height: 350px;}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height: 350px;}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -3806,24 +3806,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height: 350px;}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height: 350px;}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:500px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:500px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:132%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:132%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -4099,24 +4099,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height:350px}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height:350px}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -4403,24 +4403,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height:350px}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height:350px}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -4766,24 +4766,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:8.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height: 350px;}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height: 350px;}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}
@@ -5069,24 +5069,24 @@ background:white !important;
     #AI .overlay .card ul{margin:0px;padding:0px}
     #AI .overlay .card ul li{padding:0px;margin:0px;font-size:7.5px}
     .sites-top{margin:0px 0px 0px 0px}
-    #sites{float:left;width: 100%;}
-    #sites .top-left{float: left;width: 100%;}
-    #sites .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
-    #sites .top-left p{text-align:center;font-size: 15px;margin-right:0px}
-    #sites .top-right{float: left;width: 100%;height:350px}
-    #sites .bottom-left{float: left;width: 100%;}
-    #sites .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
-    #sites .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
-    #sites .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
-    #sites .bottom-left ul li{color:darkorange;margin:0px;}
-    #sites .bottom-left ul li span{color:black;font-size: 20px;}
-    #sites .bottom-right{float: left;width: 100%;}
-    #sites .bottom-right-left{float:left;width: 100%;}
-    #sites .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
-    #sites .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
-    #sites .bottom-right-right{float:left;width: 100%;}
-    #sites .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
-    #sites .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions{float:left;width: 100%;}
+    #sites_solutions .top-left{float: left;width: 100%;}
+    #sites_solutions .top-left h2{text-align:center;font-weight: bolder;font-size: 20px;}
+    #sites_solutions .top-left p{text-align:center;font-size: 15px;margin-right:0px}
+    #sites_solutions .top-right{float: left;width: 100%;height:350px}
+    #sites_solutions .bottom-left{float: left;width: 100%;}
+    #sites_solutions .bottom-left h2{text-align:center;font-weight: bolder;font-size: 30px;margin:10px 0px 0px 0px}
+    #sites_solutions .bottom-left p{text-align:center;font-size: 18px;margin-right:0px}
+    #sites_solutions .bottom-left ul{margin:30px 0px 0px 0px;padding:0px 0px 0px 15px;width: 250px;text-align: center;line-height: 2.5;}
+    #sites_solutions .bottom-left ul li{color:darkorange;margin:0px;}
+    #sites_solutions .bottom-left ul li span{color:black;font-size: 20px;}
+    #sites_solutions .bottom-right{float: left;width: 100%;}
+    #sites_solutions .bottom-right-left{float:left;width: 100%;}
+    #sites_solutions .img-1{margin:10px 0px 0px -66px;height: 250px;width:284px;padding-left:40px}
+    #sites_solutions .img-2{margin:20px 10px 10px -54px;height: 200px;width:293px}
+    #sites_solutions .bottom-right-right{float:left;width: 100%;}
+    #sites_solutions .bottom-right-right .img-3{height: 304px;width:164%;margin:0px 0px 10px -56px}
+    #sites_solutions .bottom-right-right .img-4{height: 304px;width:164%;margin:0px 0px 10px -56px}
     #manage_all_studies{float:left;width:100%;margin-top: 0px;}
     #manage_all_studies h2{font-weight: bolder;font-size: 20px;}
     #manage_all_studies p{font-size: 10px;}

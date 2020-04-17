@@ -29,6 +29,7 @@ function changeDiv(title){
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("sponsors-cro-left").style.height="550px"
   } else if(title=="dashboard"){
+    document.getElementById("sponsors-cro-left").style.height="650px";
     document.getElementById("sponsors-cro-left").style.height="650px"
     document.getElementById("sponsors").style.display="none";
     document.getElementById("dashboard").style.display="block";
@@ -185,7 +186,7 @@ function layout(){
               </div>
             </a>
             <div id="sponsors-cro-left" class="sponsors-cro-left">
-                  <div class="subtitle">
+                  <div id="left-sponsors" class="subtitle">
                       <h2 onClick="changeDiv('sponsors')">SPONSORS & CRO's</h2>
                   </div>
                   <div onClick="changeDiv('dashboard')" class="subtopic">
@@ -222,7 +223,8 @@ function layout(){
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sponsors-right">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 app_logo text-center sponsors-covid">
                           <img src="images/covid/covid_text.png" alt="covid_bg" />
-                          <p>We have you covered, PatienTrials integrates seamlessly into your existing processes and systems.</p>
+                          <p class="caption1">We have you covered, PatienTrials integrates seamlessly into your</p>
+                          <p class="caption2">existing processes and systems</p>
                           <a href="https://patientrials.service-now.com/cs_portal?id=sponsor_registration&sysparm_domain_restore=false&sysparm_stack=no&CS=Sponsor" target="_blank"><button>Register to learn more</button></a>
                       </div>
                       <!-- <div style="background-color:#f7f5f2;height:343px;" class="inline_block">

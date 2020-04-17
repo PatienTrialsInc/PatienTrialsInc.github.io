@@ -19,9 +19,9 @@
 { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://app.termly.io/embed.min.js'; s.id = '51c7c5e6-39bc-494a-b327-9032e567dc56'; s.setAttribute("data-name", "termly-embed-banner"); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }
 )();
 function changeDiv(title){
-  if(title=="sites"){
+  if(title=="sites_solutions"){
     document.getElementById("sponsors-cro-left").style.height="670px"
-    document.getElementById("sites").style.display="block";
+    document.getElementById("sites_solutions").style.display="block";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("ctms").style.display="none";
     document.getElementById("personalized_community").style.display="none";
@@ -29,7 +29,7 @@ function changeDiv(title){
     document.getElementById("manage_all_studies").style.display="none";
   } else if(title=="patient_recruitment"){
     document.getElementById("sponsors-cro-left").style.height="700px"
-    document.getElementById("sites").style.display="none";
+    document.getElementById("sites_solutions").style.display="none";
     document.getElementById("patient_recruitment").style.display="block";
     document.getElementById("ctms").style.display="none";
     document.getElementById("personalized_community").style.display="none";
@@ -37,7 +37,7 @@ function changeDiv(title){
     document.getElementById("manage_all_studies").style.display="none";
   } else if(title=="ctms"){
     document.getElementById("sponsors-cro-left").style.height="592px"
-    document.getElementById("sites").style.display="none";
+    document.getElementById("sites_solutions").style.display="none";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("personalized_community").style.display="none";
     document.getElementById("ctms").style.display="block";
@@ -45,7 +45,7 @@ function changeDiv(title){
     document.getElementById("manage_all_studies").style.display="none";
   } else if(title=="personalized_community"){
     document.getElementById("sponsors-cro-left").style.height="750px"
-    document.getElementById("sites").style.display="none";
+    document.getElementById("sites_solutions").style.display="none";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("ctms").style.display="none";
     document.getElementById("personalized_community").style.display="block";
@@ -53,7 +53,7 @@ function changeDiv(title){
     document.getElementById("manage_all_studies").style.display="none";
   } else if(title=="ehr"){
     document.getElementById("sponsors-cro-left").style.height="650px"
-    document.getElementById("sites").style.display="none";
+    document.getElementById("sites_solutions").style.display="none";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("ctms").style.display="none";
     document.getElementById("personalized_community").style.display="none";
@@ -61,7 +61,7 @@ function changeDiv(title){
     document.getElementById("ehr").style.display="block";
   } else if(title=="manage_all_studies"){
     document.getElementById("sponsors-cro-left").style.height="795px"
-    document.getElementById("sites").style.display="none";
+    document.getElementById("sites_solutions").style.display="none";
     document.getElementById("manage_all_studies").style.display="block";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("ctms").style.display="none";
@@ -72,7 +72,7 @@ function changeDiv(title){
 }
 function layout(){
     document.getElementById("sponsors-cro-left").style.height="670px";
-    document.getElementById("sites").style.display="block";
+    document.getElementById("sites_solutions").style.display="block";
     document.getElementById("patient_recruitment").style.display="none";
     document.getElementById("ctms").style.display="none";
     document.getElementById("personalized_community").style.display="none";

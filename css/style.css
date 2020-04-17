@@ -11,6 +11,7 @@
 @font-face {font-family:"LatoRegular";src: url("fonts/Lato-Regular.woff")}
 @font-face {font-family:"LatoRegular";src: url("fonts/Lato-Regular.woff2")}
 
+
 html,body{padding:0;margin:0;overflow-x: hidden;overflow-y: auto;font-family:"LatoRegular";background: #FFF;}
 .padding0{padding: 0px;}
 /***** Start of Body Scroll Bar *******/
@@ -441,7 +442,8 @@ background:white !important;
 /* New solutions */
 .sponsors-covid{margin:0px 0px 0px 15px;background-image: url(../images/covid/covid_bg.jpg);height:598px;background-size: 95% 100%;background-repeat: no-repeat;}
 .sponsors-covid img{margin:60px 0px 0px 0px;height:300px}
-.sponsors-covid p{margin:65px 0px 0px 215px;width:70%;font-size: 20px;color:white;font-weight: lighter;}
+.sponsors-covid .caption1{margin:65px 0px 0px 215px;width:70%;font-size: 20px;color:white;font-weight: lighter;}
+.sponsors-covid .caption2{margin:0px 0px 0px 215px;width:70%;font-size: 20px;color:white;font-weight: lighter;}
 .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
 .sponsors-cro{margin:0px 0px 0px 18px}
 .sponsors-right{float:left;width:75%}
@@ -513,7 +515,7 @@ background:white !important;
 #patient_recruitment p{font-size: 24px;margin-right:0px}
 #patient_recruitment .overlay{position:relative;bottom:427px;width:75%;}
 #patient_recruitment .overlay img{float:left;height:320px;width:60%}
-#patient_recruitment .overlay h2{color:darkorange;float:right;width:37%;margin-left:20px;font-family:cursive;font-weight: bolder;font-size: 28px;}
+#patient_recruitment .overlay h2{color:darkorange;float:right;width:37%;margin-left:20px;font-family:"cursive";font-weight: bolder;font-size: 28px;}
 #patient_recruitment .corner-icon{float:right;position:relative;bottom:213px;left:449px;height:320px;width:300px}
 #personalized_community{float:left;width:75%;margin-top: 0px;height: 750px;}
 #personalized_community img{margin: 30px 0px 15px 91px;display: block;height: 370px;width: 81%}
@@ -1040,7 +1042,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 15px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 15px;background-image: url(../images/covid/covid_bg.jpg);height:598px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:85px 0px 0px 85px;height:250px}
-    .sponsors-covid p{margin: 102px 0px 0px 180px;Width: 70%;font-size: 18px;color: white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin: 102px 0px 0px 180px;Width: 70%;font-size: 18px;color: white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin: 0px 0px 0px 180px;Width: 70%;font-size: 18px;color: white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -1285,7 +1288,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 15px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -1483,7 +1487,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 15px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -1718,7 +1723,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -2038,7 +2044,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -2253,7 +2260,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -2486,7 +2494,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -2645,7 +2654,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -2846,7 +2856,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -3013,7 +3024,8 @@ background:white !important;
     .sol_card1 p{color:white;font-size: 10px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 26px;}
     .sponsors-covid{margin:0px 0px 0px 5px;background-image: url(../images/covid/covid_bg.jpg);height:550px;background-size: 95% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:157px 0px 0px 0px;height:150px}
-    .sponsors-covid p{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:133px;letter-spacing: 0.8px;font-size: 12px;padding: 8px 15px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     .sponsors-cro{margin:0px 0px 0px 18px}
     .sponsors-cro-left{float:left;width:25%;height:850px;background-color: #f0f0f0;text-align: center;}
@@ -3332,7 +3344,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:5px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px -14px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:100%;background-size: 100% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:101px 0px 0px 132px;width:70%;font-size: 14px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:100px;letter-spacing: 0.8px;font-size: 14px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -3516,7 +3529,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:5px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px 2px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:568px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:101px 0px 0px 100px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:93px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 134px;width:70%;font-size: 15px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -3771,7 +3785,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:5px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px 2px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:540px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -4064,7 +4079,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:5px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px -12px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:412px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -4368,7 +4384,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:5px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px -12px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:412px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:109px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:109px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -4731,7 +4748,8 @@ background:white !important;
     .AI-img{float:right;height:20px;margin:15px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px -12px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:360px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid p{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
@@ -5033,7 +5051,8 @@ background:white !important;
     .sponsors-cro-left .subtopic img{float:right;height:20px;width:15px;margin:15px 5px 5px 15px;}
     .sponsors-covid{margin:0px 0px 0px -12px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:320px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:102px}
-    .sponsors-covid p{margin:128px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:128px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption2{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 26px;}

@@ -726,7 +726,7 @@ background:white !important;
     .partner_ship-covid-right p{color:white;font-size: 20px;font-weight: lighter;}
     .partner_ship-covid-right .covid-caption{margin:0px 0px 0px 40px;color:white;font-size: 20px;font-weight: lighter;}
     .partner_ship-covid-right .covid-caption span{height:30px;width:10%;margin:10px;background-color: white;padding:10px 30px 10px 30px;border-radius: 7px;color:deeppink;font-size: 20px;}
-  
+    
 }
 @media only screen and (max-width: 1440px)
 {
@@ -737,7 +737,7 @@ background:white !important;
     .partner_ship-covid-right p{color:white;font-size: 20px;font-weight: lighter;}
     .partner_ship-covid-right .covid-caption{margin:0px 0px 0px 40px;color:white;font-size: 20px;font-weight: lighter;}
     .partner_ship-covid-right .covid-caption span{height:30px;width:10%;margin:10px;background-color: white;padding:10px 30px 10px 30px;border-radius: 7px;color:deeppink;font-size: 20px;}
-  
+    
 }
 @media only screen and (max-width: 1366px)
 {
@@ -786,6 +786,7 @@ background:white !important;
     
     .take_part{margin-left: 4px;}
     .spn_types_right{padding: 31px 10px;}
+    #patient_recruitment .corner-icon{left:495px;}
 }
 @media only screen and (max-width: 1152px)
 {
@@ -852,6 +853,7 @@ background:white !important;
     .part_text_site ul{width: 100%;margin: 10px 0px;}
     .type_part{height: 550px;}
     .optimize span{font-size: 30px;}
+    #patient_recruitment .corner-icon{left:495px;}
 }
 @media only screen and (max-width: 1024px)
 {

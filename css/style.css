@@ -458,25 +458,25 @@ background:white !important;
 .AI-subtopic img{margin:15px 5px 5px 0px}
 #dashboard{margin-top:0px;float:left;width:75%;}
 #dashboard h2{font-weight: bolder;font-size: 40px;}
-#dashboard p{font-size: 20px;margin-right:60px}
-#dashboard button{letter-spacing: 0.8px;font-size: 20px;padding: 8px 35px;background: #016b86;color: #FFF;text-decoration: none;border-radius: 5px;outline: none;cursor: pointer;border: none;}
-#dashboard img{margin:15px 0px 15px 10px;display:block;height:450px;width:93%}
+#dashboard p{font-size: 20px;margin:15px 0px 15px 60px}
+#dashboard button{letter-spacing: 0.8px;font-size: 20px;padding: 8px 35px;background: #092b34;color: #FFF;text-decoration: none;border-radius: 5px;outline: none;cursor: pointer;border: none;}
+#dashboard img{margin:45px 0px 15px 80px;display:block;height:450px;}
 #patient_monitoring{margin-top:0px;float:left;width:75%;}
 #patient_monitoring h2{font-weight: bolder;font-size: 40px;letter-spacing: 0.5px;}
-#patient_monitoring p{font-size: 20px;margin-right:60px}
+#patient_monitoring p{font-size: 20px;margin:15px 0px 15px 60px}
 #patient_monitoring img{background-color:transparent;padding:0px;margin:15px 0px 15px 0px;height:300px;width:90%}
 #patient_adherence{margin-top:0px;float:left;width:75%;height:745px}
 #patient_adherence h2{font-weight: bolder;font-size: 35px;letter-spacing: 0.5px;}
-#patient_adherence p{font-size: 20px;margin-right:0px}
+#patient_adherence p{font-size: 20px;margin:15px 0px 15px 0px}
 #patient_adherence .pa_container{background-color: #f0f0f0;margin:20px;width: 96%;height:540px}
 #patient_adherence .pa_container img{padding:0px;margin:15px 0px 15px 60px;height:500px;width:60%}
 #ctms{margin-top:0px;float:left;width:75%;height: 560px;}
 #ctms .content h2{font-weight: bolder;font-size: 35px;letter-spacing: 0.5px;}
-#ctms .content p{font-size: 22px;margin-right:60px}
-#ctms img{padding:0px;margin:15px 0px 15px 185px;height:380px;width:60%}
+#ctms .content p{font-size: 22px;margin:15px 0px 15px 60px}
+#ctms img{padding:0px;margin:15px 0px 15px 185px;height:380px;}
 #ctms .overlay{height:225px;width:50%;background-color:#006b86;padding:20px 30px 20px 30px;position: relative;left:440px;bottom:255px}
 #ctms .overlay p{font-size: 20px;color:white}
-#ctms .overlay button{letter-spacing: 0.8px;font-size: 15px;padding: 8px 9px;background-color: darkorange;color: #FFF;text-decoration: none;border-radius: 5px;outline: none;cursor: pointer;border: none;}
+#ctms .overlay button{box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);letter-spacing: 0.8px;font-size: 15px;padding: 8px 35px;background-color: darkorange;color: #FFF;text-decoration: none;border-radius: 2px;outline: none;cursor: pointer;border: none;}
 #AI{margin-top:0px;float:left;width:75%;margin-right:-6px;height: 660px;}
 #AI .top-left{float:left;width:50%}
 #AI .top-left h2{font-weight: bolder;font-size: 35px;letter-spacing: 0.5px;}

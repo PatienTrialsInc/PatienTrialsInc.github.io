@@ -551,7 +551,7 @@ background:white !important;
 #auto_agent{float:left;width:75%;height: 700px;}
 .auto_agents{padding:0px 0px;margin: 0px;float: left;}
 .auto_agent_left{margin: 100px 0px 0px -30px;padding: 0px;float: left;}
-.auto_agent_left img{height: 600px;margin:-88px 0px 0px 145px;padding:0px}
+#auto_agent .auto_agent_left img{height: 600px;margin:-88px 0px 0px 145px;padding:0px}
 .auto_agent_right{margin: 2.0px 0px 0px -110px;padding: 0px;float: left;width:45%;}
 .auto_agent_right span.auto_title{display: block;color: #333;font-size: 30px;letter-spacing: 0.5px;margin-top: 0px;font-weight: 600;}
 .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 20px;letter-spacing: 0.5px;}

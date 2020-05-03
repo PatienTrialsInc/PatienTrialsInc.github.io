@@ -79,16 +79,16 @@ function layout(){
     document.getElementById("ehr").style.display="none";
     document.getElementById("manage_all_studies").style.display="none";
 }
-function onSearch(){
-    let a = document.getElementById('term').value;
-    //alert(a);
-    if(a==null || a==""){
-        alert("You need to enter search condition")
-        window.location.href="index.html"
-    }else {
-        window.location.href="http://34.221.168.128/Tresults?q="+decodeURIComponent(a)
-    }
-}
+// function onSearch(){
+//     let a = document.getElementById('term').value;
+//     //alert(a);
+//     if(a==null || a==""){
+//         alert("You need to enter search condition")
+//         window.location.href="index.html"
+//     }else {
+//         window.location.href="http://34.221.168.128/Tresults?q="+decodeURIComponent(a)
+//     }
+// }
 function navlink(item){
   if(item=="login"){
     window.open("https://patientrials.service-now.com/patientrials_u18","_blank")

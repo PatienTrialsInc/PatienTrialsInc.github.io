@@ -4742,33 +4742,33 @@ background:white !important;
     .sponsors-cro-left{float:left;width:100%;height:580px;background-color: #f0f0f0;text-align: center;}
     .sponsors-cro-left .subtitle{cursor:pointer;height:100px;padding-top:30px;border-bottom: 1px solid darkgray;}
     .sponsors-cro-left .subtitle h2{font-size:30px;font-weight: bolder;}
-    .sponsors-cro-left .subtopic{cursor:pointer;height:80px;padding:15px 0px 15px 0px;border-bottom: 1px solid darkgray;margin:0px 20px 0px 20px}
+    .sponsors-cro-left .subtopic{cursor:pointer;height:80px;padding:8px 0px 8px 0px;border-bottom: 1px solid darkgray;margin:0px 20px 0px 20px}
     .sponsors-cro-left .subtopic h3{margin-left:0px;float:left;font-size:20px;font-weight: lighter;}
     .sponsors-cro-left .subtopic img{float:right;height:20px;width:15px;margin:15px 5px 5px 15px;}
-    .AI-subtopic{width:90%;padding-top: 15px;cursor:pointer;height:80px;padding:15px 0px 15px 0px;border-bottom: 1px solid darkgray;margin:0px 20px 0px 20px}
+    .AI-subtopic{width:90%;padding-top: 15px;cursor:pointer;height:80px;padding:8px 0px 8px 0px;border-bottom: 1px solid darkgray;margin:0px 20px 0px 20px}
     .AI-text{text-align: left;margin-left: 0px;float: left;font-size: 20px;font-weight: lighter;width:93%}
     .AI-img{float:right;height:20px;margin:15px 5px 5px 15px}
     .sponsors-covid{margin:0px 0px 0px -12px;background-image: url(../images/covid/covid_bg.jpg);height:550px;width:360px;background-size: 90% 100%;background-repeat: no-repeat;}
     .sponsors-covid img{margin:166px 0px 0px 0px;height:117px}
-    .sponsors-covid .caption1{margin:101px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
+    .sponsors-covid .caption1{margin:120px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid .caption2{margin:0px 0px 0px 67px;width:70%;font-size: 10px;color:white;font-weight: lighter;}
     .sponsors-covid button{margin-left:50px;letter-spacing: 0.8px;font-size: 10px;padding: 8px 10px;background-color: white ;color: deeppink;text-decoration: none;border-radius: 15px;outline: none;cursor: pointer;border: none;}
     #dashboard{margin-top:20px;float:left;width:100%;}
     #dashboard h2{font-weight: bolder;font-size: 35px;}
-    #dashboard p{font-size: 20px;margin-right:0px;}
+    #dashboard p{font-size: 20px;margin:0px;}
     #dashboard img{height:220px;}
     #patient_monitoring{margin-top:20px;float:left;width:100%;}
     #patient_monitoring h2{font-weight: bolder;font-size: 20px;letter-spacing: 0.5px;}
-    #patient_monitoring p{font-size: 20px;margin-right:0px}
+    #patient_monitoring p{font-size: 20px;margin:0px}
     #patient_monitoring img{background-color:transparent;padding:0px;margin:15px 33px 15px 0px;height:150px;width:100%}
     #patient_adherence{margin-top:10px;float:left;width: 100%;}
     #patient_adherence h2{font-weight: bolder;font-size: 20px;letter-spacing: 0.5px;}
-    #patient_adherence p{font-size: 20px;margin-right:0px}
-    #patient_adherence .pa_container{background-color: #f0f0f0;margin:20px;width: 88%;}
+    #patient_adherence p{font-size: 20px;margin:0px}
+    #patient_adherence .pa_container{background-color: #f0f0f0;margin:20px;width: 88%;height:250px}
     #patient_adherence .pa_container img{padding:0px;margin:15px 0px 15px 0px;height:200px;width:70%}
     #ctms{margin-top:30px;float:left;width:100%;height: 560px;}
     #ctms .content h2{font-weight: bolder;font-size: 20px;letter-spacing: 0.5px;}
-    #ctms .content p{font-size: 18px;margin-right:0px}
+    #ctms .content p{font-size: 18px;margin:0px}
     #ctms img{padding:0px;margin:15px 0px 15px 0px;height:203px;width:78%}
     #ctms .overlay{height:150px;width:66%;background-color:#006b86;padding:20px 30px 20px 30px;position: relative;left:122px;bottom:181px}
     #ctms .overlay p{font-size: 10px;color:white}
@@ -4845,14 +4845,14 @@ background:white !important;
     .pe-top{margin:20px 0px 0px 0px}
     #patient_engagement{margin-top:30px;float:left;width:100%}
     #patient_engagement h2{font-size: 15px;}
-    #patient_engagement img{height:182px;width:145%}
+    #patient_engagement img{height:182px;width:100%}
     #auto_agent{float:left;width:100%;height:360px}
     .auto_agents{padding:0px 0px;margin: 0px;float: left;}
-    .auto_agent_left{margin: 100px 0px 0px -30px;padding: 0px;float: left;}
-    .auto_agent_left img{height: 215px; margin: 20px;padding: 3px;width: 145%;}
+    .auto_agent_left{margin: 100px 0px 0px 0px;padding: 0px;float: left;}
+    .auto_agent_left img{height: 215px; margin: 20px;padding: 3px;width: 100%;}
     .auto_agent_right{margin: 2.0px 0px 0px -6px;padding: 0px;float: left;width:50%;}
-    .auto_agent_right span.auto_title{ display: block;color: #333;font-size: 15px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 12px;font-weight: 600;}
-    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 10px;letter-spacing: 0.5px;}
+    .auto_agent_right span.auto_title{ display: block;color: #333;font-size: 12px;text-transform: uppercase;letter-spacing: 0.5px;margin-top: 12px;font-weight: 600;}
+    .auto_agent_right span.auto_caption{display: block;color: #333;font-size: 8px;letter-spacing: 0px;}
     #survey{float:left;width:100%;margin-left:0px}
     .robot{padding:0px 0px 0px 0px;float: left;height:800px;background-image: url(../images/bot_bg.png);background-repeat: no-repeat;background-size: cover;}
     .survey_bot{float: left;width: 100%;padding: 0px 0px 0px 0px;height:500px}

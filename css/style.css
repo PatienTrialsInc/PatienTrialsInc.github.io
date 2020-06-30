@@ -714,6 +714,35 @@ background:white !important;
 .sol_card1 h3{color:white;font-weight: bold;}
 .sol_card1 p{color:white;font-size: 15px;font-weight: lighter;float: right;letter-spacing: 0px;margin-right: 50px;}
 /**** End of Solutions Styles *****/
+/* start Sign_up Landing Page Styles  */
+.signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+  .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+  .rightHalf {background: url(../images/sign_up/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+ .imgdiv{ float: left; vertical-align: top; width:87%; margin-top: 19px;}
+ .imgdiv .img{width: 25%;}
+ .button_cnt{float: right; vertical-align: top; margin-top: 3%;} 
+ .button_cnt .backbutton{  width: 115px;height: 39px;cursor:pointer;background:#006987;color:#FFF;font-size:18px;border:none;font-weight:550;outline:none;}
+ .button_cnt .backbutton #btn_icon { display:inline; width:25px;margin-left: -15px;  }
+ .button_cnt .backbutton #btn_txt { display:inline; margin-left: 6px;font-size: 12px; }
+
+ .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+   #text {z-index: 100;position: absolute;color: black;font-size: 260%; font-weight: 900; font-family: 'Roboto';left: -14.5%;top: 90px;  }
+     #text1 { z-index: 100; position: absolute; color: #383735; font:100; font-family:'Roboto'; font-size: 260%;left: -14.5%;top: 145px;}
+      #text2 { z-index: 100;position: absolute;color: black;font-size: 260%;font-weight: 900;font-family: "Roboto"; left:1%; top: 145px; }            
+    .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 10%; margin-left: 16%; width: 100%;}
+    .box {background-color: white; margin: 10px; width: 170px; height: 285px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 45px;}
+    .box .banner{height: 108px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+    .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+    .box .box_details{text-align: center; margin-top: 20%;}
+   .box .box_details .btn{font-size: 95%; border-radius: 7px; background-color: #e57d24; border-color:#e57d24;height: 35px; width: 77%;}
+   .box .box_details .box .p{ color: white; } 
+   .box_content{ text-align: center; margin-top: 19%;}
+   .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+   .box_content .head0{font-size: 20px; font-weight: bold;  font-family:Times New Roman;color: black;}
+.box0 {background-color: white; margin: 10px; width: 225px; height: 285px; flex-grow: 0.5; 
+      z-index: -0;  margin-left: -46.5%;margin-right: 9%; position: relative;}
+.box0 .banner0{height: 100%; width: 100%; }
+/* End Sign_up Landing Page Styles  */
 
 @media only screen and (max-width: 1920px)
 {
@@ -857,6 +886,37 @@ background:white !important;
 }
 @media only screen and (max-width: 1024px)
 {
+     /* Star Signup LandingPage 1024 */
+     .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+     .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+     .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+     .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+    .imgdiv .img{width: 37%;}
+    .button_cnt{float: right; vertical-align: top; margin-top:4%; width: 30%;} 
+    .button_cnt .backbutton{  width: 95px;height: 35px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none; margin-left: 40%;}
+    .button_cnt .backbutton #btn_icon { float: left;width: 25px;margin-left: 7px;margin-top: 14px;}
+    .button_cnt .backbutton #btn_txt {float: right;font-size: 12px;margin-top: 10%; margin-right: 8%; }
+
+       .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+      .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 240%; font-weight: 900; font-family: 'Roboto';left: -17.5%;top: 5%  }
+  .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 240%;left: -17.5%;top: 9%;}
+  .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 240%;font-weight: 900;font-family: "Roboto"; right:1%; top: 9%; }     
+       .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 10%; margin-left: 0%; width: 100%;}
+       .box { margin: 10px; width: 136px;height: 240px; border-radius: 5px; 
+         box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 27px;}
+       .box .banner{height: 96px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+       .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+       .box .box_details{text-align: center; margin-top: 20%;}
+      .box .box_details .btn{border-radius: 7px; background-color: #e57d24; border-color:#e57d24;height: 35px; width: 77%;}
+      .box .box_details .box .p{ color: white; margin-right: 10px;} 
+      .box_content{ text-align: center; margin-top: 19%;}
+      .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+      .box_content .head0{font-size: 16px; font-weight: bold;  font-family:Times New Roman;color:black;}
+   .box0 { margin: 10px; width: 320px; height: 240px; flex-grow: 0.5; 
+         z-index: -0;  margin-left: -31%;margin-right: 8%;} 
+   .box0 .banner0{height: 100%; width: 100%; }
+     /* End Signup LandingPage 1024*/
+
     .header_menu .navbar-nav{margin-left: 25px;}
     .header_menu .navbar-nav .nav-item a{padding: 20px 10px;}
     .patient_left img{width: 460px;}
@@ -1632,6 +1692,36 @@ background:white !important;
 }
 @media only screen and (max-width: 900px)
 {
+      /* start  Sign up 900 */
+      .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+      .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+      .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+     .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+     .imgdiv .img{width: 41%;}
+     .button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+     .button_cnt .backbutton{  width: 88px;height: 30px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+     .button_cnt .backbutton #btn_icon { float: left;width: 25px;margin-left: 5px;margin-top: 13px;}
+     .button_cnt .backbutton #btn_txt { float: right;font-size: 11px;margin-left: 6px; }
+     
+     .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+     .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 195%; font-weight: 900; font-family: 'Roboto';left: -17.5%;top: 18%;  }
+      .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 195%;left:-17.5%;top: 27%;}
+      .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 195%;font-weight: 900;font-family: "Roboto"; right:1%; top: 27%; }            
+      .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 9%; margin-left: 0%; width: 100%;}
+      .box {background-color: white; margin: 10px; width: 150px;height: 195px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+          margin-right: 27px;}
+      .box .banner{height: 75px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+      .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+      .box .box_details{text-align: center; margin-top: 20%;}
+     .box .box_details .btn{border-radius: 7px; font-size: 11px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+     .box .box_details .box .p{ color: white; margin-right: 10px;} 
+     .box_content{ text-align: center; margin-top: 10%;}
+     .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+     .box_content .head0{font-size: 15px; font-weight: bold;  font-family:Times New Roman;color: black;}
+      .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 373px; height: 195px; flex-grow: 0.5; 
+      z-index: -0; margin-left: -32.5%;margin-right: 6%; position: relative;}
+     .box0 .banner0{height: 100%; width: 100%; }
+     /* end Sign up 900 */
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:125px;width:100%;background-repeat: no-repeat;background-size: 100%;}
     .partner_ship-covid img{float:left;height:46px;margin:38px 0px 0px 174px;width:37%}
@@ -2196,6 +2286,36 @@ background:white !important;
     .take_part{width: 170px !important;}
     .diff_sch{font-size: 25px;}
     .type_part{height: 595px;}
+ /* start Sign Up 768*/
+ .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+ .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+ .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+.imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+.imgdiv .img{width: 40%;}
+.button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+.button_cnt .backbutton{  width: 88px;height: 30px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+.button_cnt .backbutton #btn_icon { float: left;width: 25px;margin-left: 5px;margin-top: 13px;}
+.button_cnt .backbutton #btn_txt { float: right;font-size: 11px;margin-left: 6px; }
+
+.signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+.signup_content #text {z-index: 100;position: absolute;color: black;font-size: 190%; font-weight: 900; font-family: 'Roboto';left: -18.5%;top: 7%;  }
+ .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 190%;left:-18.5%;top: 11%;}
+ .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 190%;font-weight: 900;font-family: "Roboto"; right:2%; top: 11%; }            
+ .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+ .box {background-color: white; margin: 10px; width: 110px;height: 200px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+     margin-right: 20px;}
+ .box .banner{height: 80px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+ .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+ .box .box_details{text-align: center; margin-top: 20%;}
+.box .box_details .btn{border-radius: 7px; font-size: 11px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+.box .box_details .box .p{ color: white; margin-right: 10px;} 
+.box_content{ text-align: center; margin-top: 11%;}
+.box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+.box_content .head0{font-size: 85%; font-weight: bold;  font-family:Times New Roman;color: black;}
+ .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 268px; height: 200px; flex-grow: 0.5; 
+    z-index: -0; margin-left: -32.5%;margin-right: 6%; position: relative;}
+.box0 .banner0{height: 100%; width: 100%; }
+/* end Sign up 768*/
 
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
@@ -2603,7 +2723,36 @@ background:white !important;
     .slide_text span.text1{font-size: 20px;}
     .slide_text span.text2{font-size: 30px;}
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
-
+  /* start Sign Up 736*/
+  .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+  .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+  .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+ .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+ .imgdiv .img{width: 43%;}
+ .button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+ .button_cnt .backbutton{  width: 88px;height: 30px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+ .button_cnt .backbutton #btn_icon { float: left;width: 25px;margin-left: 5px;margin-top: 13px;}
+ .button_cnt .backbutton #btn_txt { float: right;font-size: 11px;margin-left: 6px; }
+ 
+ .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+ .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 175%; font-weight: 900; font-family: 'Roboto';left: -18.5%;top: 23%;  }
+  .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 175%;left: -18.5%;top: 30%;}
+  .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 175%;font-weight: 900;font-family: "Roboto"; right:2%; top: 30%; }            
+  .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+  .box {background-color: white; margin: 10px; width: 140px;height: 172px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+      margin-right: 20px;}
+  .box .banner{height: 60px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+  .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+  .box .box_details{text-align: center; margin-top: 20%;}
+ .box .box_details .btn{border-radius: 7px; font-size: 11px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+ .box .box_details .box .p{ color: white; margin-right: 10px;} 
+ .box_content{ text-align: center; margin-top: 10%;}
+ .box_content .head{font-size: 21px; font-weight: 900;  font-family:Times New Roman;color: #717171;}
+ .box_content .head0{font-size: 14px; font:Bold;  font-family:Times New Roman;color: black;}
+  .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 325px; height: 172px; flex-grow: 0.5; 
+     z-index: -0; margin-left: -32.5%;margin-right: 6%; position: relative;}
+.box0 .banner0{height: 100%; width: 100%; }
+ /* end Sign up 736*/
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:46px;margin:38px 0px 0px 124px;width:37%}
@@ -2804,7 +2953,36 @@ background:white !important;
     .slide_text span.text1{font-size: 20px;}
     .slide_text span.text2{font-size: 30px;}
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
+ /* start Sign Up 731*/
+ .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+ .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+ .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+.imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+.imgdiv .img{width: 43%;}
+.button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+.button_cnt .backbutton{  width: 71px;height: 26px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+.button_cnt .backbutton #btn_icon { float: left;width: 18px;margin-left: 5px;margin-top: 10px;}
+.button_cnt .backbutton #btn_txt { float: right;font-size: 9px;margin-left: 6px; }
 
+.signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+.signup_content #text {z-index: 100;position: absolute;color: black;font-size: 190%; font-weight: 900; font-family: 'Roboto';left: -19.5%;top: 21%;  }
+ .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 190%;left: -19.5%;top: 28%;}
+ .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 190%;font-weight: 900;font-family: "Roboto"; right:2%; top: 28%; }            
+ .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+ .box {background-color: white; margin: 10px; width: 112px;height: 178px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+     margin-right: 15px;}
+ .box .banner{height: 70px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+ .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+ .box .box_details{text-align: center; margin-top: 20%;}
+.box .box_details .btn{border-radius: 7px; font-size: 10px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+.box .box_details .box .p{ color: white; margin-right: 10px;} 
+.box_content{ text-align: center; margin-top: 10%;}
+.box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+.box_content .head0{font-size: 14px; font-weight: bold;  font-family:Times New Roman;color: black;}
+ .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 260px; height: 178px; flex-grow: 0.5; 
+ z-index: -0; margin-left: -32.5%;margin-right: 6%; position: relative;}
+ .box0 .banner0{height: 100%; width: 100%; }
+/* end Sign up 731 */
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:46px;margin:38px 0px 0px 124px;width:37%}
@@ -3002,6 +3180,36 @@ background:white !important;
 }
 @media only screen and (max-width:667px)
 {
+       /* start Sign Up 667*/
+       .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+       .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+       .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+      .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+      .imgdiv .img{width: 43%;}
+      .button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+      .button_cnt .backbutton{  width: 69px;height: 22px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+      .button_cnt .backbutton #btn_icon { float: left;width: 18px;margin-left: 5px;margin-top: 8px;}
+      .button_cnt .backbutton #btn_txt { float: right;font-size: 8px;margin-left: 6px; }
+      
+      .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+      .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 175%; font-weight: 900; font-family: 'Roboto';left: -19.5%;top: 20%;  }
+       .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 175%; left: -19.5%;top: 29%;}
+       .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 175%;font-weight: 900;font-family: "Roboto"; right:2%; top: 29%; }            
+       .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+       .box {background-color: white; margin: 10px; width: 100px;height: 170px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+           margin-right: 15px;}
+       .box .banner{height: 65px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+       .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+       .box .box_details{text-align: center; margin-top: -5%;}
+      .box .box_details .btn{border-radius: 7px; font-size: 11px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+      .box .box_details .box .p{ color: white; margin-right: 10px;} 
+      .box_content{ text-align: center; margin-top: 10%;}
+      .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+      .box_content .head0{font-size: 12px; font-weight: 900;  font-family:Times New Roman;color: black;}
+       .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 250px; height: 170px; flex-grow: 0.5; 
+          z-index: -0; margin-left: -33.5%;margin-right: 6%; position: relative;}
+     .box0 .banner0{height: 100%; width: 100%; }
+      /* end Sign up 667 */
     /* partner_ship div */
     .partner_ship{height: 103px;}
     .partner_ship-covid img{float:left;height:46px;margin:38px 0px 0px 94px;width:37%}
@@ -3178,6 +3386,36 @@ background:white !important;
     .slide_text span.text2{font-size: 30px;}
     .slide_text span.text3{width: 90%;margin: 2px 5%;font-size: 20px;}
 
+     /* start Sign Up 640*/
+     .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+     .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+     .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+    .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+    .imgdiv .img{width: 41%;}
+    .button_cnt{float: right; vertical-align: top; margin-top:5%; width: 30%;} 
+    .button_cnt .backbutton{  width: 69px;height: 22px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+    .button_cnt .backbutton #btn_icon { float: left;width: 18px;margin-left: 5px;margin-top: 8px;}
+    .button_cnt .backbutton #btn_txt { float: right;font-size: 8px;margin-left: 6px; }
+    
+    .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+    .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 165%; font-weight: 900; font-family: 'Roboto';left: -19.5%;top: 20%;  }
+     .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 165%;left: -19.5%;top: 29%;}
+     .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 165%;font-weight: 900;font-family: "Roboto"; right:2%; top: 29%; }            
+     .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+     .box {background-color: white; margin: 10px; width: 110px;height: 166px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+         margin-right: 15px;}
+     .box .banner{height: 60px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+     .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+     .box .box_details{text-align: center; margin-top: 0%;}
+    .box .box_details .btn{border-radius: 7px; font-size: 8px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+    .box .box_details .box .p{ color: white; margin-right: 10px;} 
+    .box_content{ text-align: center; margin-top: 10%;}
+    .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+    .box_content .head0{font-size: 12px; font-weight: bold;  font-family:Times New Roman;color: black;}
+     .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 263px; height: 166px; flex-grow: 0.5; 
+     z-index: -0; margin-left: -33.5%;margin-right: 6%; position: relative;}
+   .box0 .banner0{height: 100%; width: 100%; }
+    /* end Sign up 640*/
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:46px;margin:38px 0px 0px 124px;width:37%}
@@ -3481,6 +3719,37 @@ background:white !important;
 }
 @media only screen and (max-width:568px)
 {
+     /* start Sign Up 568*/
+     .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+     .leftHalf {background-color: #e67f29;width: 21%;position: absolute;left: 0px;height: 100%;}
+     .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 79%;position: absolute;right: 0px;height: 100%;}
+    .imgdiv{float: left; vertical-align: top; width:70%; margin-top: 19px;}
+    .imgdiv .img{width: 40%;}
+    .button_cnt{float: right; vertical-align: top; margin-top:6%; width: 30%;} 
+    .button_cnt .backbutton{  width: 69px;height: 22px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+    .button_cnt .backbutton #btn_icon { float: left;width: 18px;margin-left: 5px;margin-top: 8px;}
+    .button_cnt .backbutton #btn_txt { float: right;font-size: 8px;margin-left: 6px; }
+    
+    .signup_content{width: 200px; z-index: -1; display: flex;  flex-direction: row;  }
+    .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 150%; font-weight: 900; font-family: 'Roboto';left: -19.5%;top: 59px;  }
+     .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:500; font-family:'Roboto'; font-size: 150%; left: -19.5%;top: 91px;}
+     .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 150%;font-weight: 900;font-family: "Roboto"; right:2%; top: 91px; }            
+     .box_container{display: flex; padding: 20px; flex-direction: row; margin-top: 12%; margin-left: 0%; width: 100%;}
+     .box {background-color: white; margin: 10px; width: 170px;height: 153px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+         /* margin-right: 15px; */ margin-left: 4px;
+        }
+     .box .banner{height: 56px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+     .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+     .box .box_details{text-align: center; margin-top: -5%;}
+    .box .box_details .btn{border-radius: 7px; font-size: 10px; background-color: #e57d24; border-color:#e57d24;height: 25px; width: 88%;}
+    .box .box_details .box .p{ color: white; margin-right: 10px;} 
+    .box_content{ text-align: center; margin-top: 10%;}
+    .box_content .head{font-size: 21px; font-weight: bolder;  font-family:Times New Roman;color: #717171;}
+    .box_content .head0{font-size: 10px; font-weight: 900;  font-family:Times New Roman;color: black;}
+    .box0 {background-color: rgb(185, 52, 52); margin: 10px; width: 357px; height: 153px; flex-grow: 0.5; 
+       z-index: -0; margin-left: -140px;margin-right: 6%; position: relative;}
+     .box0 .banner0{height: 100%; width: 100%; }
+    /* end Sign up 568*/
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:55px;margin:33px 0px 0px 80px;width:44%}
@@ -3927,6 +4196,38 @@ background:white !important;
     .slide_text{margin-top: -160px;}
     .patient_left img{width: 400px;}
 
+    /* sign_up-landing480 */
+   .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+   /* .leftHalf {background-color: #e67f29;width: 40%;position: relative;left: 0px;height: 20%; z-index: -0;} */
+   .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 100%;position: absolute;right: 0px; height: auto;}
+   .imgdiv{ vertical-align: top; width:100%; margin-top: 15px; }
+   .imgdiv .img{width: 46%;}
+    .button_cnt{ margin-top:23%; z-index: 100; position: absolute;margin-left: 252px; } 
+   .button_cnt .backbutton{  width: 75px;height: 27px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+   .button_cnt .backbutton #btn_icon { float: left;; width: 19px; margin-left: 3px; margin-top: 10px;}
+   .button_cnt .backbutton #btn_txt { float:right; font-size: 10.5px;margin-right: 1px;margin-top: 6px; }
+ 
+   .signup_content{width: 100%; z-index: -1; display: flex;  flex-direction: row;   }
+   .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 200%; font-weight: bolder; font-family: 'Roboto';left: 20.5%;top: 9%;  }
+   .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font: weight 500; font-family:'Roboto'; font-size: 200%;left: 20.5%; top:11.5%;}
+   .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 200%;font-weight: bolder;font-family: "Roboto"; left: 50%; top: 11.5%; }            
+   .box_container{ align-items: center;
+       justify-content: center; display: flex; padding: 10px; flex-direction: column; margin-top: 0%; margin-left: 0%; width: 100%; }
+    /* .box0 .bgcolor{ background-color: yellow;  width: 100%; height: 50%; } */
+    .box0 .banner0{height: 55%; width: 178%; position: absolute; margin: 118px 0px 11px 16px;}
+   .box {  margin: 10px; width: 204px;height: 290px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+       justify-content: center; align-items: center;}
+   .box0 {background-color: #e67f29; position: relative; margin: 10px; width: 199px; height:300px; border-radius: 0px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 223px;  margin-top: 10px;position: relative;}
+   .box .banner{height: 131px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+    .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+    .box .box_details{text-align: center; margin-top: 15%;}
+   .box .box_details .btn{border-radius: 7px; font-size: 16px; background-color: #e57d24; border-color:#e57d24;height: 32px; width: 88%;}
+   .box .box_details .box .p{ color: white; margin-right: 10px;} 
+   .box_content{ text-align: center; margin-top: 15%;}
+   .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+   .box_content .head0{font-size: 120%; font-weight: bold;  font-family:Times New Roman;color: black;}
+    /* end Signup 480 */
+
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:35px;margin:33px 0px 0px 60px;width:44%}
@@ -4229,6 +4530,39 @@ background:white !important;
     .sites_text_lf span{margin-left: 0px;}
     .sites_text_rg img{width: 360px;}
     .sites_text_lf span.title{display: block;text-align: center;margin-left: 0px;}
+  /* sign_up-landing412 */
+  .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+  /* .leftHalf {background-color: #e67f29;width: 40%;position: relative;left: 0px;height: 20%; z-index: -0;} */
+  .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 100%;position: absolute;right: 0px; height: auto;}
+  .imgdiv{ vertical-align: top; width:100%; margin-top: 15px; }
+  .imgdiv .img{width: 46%;}
+   .button_cnt{ margin-top:23%; z-index: 100; position: absolute;margin-left: 252px; } 
+  .button_cnt .backbutton{  width: 75px;height: 27px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+  .button_cnt .backbutton #btn_icon { float: left;; width: 19px; margin-left: 3px; margin-top: 10px;}
+  .button_cnt .backbutton #btn_txt { float:right; font-size: 10.5px;margin-right: 1px;margin-top: 6px; }
+
+  .signup_content{width: 100%; z-index: -1; display: flex;  flex-direction: row;   }
+  .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 200%; font-weight: bolder; font-family: 'Roboto';left: 20.5%;top: 9%;  }
+  .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font: weight 500; font-family:'Roboto'; font-size: 200%;left: 20.5%; top:11.5%;}
+  .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 200%;font-weight: bolder;font-family: "Roboto"; left: 50%; top: 11.5%; }            
+  .box_container{ align-items: center;
+      justify-content: center; display: flex; padding: 10px; flex-direction: column; margin-top: 0%; margin-left: 0%; width: 100%; }
+   /* .box0 .bgcolor{ background-color: yellow;  width: 100%; height: 50%; } */
+   .box0 .banner0{height: 55%; width: 178%; position: absolute; margin: 118px 0px 11px 16px;}
+  .box {  margin: 10px; width: 204px;height: 290px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+      justify-content: center; align-items: center;}
+  .box0 {background-color: #e67f29; position: relative; margin: 10px; width: 199px; height:300px; border-radius: 0px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 220px;  margin-top: 10px;position: relative;}
+
+  .box .banner{height: 131px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+   .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+   .box .box_details{text-align: center; margin-top: 15%;}
+  .box .box_details .btn{border-radius: 7px; font-size: 16px; background-color: #e57d24; border-color:#e57d24;height: 32px; width: 88%;}
+  .box .box_details .box .p{ color: white; margin-right: 10px;} 
+  .box_content{ text-align: center; margin-top: 15%;}
+  .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+  .box_content .head0{font-size: 120%; font-weight: bold;  font-family:Times New Roman;color: black;}
+ 
+        /* end Signup 412 */
 
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
@@ -4524,6 +4858,39 @@ background:white !important;
 
 @media only screen and (max-width: 375px)
 {
+    /* sign_up-landing375 */
+  .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+  /* .leftHalf {background-color: #e67f29;width: 40%;position: relative;left: 0px;height: 20%; z-index: -0;} */
+  .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 100%;position: absolute;right: 0px; height: auto;}
+  .imgdiv{ vertical-align: top; width:100%; margin-top: 15px; }
+  .imgdiv .img{width: 47%;}
+   .button_cnt{ margin-top:23%; z-index: 100; position: absolute;margin-left: 216px; } 
+  .button_cnt .backbutton{  width: 75px;height: 27px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+  .button_cnt .backbutton #btn_icon { float: left;; width: 19px; margin-left: 3px; margin-top: 10px;}
+  .button_cnt .backbutton #btn_txt { float:right; font-size: 10.5px;margin-right: 1px;margin-top: 6px; }
+
+  .signup_content{width: 100%; z-index: -1; display: flex;  flex-direction: row;   }
+  .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 190%; font-weight: bolder; font-family: 'Roboto';left: 20.5%;top: 8%;  }
+  .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:thin; font-family:'Roboto'; font-size: 190%;left: 20.5%; top:10.5%;}
+  .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 190%;font-weight: bolder;font-family: "Roboto"; left: 51%; top: 10.5%; }            
+  .box_container{ align-items: center;
+      justify-content: center; display: flex; padding: 10px; flex-direction: column; margin-top: 0%; margin-left: 0%; width: 100%; }
+   /* .box0 .bgcolor{ background-color: yellow;  width: 100%; height: 50%; } */
+   .box0 .banner0{height: 55%; width: 176%; position: absolute; margin: 107px 0px 11px 16px;}
+  .box {  margin: 10px; width: 204px;height: 290px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+      justify-content: center; align-items: center;}
+  .box0 {background-color: #e67f29; position: relative; margin: 10px; width: 186px; height:275px; border-radius: 0px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 198px;  margin-top: 10px;position: relative;}
+
+  .box .banner{height: 131px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+   .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+   .box .box_details{text-align: center; margin-top: 15%;}
+  .box .box_details .btn{border-radius: 7px; font-size: 16px; background-color: #e57d24; border-color:#e57d24;height: 32px; width: 88%;}
+  .box .box_details .box .p{ color: white; margin-right: 10px;} 
+  .box_content{ text-align: center; margin-top: 15%;}
+  .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+  .box_content .head0{font-size: 120%; font-weight: bold;  font-family:Times New Roman;color: black;}
+ 
+        /* end Signup 375 */
     .partner_ship-covid img{float:left;height:25px;margin:33px 0px 0px 65px;width:44%}
     .partner_ship-covid-right{float:left;width:35%;text-align: center;margin:10px 0px 0px 10px}
     .sponsors-covid{width:375px}
@@ -4563,6 +4930,39 @@ background:white !important;
     .paitnet_title{font-size: 25px;}
     .patient_quote{font-size: 17px;}
     
+    /* sign_up-landing360 */
+  .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+  /* .leftHalf {background-color: #e67f29;width: 40%;position: relative;left: 0px;height: 20%; z-index: -0;} */
+  .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 100%;position: absolute;right: 0px; height: auto;}
+  .imgdiv{ vertical-align: top; width:100%; margin-top: 15px; }
+  .imgdiv .img{width:46%;}
+   .button_cnt{ margin-top:23%; z-index: 100; position: absolute;margin-left: 216px; } 
+  .button_cnt .backbutton{  width: 75px;height: 27px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+  .button_cnt .backbutton #btn_icon { float: left;; width: 19px; margin-left: 3px; margin-top: 10px;}
+  .button_cnt .backbutton #btn_txt { float:right; font-size: 10.5px;margin-right: 1px;margin-top: 6px; }
+
+  .signup_content{width: 100%; z-index: -1; display: flex;  flex-direction: row;   }
+  .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 175%; font-weight: bolder; font-family: 'Roboto';left: 23.5%;top: 8%;  }
+  .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:thin; font-family:'Roboto'; font-size: 175%;left: 23.5%; top:10.5%;}
+  .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 175%;font-weight: bolder;font-family: "Roboto"; left: 55%; top: 10.5%; }            
+  .box_container{ align-items: center;
+      justify-content: center; display: flex; padding: 10px; flex-direction: column; margin-top: 0%; margin-left: 0%; width: 100%; }
+   /* .box0 .bgcolor{ background-color: yellow;  width: 100%; height: 50%; } */
+   .box0 .banner0{height: 55%; width: 158%; position: absolute; margin: 107px 0px 11px 16px;}
+  .box {  margin: 10px; width: 204px;height: 290px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+      justify-content: center; align-items: center;}
+  .box0 {background-color: #e67f29; position: relative; margin: 10px; width: 193px; height:275px; border-radius: 0px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 176px;  margin-top: 10px;position: relative;}
+
+  .box .banner{height: 131px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+   .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+   .box .box_details{text-align: center; margin-top: 15%;}
+  .box .box_details .btn{border-radius: 7px; font-size: 16px; background-color: #e57d24; border-color:#e57d24;height: 32px; width: 88%;}
+  .box .box_details .box .p{ color: white; margin-right: 10px;} 
+  .box_content{ text-align: center; margin-top: 15%;}
+  .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+  .box_content .head0{font-size: 120%; font-weight: bold;  font-family:Times New Roman;color: black;}
+ 
+        /* end Signup 360 */
     /*partnership_div */
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:30px;margin:33px 0px 0px 55px;width:44%}
@@ -4898,7 +5298,39 @@ background:white !important;
     .adv_team_img img{width: 140px;}
     .team_name{font-size: 22px;}
     .sch_title{font-size: 12px;}
+ /* sign_up-landing320 */
+ .signup_container {width: 100%;height: 100%;background: aqua;margin-top: 0%;}
+ /* .leftHalf {background-color: #e67f29;width: 40%;position: relative;left: 0px;height: 20%; z-index: -0;} */
+ .rightHalf {background: url(../images/solutions_new/bg.jpg) no-repeat ;width: 100%;position: absolute;right: 0px; height: auto;}
+ .imgdiv{ vertical-align: top; width:100%; margin-top: 15px; }
+ .imgdiv .img{width: 50%;}
+  .button_cnt{ margin-top:23%; z-index: 100; position: absolute;margin-left: 175px; } 
+ .button_cnt .backbutton{  width: 75px;height: 27px;cursor:pointer;background:#006987;color:#FFF;border:none;outline:none;}
+ .button_cnt .backbutton #btn_icon { float: left;; width: 19px; margin-left: 3px; margin-top: 10px;}
+ .button_cnt .backbutton #btn_txt { float:right; font-size: 10.5px;margin-right: 1px;margin-top: 6px; }
 
+ .signup_content{width: 100%; z-index: -1; display: flex;  flex-direction: row;   }
+ .signup_content #text {z-index: 100;position: absolute;color: black;font-size: 175%; font-weight: bolder; font-family: 'Roboto';left: 12.5%;top: 8%;  }
+ .signup_content #text1 { z-index: 100; position: absolute; color: #383735; font-weight:thin; font-family:'Roboto'; font-size: 175%;left: 12.5%; top:10.5%;}
+ .signup_content  #text2 { z-index: 100;position: absolute;color: black;font-size: 175%;font-weight: bolder;font-family: "Roboto"; left: 46%; top: 10.5%; }            
+ .box_container{ align-items: center;
+     justify-content: center; display: flex; padding: 10px; flex-direction: column; margin-top: 0%; margin-left: 0%; width: 100%; }
+  /* .box0 .bgcolor{ background-color: yellow;  width: 100%; height: 50%; } */
+  .box0 .banner0{height: 55%; width: 198%; position: absolute; margin: 109px 0px 11px 16px;}
+ .box {  margin: 10px; width: 204px;height: 290px; border-radius: 5px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+     justify-content: center; align-items: center;}
+ .box0 {background-color: #e67f29; position: relative; margin: 10px; width: 140px; height:275px; border-radius: 0px;  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);margin-right: 188px;  margin-top: 10px;position: relative;}
+
+ .box .banner{height: 131px; width: 100%;  border-top-right-radius: 4px;border-top-left-radius: 4px;}
+  .box .hrline{height:0.5px;border-width:0;border-top: 1px solid #eeeeee;width:80%}
+  .box .box_details{text-align: center; margin-top: 15%;}
+ .box .box_details .btn{border-radius: 7px; font-size: 16px; background-color: #e57d24; border-color:#e57d24;height: 32px; width: 88%;}
+ .box .box_details .box .p{ color: white; margin-right: 10px;} 
+ .box_content{ text-align: center; margin-top: 15%;}
+ .box_content .head{font-size: 21px; font-weight: bold;  font-family:Times New Roman;color: #717171;}
+ .box_content .head0{font-size: 120%; font-weight: bold;  font-family:Times New Roman;color: black;}
+
+       /* end Signup 320 */
 
     .partner_ship-covid{float:left;margin:0px;padding:0px;background-image: url(../images/covid/bg.png);height:105px;width:100%;background-repeat: no-repeat;background-size: 100% 100%;}
     .partner_ship-covid img{float:left;height:33px;margin:33px 0px 0px 45px;width:44%}

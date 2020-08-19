@@ -106,7 +106,7 @@ button.login{cursor:pointer;background:#e57d24;color:#FFF;font-size:18px;border:
 .partner_ship_left .content{margin:10px 0% 10px 25%;font-family:Arial;color:white;width:50%;font-size: 10px;}
 .partner_ship .outbreak{margin-top:15px;float: left;width:20%;color: white;font-size: 14px;}
 .outbreak span{margin-left: 76px;}
-.partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
+.partner_ship_right{margin:46px 0% 10px 0%;float:right;width: 28%;}
 .partner_ship_right .heading{margin:0px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 11px;margin-left: 20px}
 .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 22px;}
 .partner_ship_right .content_text span{font-size: 7px;}
@@ -936,7 +936,7 @@ background:white !important;
     .partner_ship_left .content{margin:10px 0% 10px 25%;font-family:Arial;color:white;width:50%;font-size: 10px;}
     .partner_ship .outbreak{margin-top:10px;float: left;width:20%;color: white;font-size: 10px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:15px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:30px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 7px;margin-left: 20px}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 10px;}
     .partner_ship_right .content_text span{font-size: 10px;}
@@ -1737,7 +1737,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 7px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:15px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 7px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -2332,7 +2332,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 7px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:15px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 7px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 2px;}
@@ -2768,7 +2768,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:22px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -2998,7 +2998,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:21px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -3431,7 +3431,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -3765,7 +3765,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 6px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:8px;font-size: 6px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0px 10px 0px;}
+    .partner_ship_right{margin:25px 0px 10px 0px;}
     .partner_ship_right .heading{font-size: 7px;font-family:"LatoRegular";}
     .partner_ship_right .content{font-size: 8px;font-family:"LatoRegular";}
     .partner_ship_right .content span{font-size: 7px;}
@@ -3962,7 +3962,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -4243,7 +4243,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -4579,7 +4579,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -4978,7 +4978,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:25px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}
@@ -5346,7 +5346,7 @@ background:white !important;
     .partner_ship_left .content{font-size: 7px;font-family:Arial;margin-top: 0px;}
     .partner_ship .outbreak{margin-top:5px;font-size: 5px;}
     .outbreak span{margin-left: 0px;}
-    .partner_ship_right{margin:10px 0% 10px 0%;float:right;width: 28%;}
+    .partner_ship_right{margin:9px 0% 10px 0%;float:right;width: 28%;}
     .partner_ship_right .heading{margin:0px 0px 0px 5px;color:white;font-family:"LatoRegular";font-weight:400;font-size: 4px;}
     .partner_ship_right .content{margin:0px;color:white;font-family:"LatoRegular";font-weight:200;font-size: 5px;}
     .partner_ship_right .content_text span{font-size: 3px;}

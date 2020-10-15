@@ -11,6 +11,13 @@
 @font-face {font-family:"LatoRegular";src: url("fonts/Lato-Regular.woff")}
 @font-face {font-family:"LatoRegular";src: url("fonts/Lato-Regular.woff2")}
 
+/* only for top banner responsive styles */
+@media only screen and (max-width: 992px) and (min-width: 250px){
+    
+}
+@media only screen and (max-width: 280px){
+    
+}
 
 html,body{padding:0;margin:0;overflow-x: hidden;overflow-y: auto;font-family:"LatoRegular";background: #FFF;}
 .padding0{padding: 0px;}
@@ -28,7 +35,12 @@ body::-moz-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 body::-o-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 /***** End of Body Scroll Bar *******/
-
+.trialscope_covid_ad_banner{border-color:#25bc8d;font-size: 16px;font-weight: bold;font-style: 'LatoRegular';background-color: #e4f6ee;}
+.trialscope_covid_ad_banner .content{margin:0px 20px 0px 45px;}
+.trialscope_covid_ad_banner h2{color:#25bc8d;font-weight: bold;font-size: 22px;}
+.trialscope_covid_ad_banner a{background-color: #25bc8d;font-style: 'LatoRegular';}
+.trialscope_covid_ad_banner a:hover{background-color: #25bc8d}
+.trialscope_covid_ad_banner a:visited{background-color: #25bc8d;}
 /*.sticky-top {position: fixed;top: 0;width: 100%;background: #FFF;}*/
 /* start of new home page styles  */
 .root1{height: 100%;width: 100%;background-image: url(../images/landing/bg.jpg);background-size: cover;background-repeat: no-repeat;}
@@ -63,7 +75,7 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .s_root .s_search{padding: 15px 10px 10px 45px;}
 .s_root .s_search input{width:48%;background-color: lightgray;margin-left: 310px;font-size: 20px;color:gray;font-family: Helvetica;font-weight: 200;height:40px;text-decoration: none;outline: none;border-radius:22px;}
 .s_root  button{width:15%;margin-left:43%;border: none;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);font-size: 20px;text-decoration: none;height: 40px;background-color: darkorange;border-radius: 20px;text-align: center;color:white}
-.top_section{background: #e57d24;float: left;padding-top: 0px;padding-bottom: 0px;height:20px}
+.top_section{background: #e57d24;padding-top: 0px;padding-bottom: 0px;height:30px;}
 .top_section span{display: inline-block;}
 .top_section span.mail_id{float: left;color: #FFF;letter-spacing: 0.7px;font-size: 13px;}
 .top_section span.mail_id img{width: 15px;vertical-align: text-bottom;}

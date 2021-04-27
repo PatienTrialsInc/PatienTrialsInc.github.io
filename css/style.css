@@ -427,7 +427,7 @@ ul.solution_list li::before{content: "\2022";color: #00b9ef;font-weight: bold;di
 /**** End of Sponsores Screen Styles ****/
 
 /**** Start of Chat Styles ****/
-[data-state="closed"] .rocketchat-container,
+/* [data-state="closed"] .rocketchat-container,
 [data-state="closed"] #rocketchat-iframe{
 display:none;
 }
@@ -437,6 +437,7 @@ display:block;
 } 
 [data-state="opened"] {
 height:500px !important;
+width:600px !important
 }
 div[data-state="closed"],
 div[data-state="closed"] #rocketchat-iframe,
@@ -449,7 +450,7 @@ border-radius: 25px !important;
 bottom: 25px !important;
 right: 18px !important;
 background:white !important;
-}
+} */
 /**** End of Chat Styles ****/
 /* New solutions */
 .sponsors-covid{margin:0px 0px 0px 15px;background-image: url(../images/covid/covid_bg.jpg);height:598px;background-size: 95% 100%;background-repeat: no-repeat;}

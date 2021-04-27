@@ -189,7 +189,7 @@
           <!--- End of Carousel Section Div -->
           
           <!--- Start of Complaints Div -->
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 complaint_div">
+          <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 complaint_div">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center" style="float: left">
                  <span class="hip_text">Part 11, HIPAA & GDPR</span>
                  <span class="comp_text">COMPLIANT</span>
@@ -197,7 +197,7 @@
                      Click Here
                   </a>
               </div>
-          </div>
+          </div> -->
           <!--- End of Complaints Div -->
           
           <!--- Start of Patients Div -->
@@ -435,19 +435,16 @@
       <script src="js/bootstrap.js"></script>
       <script src="js/css3-animate-it.js"></script>
 
-     <!-- Start of Rocket.Chat Livechat Script -->
- <script type="text/javascript">
-(function(w, d, s, u) {
-	w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
-	var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-	j.async = true; j.src = 'https://ptdemo01.patientrials.com/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
-	h.parentNode.insertBefore(j, h);
-})(window, document, 'script', 'https://ptdemo01.patientrials.com/livechat');
-
-</script>
-<!-- End of Rocket.Chat Livechat Script -->
-<script> $( document ).ready(function() { $(document).on("click", "[data-state=closed]" , function() { $(this).data('state', 'opened').attr('data-state', 'opened'); }); }); </script>
-      
+    <!-- Start of Rocket.Chat Livechat Script -->
+	<script type="text/javascript">
+    (function(w, d, s, u) {
+      w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+      var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+      j.async = true; j.src = 'https://ptdemo01.patientrials.com/livechat/rocketchat-livechat.min.js?_=201903270000';
+      h.parentNode.insertBefore(j, h);
+    })(window, document, 'script', 'https://ptdemo01.patientrials.com/livechat');
+    </script>
+<!-- <script> $( document ).ready(function() { $(document).on("click", "[data-state=closed]" , function() { $(this).data('state', 'opened').attr('data-state', 'opened'); }); }); </script> -->      
 <!--
       <script>
 window.onscroll = function() {myFunction()};

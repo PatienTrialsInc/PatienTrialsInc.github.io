@@ -36,8 +36,7 @@
 	  src="https://www.facebook.com/tr?id=440187939837901&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
-	  
-          <!--- End of Consent Banner -->
+  <!--- End of Consent Banner -->
   </head>
   <body>
       <!-- Start of Container Fuild -->
@@ -427,40 +426,35 @@
           &copy; Copyright 2018 - PatienTrials, a company of PatienTrials Inc.
           </div>
           <!--- End of Copy Rights -->
-      </div>
       <!-- End of Container Fuild -->
 
       <!-- Script Files -->
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.js"></script>
       <script src="js/css3-animate-it.js"></script>
+      <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
 
-    <!-- Start of Rocket.Chat Livechat Script -->
-	<script type="text/javascript">
-    (function(w, d, s, u) {
-      w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
-      var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-      j.async = true; j.src = 'https://ptdemo01.patientrials.com/livechat/rocketchat-livechat.min.js?_=201903270000';
-      h.parentNode.insertBefore(j, h);
-    })(window, document, 'script', 'https://ptdemo01.patientrials.com/livechat');
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
-<!-- <script> $( document ).ready(function() { $(document).on("click", "[data-state=closed]" , function() { $(this).data('state', 'opened').attr('data-state', 'opened'); }); }); </script> -->      
-<!--
-      <script>
-window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("main_menu");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky-top")
-  } else {
-    navbar.classList.remove("sticky-top");
-  }
-}
-</script>
--->
-
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="biz_inbox"
+      page_id="250907422261484">
+    </div>
 </body>
 </html>

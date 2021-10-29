@@ -80,7 +80,7 @@ body::-ms-scrollbar-thumb {background-color: #333;outline: 1px solid #333;}
 .top_section span.mail_id{float: left;color: #FFF;letter-spacing: 0.7px;font-size: 13px;}
 .top_section span.mail_id img{width: 15px;vertical-align: text-bottom;}
 .top_section span.social_icons{float: right;color: #FFF;margin-right:0px;}
-.top_section span.social_icons img{margin-right:20px;cursor: pointer;height: 15px;padding-bottom:3px}
+.top_section span.social_icons img{cursor: pointer;height: 15px;padding-bottom:3px}
 .header_menu{background: #FFF;float:left;}
 .header_menu .navbar-nav{margin-left: 200px;}
 .header_menu .navbar-nav .nav-item{margin: 0px 10px;}
